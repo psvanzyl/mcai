@@ -1,9 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
+  output: "standalone",
+  // Stock imagery ships as static files in /public/img; no optimizer needed in the container.
+  images: { unoptimized: true },
+  poweredByHeader: false,
   turbopack: {
     rules: {
       "*.css": {
