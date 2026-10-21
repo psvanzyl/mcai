@@ -168,9 +168,9 @@ export default function HomePage() {
           href="/industries"
           linkLabel="All industries"
         />
-        <ul className="mt-10 grid grid-cols-1 border-t border-line sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="mt-10 grid grid-cols-1 border-t border-line-strong sm:grid-cols-2 lg:grid-cols-3">
           {industries.map((ind) => (
-            <li key={ind.slug} className="border-b border-line transition-colors hover:bg-raised/50">
+            <li key={ind.slug} className="border-b border-line-strong transition-colors hover:bg-raised/50">
               <Link href={`/industries/${ind.slug}`} className="group flex items-center justify-between gap-6 py-5">
                 <span className="font-serif text-[20px] text-heading group-hover:text-accent">{ind.name}</span>
                 <Arrow className="shrink-0 text-body transition-colors group-hover:text-accent" />

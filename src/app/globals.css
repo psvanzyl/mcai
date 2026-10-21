@@ -17,6 +17,7 @@
   --color-field: #0e121a;
   --color-line: #242c3a;
   --color-line-soft: #1b2230;
+  --color-line-strong: #404a59;
   --color-heading: #f4f7fb;
   --color-body: #b9c2d0;
   --color-muted: #9aa5b8;
@@ -55,6 +56,7 @@
     --color-field: #ffffff;
     --color-line: #ddd8cd;
     --color-line-soft: #e9e5dc;
+    --color-line-strong: #c6c0b4;
     --color-heading: #12151c;
     --color-body: #4a5058;
     --color-muted: #6b7280;
