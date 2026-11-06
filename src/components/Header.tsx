@@ -140,30 +140,11 @@ export default function Header() {
 
   return (
     <>
-      <div className="hidden bg-band text-white md:block">
-        <div className="container-x flex h-10 items-center justify-between text-[13px]">
-          <p className="text-white/70">
-            {SITE.tagline} · {SITE.officesCount} offices · {SITE.colleagues} colleagues
-          </p>
-          <div className="flex items-center gap-6">
-            <Link href="/insights" className="text-white/70 hover:text-white">
-              Insights
-            </Link>
-            <Link href="/contact" className="text-white/70 hover:text-white">
-              Contact
-            </Link>
-            <Link href="/contact" className="hover:text-accent">
-              Sign in
-            </Link>
-          </div>
-        </div>
-      </div>
-
       <header
         className={`sticky top-0 z-40 border-b border-line-soft bg-panel transition-shadow ${scrolled ? "shadow-[0_6px_18px_rgba(0,0,0,0.35)]" : ""}`}
         onMouseLeave={() => setOpen(null)}
       >
-        <div className="container-x flex h-[68px] items-center justify-between gap-6">
+        <div className="container-x flex h-14 items-center justify-between gap-6">
           <Link href="/" className="flex shrink-0 items-baseline gap-2" aria-label="McAi home">
             <span className="font-serif text-[27px] font-bold tracking-tight text-heading">
               Mc<span className="text-accent">Ai</span>
@@ -201,6 +182,9 @@ export default function Header() {
               <SearchIcon />
             </button>
             <ThemeToggle className="hidden sm:inline-flex" />
+            <Link href="/contact" className="hidden text-[14px] text-heading hover:text-accent sm:inline-flex">
+              Sign in
+            </Link>
             <Link href="/contact" className="btn btn-outline hidden !py-2.5 !text-[14px] sm:inline-flex">
               Get in touch
             </Link>
