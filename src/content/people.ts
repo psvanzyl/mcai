@@ -14,7 +14,7 @@ export const people: Person[] = [
     location: "London",
     focus: "AI strategy, operating model",
     img: "/img/p-1.jpg",
-    bio: "Leads McAi's global practice on AI operating models. Twenty years advising boards on technology-driven change; previously led enterprise data at a European universal bank.",
+    bio: "Leads Wego's global practice on AI operating models. Twenty years advising boards on technology-driven change; previously led enterprise data at a European universal bank.",
   },
   {
     name: "Jonas Lindqvist",
@@ -46,7 +46,7 @@ export const people: Person[] = [
     location: "Berlin",
     focus: "Clinical operations, responsible AI",
     img: "/img/p-5.jpg",
-    bio: "Advises provider systems and public bodies on operational AI with a clinical or citizen-facing consequence. Chairs McAi's responsible-AI review board.",
+    bio: "Advises provider systems and public bodies on operational AI with a clinical or citizen-facing consequence. Chairs Wego's responsible-AI review board.",
   },
   {
     name: "Marcus Feldman",

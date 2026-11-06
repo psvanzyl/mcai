@@ -5,7 +5,7 @@ import { CTABand, PageHero, PracticeCard } from "@/components/Cards";
 export const metadata: Metadata = {
   title: "Industries",
   description:
-    "McAi works across nine sectors — advanced industries, financial services, healthcare, retail, energy, technology, public sector, logistics, agriculture, and telecom.",
+    "Wego works across nine sectors — advanced industries, financial services, healthcare, retail, energy, technology, public sector, logistics, agriculture, and telecom.",
 };
 
 export default function IndustriesPage() {

@@ -16,7 +16,7 @@ export default function Subscribe({ variant = "dark" }: { variant?: "dark" | "li
       return;
     }
     setState("done");
-    setMessage(`Thanks — ${value} is on the list for The McAi Quarterly.`);
+    setMessage(`Thanks — ${value} is on the list for The Wego Quarterly.`);
     setEmail("");
   }
 

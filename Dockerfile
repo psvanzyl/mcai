@@ -1,4 +1,4 @@
-# McAi — Next.js 16 standalone production image
+# Wego — Next.js 16 standalone production image
 FROM node:22-alpine AS deps
 WORKDIR /app
 COPY package.json package-lock.json ./

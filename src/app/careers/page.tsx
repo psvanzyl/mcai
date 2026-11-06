@@ -7,7 +7,7 @@ import { CTABand, PageHero, StatRow } from "@/components/Cards";
 export const metadata: Metadata = {
   title: "Careers",
   description:
-    "Open roles at McAi across AI strategy, data and platform engineering, agentic automation, responsible AI, security, product design, and research.",
+    "Open roles at Wego across AI strategy, data and platform engineering, agentic automation, responsible AI, security, product design, and research.",
 };
 
 const WHY = [
@@ -58,7 +58,7 @@ export default function CareersPage() {
 
       <section className="container-x py-16 md:py-20">
         <div className="max-w-3xl">
-          <p className="eyebrow text-accent">Why McAi</p>
+          <p className="eyebrow text-accent">Why Wego</p>
           <h2 className="mt-4 text-[30px] md:text-[38px]">Four reasons people stay</h2>
         </div>
         <div className="mt-10 grid grid-cols-1 gap-x-12 gap-y-10 md:grid-cols-2">
@@ -106,7 +106,7 @@ export default function CareersPage() {
               and what you want to get better at.
             </p>
             <p className="mt-4 text-[15px] text-muted">
-              McAi is an equal-opportunity employer. We welcome applications from people of all backgrounds, and we
+              Wego is an equal-opportunity employer. We welcome applications from people of all backgrounds, and we
               accommodate adjustments at every stage of the process.
             </p>
           </div>
@@ -136,7 +136,7 @@ export default function CareersPage() {
         title="Send a speculative application"
         text="We hire ahead of demand in data engineering, agent architecture, and responsible AI. Tell us what you would build."
         primary={{ label: "Contact us", href: "/contact" }}
-        secondary={{ label: "About McAi", href: "/about" }}
+        secondary={{ label: "About Wego", href: "/about" }}
         img="/img/band-careers.jpg"
       />
     </>

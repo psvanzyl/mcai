@@ -6,7 +6,7 @@ import { CTABand, PageHero, PersonCard } from "@/components/Cards";
 export const metadata: Metadata = {
   title: "Our people",
   description:
-    "McAi's partners and practice leaders — the people who lead the work, from AI operating models to data platforms, agents, security, and workforce transition.",
+    "Wego's partners and practice leaders — the people who lead the work, from AI operating models to data platforms, agents, security, and workforce transition.",
 };
 
 export default function OurPeoplePage() {

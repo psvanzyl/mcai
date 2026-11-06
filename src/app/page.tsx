@@ -286,7 +286,7 @@ export default function HomePage() {
         <div className="absolute inset-0 -z-10 bg-band/75" />
         <div className="container-x grid grid-cols-1 gap-10 py-16 md:grid-cols-2 md:py-20">
           <div>
-            <p className="eyebrow eyebrow-light">The McAi Quarterly</p>
+            <p className="eyebrow eyebrow-light">The Wego Quarterly</p>
             <h2 className="mt-4 text-[30px] text-white md:text-[38px]">Four issues a year. Every claim sourced.</h2>
             <p className="mt-4 max-w-lg text-[16px] text-white/75">
               Where AI is actually creating value, what failed and why, and the operating-model decisions behind both.
@@ -318,7 +318,7 @@ export default function HomePage() {
                 <Arrow />
               </Link>
               <Link href="/about" className="btn btn-outline">
-                About McAi
+                About Wego
               </Link>
             </div>
           </div>

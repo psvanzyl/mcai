@@ -125,12 +125,12 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
               <h2 className="font-sans text-[13px] font-semibold uppercase tracking-[0.14em] text-muted">Share</h2>
               <ul className="mt-4 space-y-3 text-[15px]">
                 <li>
-                  <a className="arrow-link" href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://mcai.laserraptorai.duckdns.org/insights/${insight.slug}`)}`} rel="noreferrer noopener" target="_blank">
+                  <a className="arrow-link" href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://wego.laserraptor.eu/insights/${insight.slug}`)}`} rel="noreferrer noopener" target="_blank">
                     LinkedIn
                   </a>
                 </li>
                 <li>
-                  <a className="arrow-link" href={`https://x.com/intent/post?url=${encodeURIComponent(`https://mcai.laserraptorai.duckdns.org/insights/${insight.slug}`)}`} rel="noreferrer noopener" target="_blank">
+                  <a className="arrow-link" href={`https://x.com/intent/post?url=${encodeURIComponent(`https://wego.laserraptor.eu/insights/${insight.slug}`)}`} rel="noreferrer noopener" target="_blank">
                     X
                   </a>
                 </li>
@@ -142,7 +142,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
               </ul>
             </div>
             <div className="mt-10 border-t border-line pt-6">
-              <h2 className="font-sans text-[13px] font-semibold uppercase tracking-[0.14em] text-muted">The McAi Quarterly</h2>
+              <h2 className="font-sans text-[13px] font-semibold uppercase tracking-[0.14em] text-muted">The Wego Quarterly</h2>
               <p className="mt-4 text-[15px] text-body">
                 Four issues a year, with the baselines and datasets behind each piece.
               </p>

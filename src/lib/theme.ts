@@ -5,7 +5,7 @@
  *
  * Dark is the default: an untouched profile boots dark, whatever the OS prefers.
  */
-export const THEME_KEY = "mcai-theme";
+export const THEME_KEY = "wego-theme";
 
 export const THEME_INIT = `(function(){try{
 var m=localStorage.getItem("${THEME_KEY}");

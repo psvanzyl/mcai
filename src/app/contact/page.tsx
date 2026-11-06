@@ -8,7 +8,7 @@ import { PageHero } from "@/components/Cards";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact McAi: 24 offices worldwide, client service, vendor enquiries, media requests, and subscriptions to The McAi Quarterly.",
+    "Contact Wego: 24 offices worldwide, client service, vendor enquiries, media requests, and subscriptions to The Wego Quarterly.",
 };
 
 const ROUTES = [
@@ -115,7 +115,7 @@ export default function ContactPage() {
       <section className="relative isolate overflow-hidden bg-band text-white" id="newsletter">
         <div className="container-x scroll-mt-24 grid grid-cols-1 gap-10 py-16 md:grid-cols-2 md:py-20">
           <div>
-            <p className="eyebrow eyebrow-light">The McAi Quarterly</p>
+            <p className="eyebrow eyebrow-light">The Wego Quarterly</p>
             <h2 className="mt-4 text-[30px] text-white md:text-[38px]">Four issues a year</h2>
             <p className="mt-4 max-w-lg text-[16px] text-white/75">
               Subscribe for our research, the baselines behind it, and an honest account of what did not work. Unsubscribe

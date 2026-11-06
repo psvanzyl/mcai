@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     "agentic automation",
     "data platform",
     "responsible AI",
-    "McAi",
+    "Wego",
   ],
   openGraph: {
     type: "website",
@@ -52,10 +52,11 @@ export const metadata: Metadata = {
     title: `${SITE.name} | ${SITE.tagline}`,
     description: SITE.description,
     url: SITE.url,
-    images: [{ url: "/img/hero.jpg", width: 1600, height: 900, alt: "McAi" }],
+    images: [{ url: "/img/hero.jpg", width: 1600, height: 900, alt: "Wego" }],
   },
   twitter: { card: "summary_large_image", title: `${SITE.name} | ${SITE.tagline}`, description: SITE.description },
-  icons: { icon: "/favicon.svg", apple: "/favicon.svg" },
+  icons: { icon: "/favicon.svg", apple: "/apple-touch-icon.png" },
+  other: { "maskable-icon": "/icon-512.png" },
   robots: { index: true, follow: true },
 };
 

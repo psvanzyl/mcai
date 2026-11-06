@@ -1,14 +1,14 @@
-# McAi — project state
+# Wego — project state
 
 ## What this is
-A faithful front-end clone of mckinsey.com repositioned as **McAi**, a global AI-consulting
+A faithful front-end clone of mckinsey.com repositioned as **Wego**, a global AI-consulting
 brand ("fake it till you make it" mock, stock imagery). Next.js 16 (App Router) + React 19 +
 Tailwind 4, dark-first theme, deployed via Coolify.
 
 ## Live
 - URL: https://mcflimsey.wegoai.duckdns.org (HTTP 200, Let's Encrypt cert, valid to 2027-01-18)
 - DNS: DuckDNS wildcard `*.wegoai.duckdns.org` -> 83.85.185.61
-- Coolify app uuid: `rwuixjdw41j1zgiwkngkkig3` (project `McAi` h9grge7o7j123xsdp4tsv5qs,
+- Coolify app uuid: `rwuixjdw41j1zgiwkngkkig3` (project `Wego` h9grge7o7j123xsdp4tsv5qs,
   destination rmtbopdo7cnqg5pwnbgrpji9 on server `localhost` hff16ilrvechplni0w97qy2t)
 - Build pack: dockerfile (`/Dockerfile`, multi-stage node:22-alpine, standalone server.js),
   ports_exposes 3000, base_directory /.
@@ -88,3 +88,18 @@ Tailwind 4, dark-first theme, deployed via Coolify.
 - The vision model (vision_analyze) is rate-limited per session: one 429 quotes a `retry_after`
   of 150–1300 s. Space out image checks and keep the numeric (pixel) probes as the primary
   evidence.
+
+## Hosting on wego.laserraptor.eu (2026-11-06)
+- New Coolify app uuid: svl5usqz8lujrtj7v86qhyaf (project Wego, port 3000, dockerfile).
+- Domain: https://wego.laserraptor.eu (Traefik route configured).
+- SITE.url updated to https://wego.laserraptor.eu (commit 51631db).
+- Deployed: HTTP 200 locally via Traefik (curl --resolve).
+- DNS: A record wego.laserraptor.eu -> 83.85.185.61 must be added at Strato (manual).
+- TLS: cert only for laserraptor.eu; wego needs Let's Encrypt issuance on first public request after DNS.
+
+## Insights migrated to real blog (2026-11-06)
+- src/content/insights.ts now holds 85 posts imported from ai-consulting/site/content/blog (Hugo markdown).
+- Conversion: front matter -> title/date/excerpt; markdown body -> paragraphs; tables -> stats; pullQuote = first sentence of 2nd paragraph.
+- Existing insights layout preserved (article-body, pullQuote, stats, authors, img).
+- Images cycle through the 10 existing insight-*.jpg assets.
+- Deployed: commit 026bc0c, Coolify app svl5usqz8lujrtj7v86qhyaf.

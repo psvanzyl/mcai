@@ -7,7 +7,7 @@ import { CTABand, PageHero, PersonCard, StatRow } from "@/components/Cards";
 export const metadata: Metadata = {
   title: "About us",
   description:
-    "McAi is a global AI consulting firm founded in 2019: our purpose, our history, our offices in 24 cities, our leadership, and the legal notices for this site.",
+    "Wego is a global AI consulting firm founded in 2019: our purpose, our history, our offices in 24 cities, our leadership, and the legal notices for this site.",
 };
 
 const TIMELINE = [
@@ -30,7 +30,7 @@ export default function AboutPage() {
   return (
     <>
       <PageHero
-        eyebrow="About McAi"
+        eyebrow="About Wego"
         title="A firm built around one measurable promise"
         intro={`${SITE.legalName} has advised clients on AI-driven change since ${SITE.founded}. We are ${SITE.colleagues} colleagues in ${SITE.officesCount} offices, and our promise has not changed: every engagement starts with a number we agree on.`}
         img="/img/about-hero.jpg"

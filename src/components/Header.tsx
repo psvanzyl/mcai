@@ -19,8 +19,8 @@ const SEARCH_INDEX: Hit[] = [
   ...capabilities.map((c) => ({ title: c.name, href: `/capabilities/${c.slug}`, kind: "Capability", sub: c.tagline })),
   ...people.map((p) => ({ title: p.name, href: "/our-people", kind: "Person", sub: `${p.role} · ${p.location}` })),
   ...jobs.map((j) => ({ title: j.title, href: "/careers#roles", kind: "Role", sub: `${j.practice} · ${j.location}` })),
-  { title: "Contact McAi", href: "/contact", kind: "Page", sub: "Talk to a partner" },
-  { title: "About McAi", href: "/about", kind: "Page", sub: "Purpose, offices, leadership" },
+  { title: "Contact Wego", href: "/contact", kind: "Page", sub: "Talk to a partner" },
+  { title: "About Wego", href: "/about", kind: "Page", sub: "Purpose, offices, leadership" },
 ];
 
 function SearchIcon() {
@@ -73,7 +73,7 @@ function SearchOverlay({ onClose }: { onClose: () => void }) {
   }, [q]);
 
   return (
-    <div className="fixed inset-0 z-50 bg-scrim" role="dialog" aria-modal="true" aria-label="Search McAi">
+    <div className="fixed inset-0 z-50 bg-scrim" role="dialog" aria-modal="true" aria-label="Search Wego">
       <button className="absolute inset-0 h-full w-full cursor-default" aria-label="Close search" onClick={onClose} />
       <div className="relative mx-auto mt-0 w-full bg-panel shadow-2xl md:mt-24 md:max-w-3xl">
         <div className="flex items-center gap-3 border-b border-line px-5 py-4">
@@ -145,9 +145,10 @@ export default function Header() {
         onMouseLeave={() => setOpen(null)}
       >
         <div className="container-x flex h-14 items-center justify-between gap-6">
-          <Link href="/" className="flex shrink-0 items-baseline gap-2" aria-label="McAi home">
+          <Link href="/" className="flex shrink-0 items-center gap-2" aria-label="Wego home">
+            <img src="/favicon.svg" alt="" aria-hidden className="h-7 w-7 shrink-0 rounded-[7px]" />
             <span className="font-serif text-[27px] font-bold tracking-tight text-heading">
-              Mc<span className="text-accent">Ai</span>
+              We<span className="text-accent">go</span>
             </span>
             <span className="hidden text-[11px] uppercase tracking-[0.18em] text-muted lg:inline">&amp; Company</span>
           </Link>

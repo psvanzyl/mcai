@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ---------------------------------------------------------------------------
-   McAi design system — DARK IS THE DEFAULT.
+   Wego design system — DARK IS THE DEFAULT.
    Tokens are named by role, never by colour, so every component resolves
    through them and both themes come for free. `html.light` overrides the
    base (dark) values; nothing else in the codebase knows about themes.

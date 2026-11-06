@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="flex flex-col gap-10 border-b border-white/15 pb-12 md:flex-row md:items-start md:justify-between">
           <div className="max-w-sm">
             <Link href="/" className="font-serif text-[30px] font-semibold tracking-tight text-white">
-              Mc<span className="text-accent">Ai</span>
+              We<span className="text-accent">go</span>
             </Link>
             <p className="mt-4 text-[15px] leading-relaxed text-white/70">{SITE.description}</p>
           </div>
@@ -68,7 +68,7 @@ export default function Footer() {
           <LangSelect />
         </div>
         <p className="mt-8 text-[12px] leading-relaxed text-white/45">
-          McAi is a demonstration website built for illustrative purposes. Company names, client outcomes, statistics,
+          Wego is a demonstration website built for illustrative purposes. Company names, client outcomes, statistics,
           and people shown here are fictional, and photography is sourced from the free Pexels stock library. Nothing on
           this site is affiliated with, endorsed by, or derived from any other firm.
         </p>

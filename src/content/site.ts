@@ -1,11 +1,11 @@
 export const SITE = {
-  name: "McAi",
-  legalName: "McAi & Company",
+  name: "Wego",
+  legalName: "Wego & Company",
   tagline: "Global AI consulting",
   description:
-    "McAi is a global AI consulting firm. We help leaders turn artificial intelligence into operating reality — strategy, data foundations, agentic operations, and the governance that makes speed defensible.",
+    "Wego is a global AI consulting firm. We help leaders turn artificial intelligence into operating reality — strategy, data foundations, agentic operations, and the governance that makes speed defensible.",
   url: "https://wego.laserraptor.eu",
-  email: "hello@mcai.example",
+  email: "hello@wego.example",
   phone: "+31 70 000 0000",
   founded: 2019,
   colleagues: "3,400",
@@ -112,7 +112,7 @@ export const NAV: NavItem[] = [
       },
     ],
     feature: {
-      label: "The McAi Quarterly",
+      label: "The Wego Quarterly",
       href: "/insights",
       text: "Four times a year, our best thinking on where AI is actually creating value.",
       img: "/img/band-podcast.jpg",
@@ -123,7 +123,7 @@ export const NAV: NavItem[] = [
     href: "/our-people",
     columns: [
       {
-        title: "About McAi",
+        title: "About Wego",
         links: [
           { label: "Our people", href: "/our-people" },
           { label: "About us", href: "/about" },
@@ -176,7 +176,7 @@ export const OFFICES: Office[] = [
 
 export const FOOTER_COLUMNS: NavColumn[] = [
   {
-    title: "About McAi",
+    title: "About Wego",
     links: [
       { label: "Our purpose", href: "/about" },
       { label: "Our people", href: "/our-people" },
@@ -202,7 +202,7 @@ export const FOOTER_COLUMNS: NavColumn[] = [
       { label: "AI & technology", href: "/insights?theme=AI%20%26%20technology" },
       { label: "Operations", href: "/insights?theme=Operations" },
       { label: "Risk & governance", href: "/insights?theme=Risk%20%26%20governance" },
-      { label: "The McAi Quarterly", href: "/insights" },
+      { label: "The Wego Quarterly", href: "/insights" },
     ],
   },
   {

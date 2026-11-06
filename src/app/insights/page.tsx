@@ -6,7 +6,7 @@ import { CTABand, PageHero } from "@/components/Cards";
 export const metadata: Metadata = {
   title: "Insights",
   description:
-    "Research and perspectives from McAi on AI strategy, data platforms, agentic operations, responsible AI, and the operating-model decisions behind them.",
+    "Research and perspectives from Wego on AI strategy, data platforms, agentic operations, responsible AI, and the operating-model decisions behind them.",
 };
 
 export default async function InsightsPage({ searchParams }: { searchParams: Promise<{ theme?: string }> }) {
@@ -37,7 +37,7 @@ export default async function InsightsPage({ searchParams }: { searchParams: Pro
         <InsightsBrowser items={items} themes={themes} initialTheme={theme} />
       </section>
       <CTABand
-        eyebrow="The McAi Quarterly"
+        eyebrow="The Wego Quarterly"
         title="Get the next issue before it is published"
         text="One email, four times a year, with the datasets and baselines behind each piece."
         primary={{ label: "Subscribe", href: "/contact#newsletter" }}

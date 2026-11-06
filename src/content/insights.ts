@@ -20,10 +20,10 @@ export const insights: Insight[] = [
     title: "The AI Spending Explosion: $3.5 Trillion by 2027 and What It Means",
     category: "Article",
     themes: ["Strategy", "Operations"],
-    excerpt: "The global artificial intelligence market is experiencing growth rates that make even the internet boom look restrained. New data from Gartner, Goldman Sachs, and Menlo Ventures paints a picture of an",
+    excerpt: "The global artificial intelligence market is experiencing growth rates that make even the internet boom look restrained. New data from Gartner, Goldman Sachs, and Menlo Ventures paints a picture of an industry on the verge of becoming the largest capital allocation in human history.",
     date: "2026-09-09",
     readMinutes: 4,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-ai-os.jpg",
     body: [
       { kind: "paragraph", text: "The global artificial intelligence market is experiencing growth rates that make even the internet boom look restrained. New data from Gartner, Goldman Sachs, and Menlo Ventures paints a picture of an industry on the verge of becoming the largest capital allocation in human history -- and the spending breakdown reveals where the money is actually going." },
@@ -73,7 +73,7 @@ export const insights: Insight[] = [
     excerpt: "The World Inequality Report 2026 reveals that the top 10% own three-quarters of global wealth while the bottom half holds just 2%. Here's what's driving the gap — and what can be done about it.",
     date: "2026-07-15",
     readMinutes: 3,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-agents.jpg",
     body: [
       { kind: "heading", text: "The Big Picture" },
@@ -116,7 +116,7 @@ export const insights: Insight[] = [
     excerpt: "With the EU AI Act becoming fully enforceable on August 2, 2026, the world's first comprehensive AI regulation is here. Here's how the global regulatory landscape has evolved — and what it means for builders, buyers, and citizens.",
     date: "2026-07-16",
     readMinutes: 8,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-data.jpg",
     body: [
       { kind: "heading", text: "The Big Picture" },
@@ -185,7 +185,7 @@ export const insights: Insight[] = [
     excerpt: "One million species face extinction. Wildlife populations have declined 73% since 1970. The Kunming-Montreal Global Biodiversity Framework is our best shot at turning the tide — but three years in, progress is uneven. Here's where we stand.",
     date: "2026-07-20",
     readMinutes: 6,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-energy.jpg",
     body: [
       { kind: "heading", text: "The Big Picture" },
@@ -257,7 +257,7 @@ export const insights: Insight[] = [
     excerpt: "AI data centers consumed 415 TWh of electricity in 2024 — 1.5% of global demand — and that figure could more than double by 2030. Here's what we know about AI's real environmental cost, and what's being done about it.",
     date: "2026-07-21",
     readMinutes: 8,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-finserv.jpg",
     body: [
       { kind: "heading", text: "The Big Picture" },
@@ -326,7 +326,7 @@ export const insights: Insight[] = [
     excerpt: "Middle market firms using AI are growing at 12.9% — more than double the 5.8% of non-AI firms. Here's what the data says about the widening performance gap and what it means for mid-market leaders.",
     date: "2026-07-23",
     readMinutes: 9,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-governance.jpg",
     body: [
       { kind: "heading", text: "The Big Picture" },
@@ -389,7 +389,7 @@ export const insights: Insight[] = [
     excerpt: "For the first time in Dutch history, there are more residents over 65 than under 20. The old-age dependency ratio is projected to hit 46.5% by 2070. Here's what the data says about the demographic shift and its impact on the Netherlands' world-famous pension system.",
     date: "2026-07-26",
     readMinutes: 5,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-health.jpg",
     body: [
       { kind: "heading", text: "The Milestone That Went Unnoticed" },
@@ -439,7 +439,7 @@ export const insights: Insight[] = [
     excerpt: "The AI coding assistant market hit $12.8B in 2026, growing at 27% CAGR toward $30B by 2032. But the biggest story isn't the market size — it's that 70% of developers now run 2–4 tools simultaneously, and trust in AI output has dropped to 29%. Here's what the data says about where this market is headed.",
     date: "2026-07-27",
     readMinutes: 6,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-industrial.jpg",
     body: [
       { kind: "heading", text: "The Big Picture" },
@@ -505,7 +505,7 @@ export const insights: Insight[] = [
     excerpt: "With the EU AI Act's high-risk rules taking effect next week and only 54% of organizations having formal AI governance, mid-market companies face a growing compliance and competitive gap. Here's what to do about it.",
     date: "2026-07-26",
     readMinutes: 9,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-pilots.jpg",
     body: [
       { kind: "heading", text: "The Big Picture" },
@@ -592,7 +592,7 @@ export const insights: Insight[] = [
     excerpt: "The circular economy market hit $578 billion in 2026 and is on track for $888 billion by 2030. But Europe's recycling rates reveal a fractured reality — Germany recycles 69% of municipal waste while Romania manages just 12%. Here's what the data says about where the circular transition really stands.",
     date: "2026-07-28",
     readMinutes: 6,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-retail.jpg",
     body: [
       { kind: "heading", text: "The Big Picture" },
@@ -638,7 +638,7 @@ export const insights: Insight[] = [
     excerpt: "Global venture funding hit a record $510 billion in the first half of 2026 — more than all of 2025 combined. AI captured over 75% of it, and two companies alone took 43% of every dollar. Here's what the data says about the most concentrated venture market in history.",
     date: "2026-07-29",
     readMinutes: 5,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-ai-os.jpg",
     body: [
       { kind: "heading", text: "The Big Picture" },
@@ -682,7 +682,7 @@ export const insights: Insight[] = [
     excerpt: "Open-weight models have crossed a critical threshold: two-thirds of enterprises now run them in production. With frontier-level performance now available at a fraction of proprietary API costs, the open-source AI ecosystem has reshaped the enterprise AI stack. Here's what the data says.",
     date: "2026-07-30",
     readMinutes: 4,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-agents.jpg",
     body: [
       { kind: "heading", text: "The Tipping Point Has Arrived" },
@@ -733,7 +733,7 @@ export const insights: Insight[] = [
     excerpt: "Microsoft surged while Meta sank in the same hour. Alphabet raised 2026 capex to $205B and its stock fell anyway. Amazon is on track to spend $200B. The four hyperscalers will pour ~$725B into AI infrastructure this year — 77% more than 2025 — and the market just started demanding proof that the spending produces paying customers. Here's what the Q2 earnings data actually says.",
     date: "2026-07-31",
     readMinutes: 5,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-data.jpg",
     body: [
       { kind: "heading", text: "The Market Just Started Scoring the AI Build-Out" },
@@ -772,7 +772,7 @@ export const insights: Insight[] = [
     excerpt: "Frontier model prices have collapsed roughly 100x since GPT-4 launched in 2023 — the cost of GPT-3.5-level quality fell from $20 to $0.07 per million tokens. Yet OpenAI's inference bill quadrupled to $8.4B in a year and Google now processes 3.2 quadrillion tokens a month. This is the Jevons paradox playing out in real time: cheaper tokens don't shrink the AI bill, they detonate demand. Here's what the pricing data says about what it means for businesses buying AI in 2026.",
     date: "2026-08-01",
     readMinutes: 6,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-energy.jpg",
     body: [
       { kind: "heading", text: "The Cheapest Intelligence in History Is Getting Cheaper" },
@@ -810,7 +810,7 @@ export const insights: Insight[] = [
     excerpt: "Gartner now projects global data center power demand will nearly triple by 2030, from 105 GW to 291 GW, while AI-optimized servers alone are set to consume 31% of all data center power in 2026 and outdraw every conventional server by 2027. Goldman Sachs sees US data center demand nearly doubling from 31 GW to 66 GW in just two years. The AI constraint has shifted from chips to power: kilowatts, not GPUs, now decide who scales. Here's what the demand data says and what it means for anyone commissioning AI infrastructure in 2026.",
     date: "2026-08-03",
     readMinutes: 6,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-finserv.jpg",
     body: [
       { kind: "heading", text: "The Scale Constraint Is Power, Not Compute" },
@@ -850,7 +850,7 @@ export const insights: Insight[] = [
     excerpt: "The 36-stock AI infrastructure basket now carries a combined $29.2 trillion in market cap and a median YTD return of +50.4% — but the dispersion is brutal. Memory and storage names like Sandisk (+443%) and Micron (+190%) are up multiples while Palantir (-29%) and Oracle (-27%) lag the S&P 500's +11.4%. The 2026 AI trade isn't one trade anymore: it's a screener where the picks-and-shovels hardware names are beating the household software brands. Here's what the August 3, 2026 data says.",
     date: "2026-08-04",
     readMinutes: 5,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-governance.jpg",
     body: [
       { kind: "heading", text: "One Basket, Two Markets" },
@@ -886,7 +886,7 @@ export const insights: Insight[] = [
     excerpt: "How unequal is the world? It depends entirely on the yardstick. The World Inequality Report 2026 finds the global top 10% earn 53% of all income but own 75% of all wealth, while the bottom half gets 8% of income and 2% of wealth. Wealth at the very top compounds at 5-8% a year versus 3.4% for the bottom half — and Gini scores still range from 24 to 63 across countries. Here's what the 2026 data says about measurement, concentration, and why the choice of instrument changes the story.",
     date: "2026-08-05",
     readMinutes: 7,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-health.jpg",
     body: [
       { kind: "heading", text: "Which Yardstick Are You Using?" },
@@ -932,7 +932,7 @@ export const insights: Insight[] = [
     excerpt: "Global investment in the energy transition hit a record $2.3 trillion in 2025 — up 8% despite policy and trade headwinds. Electrified transport led the way at $893 billion, energy storage crossed the 100-gigawatt mark for the first time, and clean energy supply investment beat fossil fuel supply for a second straight year. Here's what the 2026 data says about where sustainable technology is winning, and where the cracks are showing.",
     date: "2026-08-06",
     readMinutes: 5,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-industrial.jpg",
     body: [
       { kind: "heading", text: "The Record Nobody Drowned Out" },
@@ -967,7 +967,7 @@ export const insights: Insight[] = [
     excerpt: "The FAO Food Price Index is down 18.7% from its March 2022 peak and barely moved in June — but the calm headline hides violent divergence beneath: vegetable oils up 23% year-on-year, dairy down 24.5%. Meanwhile the UN's SOFI 2026 report shows global hunger fell for a third consecutive year, to 645 million people. Here's what the data says about food security in 2026.",
     date: "2026-08-07",
     readMinutes: 5,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-pilots.jpg",
     body: [
       { kind: "heading", text: "The Calm After the Storm" },
@@ -1006,7 +1006,7 @@ export const insights: Insight[] = [
     excerpt: "After a July of forced selling, the AI trade came roaring back: the median stock in the 36-name AI basket gained +7.2% in a single week, and the S&P 500 touched a record. But the rebound wasn't uniform — it was a rotation. Palantir (+39.8%), CoreWeave (+26.3%) and the year's other laggards bounced hardest, while memory names like Western Digital (-20.3%) fell on cautious guidance. The split we documented on August 3 didn't disappear; it flipped direction. Here's what the August 7, 2026 data says.",
     date: "2026-08-09",
     readMinutes: 4,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-retail.jpg",
     body: [
       { kind: "heading", text: "The Week the AI Trade Came Back" },
@@ -1039,7 +1039,7 @@ export const insights: Insight[] = [
     excerpt: "The numbers behind healthcare AI in 2026 tell a story of two speeds: a record 295 FDA clearances, 63% physician adoption, and AI taking 55% of health-tech venture funding — versus an evidence base that is deep in radiology and thin almost everywhere else, and a governance picture where only 8% of physicians work under a well-defined AI policy. The market is no longer asking whether AI belongs in medicine. It is asking who gets it, who watches it, and what happens when deployment runs ahead of proof.",
     date: "2026-08-10",
     readMinutes: 7,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-ai-os.jpg",
     body: [
       { kind: "heading", text: "The Inflection Nobody Announced" },
@@ -1080,7 +1080,7 @@ export const insights: Insight[] = [
     excerpt: "AI agents are the strangest technology purchase of 2026: the unit economics get better every quarter — $0.46 tickets versus $4.18 by hand, $0.72 code reviews versus $48 — while the aggregate bill explodes toward $376 billion by 2027 and analysts still cannot agree on the market size within a factor of two. Gartner expects more than 40% of agentic projects to be cancelled by the end of 2027, and only 41% of deployments hit positive ROI in year one. The agents are cheap; the programs are not. This post walks through the numbers that explain both halves of that sentence.",
     date: "2026-08-11",
     readMinutes: 8,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-agents.jpg",
     body: [
       { kind: "heading", text: "The Two Sides of the Agent Ledger" },
@@ -1133,7 +1133,7 @@ export const insights: Insight[] = [
     excerpt: "Carbon pricing raised a record $107 billion in 2025, now covering nearly a third of global emissions. We dig into the World Bank's 2026 report, the messy NDC 3.0 deadline story, and what the data says about whether climate policy is finally catching up to the rhetoric.",
     date: "2026-08-12",
     readMinutes: 6,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-data.jpg",
     body: [
       { kind: "heading", text: "Introduction" },
@@ -1177,7 +1177,7 @@ export const insights: Insight[] = [
     excerpt: "The 'AI destroys jobs' headline is half the story. WEF projects 170 million roles created against 92 million displaced by 2030, but the real 2026 data shows a two-track labour market: entry-level coding is contracting while AI-skilled workers earn a 62% premium and AI-exposed firms hire faster. We dig into the numbers.",
     date: "2026-08-14",
     readMinutes: 7,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-energy.jpg",
     body: [
       { kind: "heading", text: "Introduction" },
@@ -1223,7 +1223,7 @@ export const insights: Insight[] = [
     excerpt: "Frontier LLMs are now scoring above 94% on GPQA Diamond and 95% on SWE-Bench Verified — but the benchmarks that once separated them are saturating. We break down the 2026 leaderboard, what the scores actually measure, and why price-per-performance now matters more than raw capability for mid-market teams.",
     date: "2026-08-15",
     readMinutes: 6,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-finserv.jpg",
     body: [
       { kind: "heading", text: "Introduction" },
@@ -1262,7 +1262,7 @@ export const insights: Insight[] = [
     excerpt: "IRENA's 2026 statistics show global renewable capacity reached 5,149 GW in 2025 — a record 692 GW added in a single year. Yet the world remains far from the COP28 tripling target, and coal is still the largest source of electricity.",
     date: "2026-08-16",
     readMinutes: 6,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-governance.jpg",
     body: [
       { kind: "heading", text: "Introduction" },
@@ -1304,7 +1304,7 @@ export const insights: Insight[] = [
     excerpt: "Sandisk jumped 35% in a week on a 9th-gen flash memory deal, pushing the memory & storage group to a 247% median YTD gain. The AI trade is rotating hard — and the leaders are leading again.",
     date: "2026-08-17",
     readMinutes: 4,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-health.jpg",
     body: [
       { kind: "heading", text: "The Memory Trade Just Re-Rated Itself" },
@@ -1338,7 +1338,7 @@ export const insights: Insight[] = [
     excerpt: "The IUCN Red List now tracks 175,909 species, with 49,505 threatened with extinction. Yet the numbat's recovery and a 95% decline in Latin America tell the same story: the crisis is real, and so is the path out.",
     date: "2026-08-18",
     readMinutes: 3,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-industrial.jpg",
     body: [
       { kind: "heading", text: "The Numbers Keep Getting Bigger — and More Precise" },
@@ -1369,7 +1369,7 @@ export const insights: Insight[] = [
     excerpt: "PandasAI has hit 23,700 GitHub stars and a quarter-million monthly downloads by doing one thing well: letting you ask your data questions in plain English. Here's how it works under the hood, why it matters for mid-market teams, and a working example you can copy.",
     date: "2026-08-18",
     readMinutes: 5,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-pilots.jpg",
     body: [
       { kind: "heading", text: "Introduction" },
@@ -1420,7 +1420,7 @@ export const insights: Insight[] = [
     excerpt: "Global plastic production keeps climbing toward a tripling by 2060, and the ocean is bearing the cost. Yet 2026 is quietly becoming a turning point: cleanup economics are maturing, river interventions are scaling, and a stalled treaty is limping back to the table. The data shows a race between a rising curve and a scaling response.",
     date: "2026-08-19",
     readMinutes: 6,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-retail.jpg",
     body: [
       { kind: "heading", text: "Introduction" },
@@ -1458,7 +1458,7 @@ export const insights: Insight[] = [
     excerpt: "Two forces collided in the first week of August 2026. The EU AI Act's transparency and general-purpose-AI obligations took effect even as the world logged a 15th straight year of declining internet freedom. The data shows regulation finally catching up to an AI-surveillance export boom that has quietly become one of the fastest-growing industries on earth.",
     date: "2026-08-20",
     readMinutes: 7,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-ai-os.jpg",
     body: [
       { kind: "heading", text: "Introduction" },
@@ -1496,7 +1496,7 @@ export const insights: Insight[] = [
     excerpt: "Europe's data protection authorities have now issued more than €7 billion in GDPR fines since 2018 — and 60% of that total landed in just the last three years. Meanwhile the United States has quietly built a 20-state privacy patchwork with no federal floor, and more than 144 countries now have data protection laws on the books. Privacy enforcement has stopped being a headline event and become permanent infrastructure.",
     date: "2026-08-21",
     readMinutes: 7,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-agents.jpg",
     body: [
       { kind: "heading", text: "Introduction" },
@@ -1540,7 +1540,7 @@ export const insights: Insight[] = [
     excerpt: "Global circularity has fallen to 6.9% — the economy reuses less every year even as e-waste climbs toward 82 million tonnes by 2030. Here's the data on why the gap is widening and where the leaders stand.",
     date: "2026-08-22",
     readMinutes: 4,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-data.jpg",
     body: [
       { kind: "heading", text: "Introduction" },
@@ -1580,7 +1580,7 @@ export const insights: Insight[] = [
     excerpt: "A 21% flat rate for corporations. A 37% top bracket for wage earners. And the wealthiest Americans paying an effective rate below the average citizen. Here's the data on who actually carries the tax burden.",
     date: "2026-08-23",
     readMinutes: 5,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-energy.jpg",
     body: [
       { kind: "heading", text: "Introduction" },
@@ -1620,7 +1620,7 @@ export const insights: Insight[] = [
     excerpt: "COP30's new climate pledges have 'barely moved the needle,' yet the emissions curve is finally beginning to bend. Here's the data on where climate policy stands a year after Belém.",
     date: "2026-08-28",
     readMinutes: 5,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-finserv.jpg",
     body: [
       { kind: "heading", text: "Introduction" },
@@ -1659,7 +1659,7 @@ export const insights: Insight[] = [
     excerpt: "On 2 August 2026 the EU AI Act stopped being a paper deadline. The AI Office can now fine frontier-model providers, transparency rules are live, and a hard count of the world's AI rulebook finds just three comprehensive binding laws — even as regulators write more every year.",
     date: "2026-08-30",
     readMinutes: 8,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-governance.jpg",
     body: [
       { kind: "heading", text: "Introduction" },
@@ -1707,7 +1707,7 @@ export const insights: Insight[] = [
     excerpt: "Nvidia's $96B quarter and a ~$5.4 trillion market cap reaffirmed that AI capex is supply-constrained, not peaking. Yet the broad AI basket fell last week as hawkish-Fed fears bit. The AI trade has never been more concentrated — or more exposed to one ticker and one rate decision.",
     date: "2026-09-03",
     readMinutes: 5,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-health.jpg",
     body: [
       { kind: "heading", text: "One Company, Two Speeds" },
@@ -1745,7 +1745,7 @@ export const insights: Insight[] = [
     excerpt: "The AI basket finally bounced Thursday (+1.5% median, 27 of 36 names up) — but it remains trapped in a months-long sideways grind. New valuation data shows why: 10 of 27 AI names with 10-year P/E histories now trade at or near the most expensive multiple of their entire decade, right as Treasury yields push toward 5% and the Fed weighs a September rate hike. When the whole complex is priced off distant cash flows, the bond market — not another Nvidia quarter — sets the direction.",
     date: "2026-09-04",
     readMinutes: 8,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-industrial.jpg",
     body: [
       { kind: "heading", text: "The Bounce Inside the Grind" },
@@ -1784,7 +1784,7 @@ export const insights: Insight[] = [
     excerpt: "Friday's blowout jobs report (+162k, triple the consensus) pushed September rate-hike odds to 58% and knocked the S&P 500 down 0.4% — yet the PHLX Semiconductor index rose 3.4% and the median AI stock gained 3.5%. It was a live experiment in what actually prices the AI trade now: contracted capital expenditure and a memory supply squeeze, not the discount rate. The decoupling between rate-sensitive broad markets and fundamentals-driven chips was Friday's loudest signal.",
     date: "2026-09-05",
     readMinutes: 7,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-pilots.jpg",
     body: [
       { kind: "heading", text: "One Report, Two Markets" },
@@ -1821,7 +1821,7 @@ export const insights: Insight[] = [
     excerpt: "Semiconductor stocks now make up a record 19.7% of the S&P 500 — nearly four times their 2020 weight. Here's why that concentration matters, what it tells us about the market, and where it could go.",
     date: "2026-09-08",
     readMinutes: 6,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-retail.jpg",
     body: [
       { kind: "heading", text: "Your Index Fund Is an AI Chip Bet" },
@@ -1865,7 +1865,7 @@ export const insights: Insight[] = [
     excerpt: "Today, Friday September 11, the August CPI print lands at 8:30 a.m. ET — the last major inflation data point before the Fed votes on September 16. And it lands on a market that is more concentrated th",
     date: "2026-09-11",
     readMinutes: 6,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-ai-os.jpg",
     body: [
       { kind: "paragraph", text: "Today, Friday September 11, the August CPI print lands at 8:30 a.m. ET — the last major inflation data point before the Fed votes on September 16. And it lands on a market that is more concentrated than at any point in the modern record, more leveraged into a single trade (AI infrastructure), and more sensitive to the cost of money than at any time since the dot-com peak. This post puts real numbers on all three facts." },
@@ -1902,7 +1902,7 @@ export const insights: Insight[] = [
     excerpt: "August CPI came in hot where it mattered — core at 0.3% m/m — pushing September Fed hike odds to 91%. But the market's biggest Friday moves weren't a rate story: Oracle's $90-95B AI capex directive set the rack vendors on fire. The data on who won, who lost, and what the sector tape says about the next six weeks.",
     date: "2026-09-12",
     readMinutes: 8,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-agents.jpg",
     body: [
       { kind: "heading", text: "Two stories, one trading day" },
@@ -1953,7 +1953,7 @@ export const insights: Insight[] = [
     excerpt: "A 25-basis-point hike on Wednesday is now an 89 percent certainty - but the interesting market events happened anyway: the 30-year yield at its highest since 2004, a flat dollar despite 25bp of repricing, gold shrugging off hawkishness, and an S&P 500 that rose while the median stock fell 2 percent.",
     date: "2026-09-13",
     readMinutes: 9,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-data.jpg",
     body: [
       { kind: "heading", text: "The Unanimous Forecast That Wasn't" },
@@ -1997,7 +1997,7 @@ export const insights: Insight[] = [
     excerpt: "Anthropic, OpenAI and Musk spent the weekend calling for a paced frontier; Asia opened lower on Monday. But Friday's tape - and the numbers underneath it - say the slowdown debate and the capex cycle have already decoupled.",
     date: "2026-09-14",
     readMinutes: 7,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-energy.jpg",
     body: [
       { kind: "heading", text: "The Weekend That Was Supposed to Break the AI Trade" },
@@ -2039,7 +2039,7 @@ export const insights: Insight[] = [
     excerpt: "Monday's tape looked calm — the S&P fell less than half a percent. Beneath it, the AI trade split into three layers with a 20-point daily spread between builders and defenders, as economists flipped from 70% hold to 85% hike ahead of Wednesday's FOMC.",
     date: "2026-09-15",
     readMinutes: 9,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-finserv.jpg",
     body: [
       { kind: "heading", text: "The Calmest Index, the Loudest Divergence" },
@@ -2082,7 +2082,7 @@ export const insights: Insight[] = [
     excerpt: "On the eve of the first rate hike since July 2023, the odds went from 44% to 93% in five weeks. Tuesday's tape — energy the only green sector, chips bouncing, cyber stretching higher — shows what a hiking Fed means for the AI trade. The dots, not the 25 basis points, are the story.",
     date: "2026-09-16",
     readMinutes: 8,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-governance.jpg",
     body: [
       { kind: "paragraph", text: "At 2:00 p.m. Eastern today, the Federal Reserve is expected to raise rates. That sentence would have sounded absurd in August — and its very normalcy is the point. The 25 basis points are done and dusted, priced to the nickel. What happens in the 90 minutes after the announcement — the updated dot plot, Chair Kevin Warsh's press conference — will decide whether markets treat tonight as a checkpoint or the opening of a new tightening cycle." },
@@ -2126,7 +2126,7 @@ export const insights: Insight[] = [
     excerpt: "Wednesday's unanimous 25bp hike was fully priced — the hawkish dot plot and Warsh's press conference were not. Sector medians, dot distribution, yield-curve moves, and the historical record of stocks after the first hike in a new cycle.",
     date: "2026-09-17",
     readMinutes: 8,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-health.jpg",
     body: [
       { kind: "paragraph", text: "Yesterday this blog's headline was \"The Fed Hikes Tonight. The Market Already Voted.\" That turned out to be exactly right — and exactly wrong about where the pain would land. The Fed hiked, unanimously, as 92% of fed funds futures expected. The hike itself moved nothing. What moved everything was what came twenty-two minutes later." },
@@ -2170,7 +2170,7 @@ export const insights: Insight[] = [
     excerpt: "Wall Street gave back most of Wednesday's Fed-day damage in a single session. Two days of 500-stock board data show exactly who healed, who didn't, and why the AI build complex keeps trading in its own economy.",
     date: "2026-09-18",
     readMinutes: 6,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-industrial.jpg",
     body: [
       { kind: "paragraph", text: "On Wednesday the Federal Reserve did what it hadn't done since July 2023: it hiked. A quarter point, unanimous, into a 3.75%–4.00% target range, with 16 of 18 committee members wanting more and a median dot that says 2027 gets no cuts. The Dow fell 631 points. The 10-year touched 5%. It was, by any measure, a hawkish event." },
@@ -2208,7 +2208,7 @@ export const insights: Insight[] = [
     excerpt: "One weekend essay about slowing AI triggered a 20-point swing between cybersecurity and the power-and-buildout layer, and $30 billion of fresh AI infrastructure capital in the same five days. The 500-stock tape, charted.",
     date: "2026-09-19",
     readMinutes: 5,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-pilots.jpg",
     body: [
       { kind: "paragraph", text: "The Federal Reserve hiked rates on Wednesday for the first time in three years. The S&P 500 finished the week essentially flat (−0.1%), the Nasdaq up 0.7%, the Dow down 1.7% — its worst week since March. By any headline measure, the Fed was the event of the week." },
@@ -2247,7 +2247,7 @@ export const insights: Insight[] = [
     excerpt: "One week of AI safety headlines split the AI trade into three camps with a 12-point weekly spread: cybersecurity ripped, the power-and-buildout layer sold off, and chips recovered. Add OpenAI's Jalapeño chip and the neocloud math — and the picture is a barbell, not a bubble.",
     date: "2026-09-20",
     readMinutes: 9,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-retail.jpg",
     body: [
       { kind: "heading", text: "One essay, three markets" },
@@ -2291,7 +2291,7 @@ export const insights: Insight[] = [
     excerpt: "In two weeks, the heads of Anthropic, OpenAI, Google DeepMind and xAI all called for slowing frontier AI, while Anthropic prepares a record IPO. The stated reason is safety. The measurable effect of what they are proposing is a compliance wall that only companies with billions can climb — and a much harder world for the cheap open-weight models their customers keep downloading.",
     date: "2026-09-21",
     readMinutes: 14,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-ai-os.jpg",
     body: [
       { kind: "heading", text: "Two weeks, one chorus, one price list" },
@@ -2358,7 +2358,7 @@ export const insights: Insight[] = [
     excerpt: "PJM's capacity auction price went from $28.92 to $333 per megawatt-day in four delivery years — an eleven-fold jump the grid's own federal watchdog attributes 63% to data centres. Homes in DC, Maryland and Ohio are already paying $16-21 more per month for someone else's AI buildout. Here is the full cost-shift data, the water numbers nobody reports, and the regulatory scramble — Virginia's new GS-5 rate class, FERC's six regional orders, the White House emergency auction — to force hyperscalers to pay their own way before the politics curtails the buildout instead.",
     date: "2026-09-21",
     readMinutes: 12,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-agents.jpg",
     body: [
       { kind: "heading", text: "The Most Expensive Number in AI Isn't on Any GPU Invoice" },
@@ -2415,7 +2415,7 @@ export const insights: Insight[] = [
     excerpt: "Meta's Muse agent crossed 2.5M downloads in 13 days and, on Monday September 21, repriced Arm +17%, Intel +12% and AMD past a $1 trillion without a single chipmaker announcement. The AI trade is rotating from training GPUs to agentic inference - and the category table shows where 2026's money really went: memory +242%, chips +187%, energy -13%. What has to be true for the CPU supercycle to stick, and the September 24 summit that holds the fastest lever over it.",
     date: "2026-09-22",
     readMinutes: 8,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-data.jpg",
     body: [
       { kind: "heading", text: "The day Wall Street decided agents run on CPUs" },
@@ -2470,7 +2470,7 @@ export const insights: Insight[] = [
     excerpt: "Xi's first US state visit in 11 years promises no deliverables — but the US-China AI order is already governed in licence queues, tariff schedules, and NdPr prices. What the customs data, chip filings, and the AI stock tape say about who really holds the leverage, and why November 10 matters more than September 24.",
     date: "2026-09-23",
     readMinutes: 11,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-energy.jpg",
     body: [
       { kind: "paragraph", text: "Xi Jinping landed at Joint Base Andrews this afternoon — the first Chinese head of state to make a US state visit since 2015. Tomorrow he and Donald Trump sit down at the White House for their second summit of 2026, with AI, tariffs, rare earths, and technology at the top of the agenda. The think-tank consensus is unanimous and bleak: \"Nobody is using the term 'deliverables',\" as the German Marshall Fund's Bonnie Glaser put it. CSIS expects \"vague promises... not likely to amount to much.\"" },
@@ -2526,7 +2526,7 @@ export const insights: Insight[] = [
     excerpt: "As Xi lands in Washington and the tariff truce stretches to January 10, the 36-name AI basket tells its own story: memory up 255% median, energy down 14%, and Nvidia — the actual subject of the talks — cheaper against its own history than any peer. What the tape believes about the summit, in four charts.",
     date: "2026-09-24",
     readMinutes: 6,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-finserv.jpg",
     body: [
       { kind: "paragraph", text: "Tonight, in the middle of a state banquet in Washington, the people whose companies are moving $30.7 trillion of market value will be seated in the same room as the two leaders whose handshake everyone is watching. President Xi Jinping is in town — the first US state visit in eleven years — and President Trump went to Joint Base Andrews to greet him personally, a courtesy no sitting president has paid a foreign leader (save the pope) in roughly six decades." },
@@ -2575,7 +2575,7 @@ export const insights: Insight[] = [
     excerpt: "The White House summit produced pandas, platitudes about 'human control' of AI, and a two-month truce extension — no deal. Meanwhile the hard data is settled: Chinese open models passed US models in downloads a year ago and the gap is now 428 million wide. But the US-listed AI basket is up 50% median while China's champions give the weights away. Who's actually winning, in five charts.",
     date: "2026-09-25",
     readMinutes: 8,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-governance.jpg",
     body: [
       { kind: "paragraph", text: "Yesterday in Washington, the pageantry was real and the deliverables were not. President Xi Jinping — on the first US state visit in eleven years — stood on the White House lawn and declared that China and the US have \"the capability and responsibility to develop and manage AI for good, and ensure that the development of AI is always under human control.\" President Trump, who has taken to calling the technology \"Super Intelligence (SI),\" preempted his own summit with a post: \"I want to leave it exactly where it is. That is China's position also. Our guardrail is the DOJ!\"" },
@@ -2613,7 +2613,7 @@ export const insights: Insight[] = [
     excerpt: "September's price war cut mid-tier token prices 33-64%, but frontier flagships held at $10/$50 and the LLM Price Index just jumped 29% in a day. The 600-fold token deflation is real - it just stopped at the frontier. What cost-per-task, thinking tokens, and a 100x rate-card spread mean for your Q4 AI budget.",
     date: "2026-09-28",
     readMinutes: 8,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-health.jpg",
     body: [
       { kind: "heading", text: "The Price War Was Real. It Just Skipped the Front Door." },
@@ -2668,7 +2668,7 @@ export const insights: Insight[] = [
     excerpt: "IDC forecasts global AI infrastructure spending will hit $704B this year — more than Germany's entire defense budget. The Big Five will collectively deploy $385B in capex, with GPU shipments tripling. Here's the data behind the most ambitious hardware buildout in human history.",
     date: "2026-09-29",
     readMinutes: 4,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-industrial.jpg",
     body: [
       { kind: "heading", text: "The Biggest Hardware Buildout in Human History" },
@@ -2709,7 +2709,7 @@ export const insights: Insight[] = [
     excerpt: "Enterprise AI spending hit $37B in 2025 -- but where is that money actually flowing? New data from Menlo Ventures and IDC reveals a surprising distribution that challenges the foundation-model hype.",
     date: "2026-09-30",
     readMinutes: 3,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-pilots.jpg",
     body: [
       { kind: "heading", text: "The $37 Billion Headline" },
@@ -2745,7 +2745,7 @@ export const insights: Insight[] = [
     excerpt: "Nvidia became the first company to reach $5 trillion in market cap this week -- 8% of the entire S&P 500. Meanwhile, the Q3 earnings season exposed a sharp split: AI winners are surging while AI spenders are getting punished. Here's the data behind the story.",
     date: "2026-10-01",
     readMinutes: 4,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-retail.jpg",
     body: [
       { kind: "heading", text: "A $5 Trillion Moment" },
@@ -2781,7 +2781,7 @@ export const insights: Insight[] = [
     excerpt: "OpenAI is reportedly raising $30B at a $1.4 trillion valuation while Anthropic sits at $965B. September delivered Nvidia's $12.9B Hugging Face acquisition and $34B in AI rounds. Meanwhile the Fed just hiked rates. Here's the data on the most concentrated capital market in history -- and the cracks inside it.",
     date: "2026-10-02",
     readMinutes: 7,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-ai-os.jpg",
     body: [
       { kind: "heading", text: "The Week the Numbers Stopped Being Normal" },
@@ -2824,7 +2824,7 @@ export const insights: Insight[] = [
     excerpt: "The world's biggest emitter has been flat-or-falling for over two years and the UNEP says new national climate plans barely moved the needle. Meanwhile global clean-tech investment dropped 17% in the first half of 2026. Here's the data on the strangest moment of the energy transition: physics is bending, money is cooling.",
     date: "2026-10-03",
     readMinutes: 5,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-agents.jpg",
     body: [
       { kind: "heading", text: "Two Headlines That Don't Seem to Go Together" },
@@ -2861,7 +2861,7 @@ export const insights: Insight[] = [
     excerpt: "Memory and storage was the best-performing AI category all year — up 242% at the median. Then Toshiba announced it would double hard-drive capacity and the trade cracked in a single session. Meanwhile semiconductor equipment stocks quietly had their best week since June. Here's what the screener data says about the split.",
     date: "2026-10-04",
     readMinutes: 7,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-data.jpg",
     body: [
       { kind: "heading", text: "One Word — \"AI\" — Just Cost Two Stocks 20% in a Week" },
@@ -2906,7 +2906,7 @@ export const insights: Insight[] = [
     excerpt: "52 million LinkedIn postings, Indeed's wage tracker, and a new IMF study all point the same way: AI hiring is booming, pay for AI-exposed roles is up 46% since 2021 — and the entry-level door is quietly closing. The data behind the seniority shift, and what it means if you're under 30.",
     date: "2026-10-05",
     readMinutes: 5,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-energy.jpg",
     body: [
       { kind: "heading", text: "The Two Headlines That Don't Reconcile" },
@@ -2947,7 +2947,7 @@ export const insights: Insight[] = [
     excerpt: "36 AI stocks, one clean signal: the year's leaders (memory & storage) have stalled while the tools-and-equipment layer ripped +9.3% in a single week. Nvidia circles $6 trillion at a cheaper P/S than its own 10-year median percentile would suggest — and Oracle and nuclear power sit at the wrong end of the tape. The screener data behind the rotation.",
     date: "2026-10-06",
     readMinutes: 5,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-finserv.jpg",
     body: [
       { kind: "heading", text: "The Headline Number Hides the Story" },
@@ -2980,7 +2980,7 @@ export const insights: Insight[] = [
     excerpt: "The IEA's updated energy-and-AI analysis puts global data centre electricity demand on track to double from 485 TWh in 2025 to roughly 950 TWh by 2030 — about 3% of world electricity. But the scenario band (833 to 1,008 TWh) and the US capacity-additions curve hide the real story: bottlenecks, not demand, now set the pace. The data behind the numbers.",
     date: "2026-10-08",
     readMinutes: 5,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-governance.jpg",
     body: [
       { kind: "paragraph", text: "This is part of WeGoAI's daily series on the things that actually shape our world. All figures from the IEA's \"Key Questions on Energy and AI\" (published this month), the IEA's Electricity 2026 outlook, and Goldman Sachs Commodities Research via Aterio facility data. Not investment advice." },
@@ -3024,7 +3024,7 @@ export const insights: Insight[] = [
     excerpt: "SIA's August data shows global chip sales hit a $159.7B monthly run-rate — 144% up year-over-year — and 2026 annual sales have already passed $1 trillion for the first time ever. Meanwhile Crunchbase logged a record 27 billion-dollar venture rounds in Q3. The semiconductor and venture data tell the same story: capital is concentrating in the AI compute stack at a pace with no modern precedent.",
     date: "2026-10-09",
     readMinutes: 4,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-health.jpg",
     body: [
       { kind: "paragraph", text: "This is part of WeGoAI's daily series on the things that actually shape our world. All figures from the Semiconductor Industry Association (SIA) monthly Global Sales Report (published Oct 5), the World Semiconductor Trade Statistics (WSTS) 2026 forecast, and Crunchbase Q3 2026 funding data (as of Oct 2). Not investment advice." },
@@ -3062,7 +3062,7 @@ export const insights: Insight[] = [
     excerpt: "Seven AI builders spent $657.1B on capex over four reported quarters and $213.7B in the latest quarter alone - but TrendForce puts DRAM and NAND at 47% of major cloud capex in 2026, rising to 68% in 2027. Amazon blamed its entire $20B guidance raise on memory prices. Capex is growing while buying less silicon per dollar, and the late-October earnings round is the test.",
     date: "2026-10-16",
     readMinutes: 7,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-industrial.jpg",
     body: [
       { kind: "paragraph", text: "This is part of WeGoAI's daily series on the things that actually shape our world. All figures from the Supercycle buildout tracker (data date Sept 13, 2026), BofA Global Research's Q3 cloud capex preview, TrendForce memory research (Aug 25 and Sept 30 releases), J.P. Morgan Global Research and Dell'Oro Group / Currence Q3 2026 data centre outlooks. Not investment advice." },
@@ -3123,7 +3123,7 @@ export const insights: Insight[] = [
     excerpt: "Hyperscalers borrowed $20B in 2024, $109B in 2025 and $240.7B in the first eight months of 2026 - roughly what the entire 10-year US Treasury market raised in the same period. On October 15 the cost of insuring AI-linked debt hit record highs: CoreWeave past 1,100bps, Oracle at a record close of 261bps. The buildout is no longer funded by cash flow, and credit investors are now the marginal price-setter.",
     date: "2026-10-17",
     readMinutes: 10,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-pilots.jpg",
     body: [
       { kind: "paragraph", text: "This is part of WeGoAI's daily series on the things that actually shape our world. Figures from Reuters, CNBC, IFR, Bloomberg, S&P Global Market Intelligence, LSEG, the BIS (Bulletin 120), Capital Group, IESE Insight and UBP/CreditSights as of 15 October 2026. Not investment advice." },
@@ -3189,7 +3189,7 @@ export const insights: Insight[] = [
     excerpt: "The Roundhill memory ETF has entered its second bear market of 2026 - 22% below its September peak and 40% below June's record - while Samsung, Micron, SK Hynix and SanDisk have shed over $700B since 6 October and a 61-stock chip basket is down nearly $2.5T. In the physical market, TrendForce expects Q4 contract DRAM prices up 10-15% and NAND 15-20%, Micron's 2027 HBM output is sold out, and Samsung just guided to a KRW 107.4T quarterly operating profit, up 782% year on year. The equities are discounting 2028 supply; the contracts are pricing 2027 scarcity. Both can be right.",
     date: "2026-10-18",
     readMinutes: 9,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-retail.jpg",
     body: [
       { kind: "paragraph", text: "This is part of WeGoAI's daily series on the things that actually shape our world. Figures from Reuters, Yahoo Finance, CNBC, TrendForce, Bernstein, KeyBanc, Goldman Sachs, Kyobo Securities, Micron, SK Hynix, Samsung and the Korea Exchange as of 16 October 2026. Not investment advice." },
@@ -3250,7 +3250,7 @@ export const insights: Insight[] = [
     excerpt: "At least 47 large US data-centre projects have been delayed, withdrawn or blocked in 2026, and analysts now estimate only about a third of the announced US pipeline is credible. Jeffries puts 2027-2030 North American hyperscaler capacity at 50.2 GW announced versus 24.4 GW it expects to be built, and ERCOT is holding 474 GW of large-load requests against a 91 GW record peak. The binding constraint has moved from chips to permits, transformers, labour and the cost of capital.",
     date: "2026-10-19",
     readMinutes: 6,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-ai-os.jpg",
     body: [
       { kind: "paragraph", text: "This is part of WeGoAI's daily series on the things that actually shape our world. Figures from the Financial Times, Jeffries, MSCI, TrendForce, Bloomberg Energy, the US EIA, ERCOT, POWER Magazine and Utility Dive as of 18 October 2026. Not investment advice." },
@@ -3296,7 +3296,7 @@ export const insights: Insight[] = [
     excerpt: "Tracked inference demand hit 136.1 trillion tokens per week on 19 October, up 31% in 30 days and 479% since May — but the demand-weighted price is $0.82 per million tokens, because open-weight models now carry 82.1% of the volume at $0.42 while closed models charge $3.35. The same open weights trade across providers at up to 8.9x price dispersion, and the cheapest output prices fell 35% in 30 days while the median fell only 6%. Volume and value have come apart, and procurement — not the price list — now sets the marginal cost of a token.",
     date: "2026-10-20",
     readMinutes: 7,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-agents.jpg",
     body: [
       { kind: "paragraph", text: "This is part of WeGoAI's daily series on the things that actually shape our world. Figures from the Bargo Token Demand Index, American Compute's Open-Weight LLM Price Index and InferIndex as of 19 October 2026. Not investment advice." },
@@ -3341,7 +3341,7 @@ export const insights: Insight[] = [
     excerpt: "Four credible surveys put enterprise agent adoption at 23%, 40%, 45% and 57% in the same eighteen months - because they are measuring four different things. Gartner expects 40% of enterprise applications to embed agents by the end of 2026 and predicts more than 40% of agentic projects will be cancelled by 2027. McKinsey finds only 23% of organizations have scaled agentic AI into even one business function, with no single function above 10%. Halkwinds' 634-organization study says 45% have an agent in production, with 67% behind mandatory human review gates. Meanwhile 84% of developers use AI tools and 3.1% highly trust the code that comes out. The adoption headline and the trust line are moving in opposite directions, and the gap between them is the actual product problem of 2026.",
     date: "2026-10-21",
     readMinutes: 6,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-data.jpg",
     body: [
       { kind: "paragraph", text: "This is part of WeGoAI's daily series on the things that actually shape our world. Figures from Gartner, McKinsey, Halkwinds Research, LangChain and the Stack Overflow 2025 Developer Survey. Not investment advice." },
@@ -3384,7 +3384,7 @@ export const insights: Insight[] = [
     excerpt: "AI-driven startups raised record megafunding in Q3 2026, with four billion-dollar rounds highlighted.",
     date: "2026-10-22",
     readMinutes: 3,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-energy.jpg",
     body: [
       { kind: "paragraph", text: "This is part of WeGoAIs daily series on the data that shapes our world." },
@@ -3399,7 +3399,7 @@ export const insights: Insight[] = [
     excerpt: "Five AI stories broke on 22 October 2026 and every one of them was a cost the AI budget does not carry. Western Digital's own measurements show one 8-second AI video leaves over 500MB on the back end for every 3.97MB the user receives - a 130x residue that never retires. McKinsey has inference demand compounding at 35% a year against training at 22%. Security firm Claroc enumerated 6,800 Meta Muse share links with a single query and opened a few hundred to find confidential candidate notes, loan applications and mortgage figures; Meta suspended the feature. 1Password shipped agent credential delegation the same day Axios reported US banks detecting agentic activity they cannot attribute. OpenAI's decision models cut agent latency from seconds to milliseconds, which will multiply all of it. And a survey of 2,018 enterprise CIOs finds 28% of software budgets already gone to vendor-driven upgrades nobody wanted. Token prices are falling. The bill is not.",
     date: "2026-10-23",
     readMinutes: 13,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-finserv.jpg",
     body: [
       { kind: "paragraph", text: "This is part of WeGoAI's daily series on the things that actually shape our world. Figures from Western Digital and IDC, McKinsey, TechCrunch, Ars Technica, MIT Technology Review, Axios reporting and the Origina Software Tax report. All news dated 22 October 2026. Not investment advice." },
@@ -3480,7 +3480,7 @@ export const insights: Insight[] = [
     excerpt: "PHP2Shell (CVE-2026-109618 and CVE-2026-109619, CVSS 9.2) took 81 days to fix, but only 7 days to find and 4 days to start attacking. AI-assisted researchers found the flaw in PHP core, one researcher did in a week the work of a team for months, and the same AI that found it can now write a working exploit in 10 to 15 minutes for about one dollar. Censys counted 1.5 million of 2.6 million internet-facing PHP hosts still unpatched shortly after the fix shipped. France shut down its Interior Ministry, Meteo-France and the tax authority; the UK reported 32 government services unavailable. The Cloud Security Alliance measures mean time to exploit falling from 32 days in 2022 to 5 days in 2023, while mean time to remediate a complex enterprise application reached 5 months and 10 days. The bottleneck moved from discovery to response. Response is still human.",
     date: "2026-10-24",
     readMinutes: 9,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-governance.jpg",
     body: [
       { kind: "paragraph", text: "This is part of WeGoAI's daily series on the things that actually shape our world. Figures from the PHP Foundation, Calif, Wiz, Censys, ANSSI, CERT-FR, the Cloud Security Alliance AI Safety Initiative whitepaper, Qualys, VulnCheck, Rapid7 and NIST. All news dated 20-23 October 2026. Not investment advice." },
@@ -3556,7 +3556,7 @@ export const insights: Insight[] = [
     excerpt: "The industry conversation around AI has shifted. In 2024, we talked about chatbots. In 2025, we talked about RAG. In 2026, everyone is talking about Agents.",
     date: "2026-10-25",
     readMinutes: 3,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-health.jpg",
     body: [
       { kind: "paragraph", text: "The industry conversation around AI has shifted. In 2024, we talked about chatbots. In 2025, we talked about RAG. In 2026, everyone is talking about Agents." },
@@ -3586,7 +3586,7 @@ export const insights: Insight[] = [
     excerpt: "While 88% of enterprises have adopted AI, only 6% report meaningful financial returns, creating a massive \\\"Value Gap\\\" in the 2026 tech landscape.",
     date: "2026-10-26",
     readMinutes: 3,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-industrial.jpg",
     body: [
       { kind: "paragraph", text: "The narrative of 2026 has been one of unprecedented AI scaling. Global corporate AI investment hit $581.7 billion in 2025, and worldwide spending is projected to reach $2.52 trillion this year. But beneath the procurement surge lies a sobering reality: the AI Value Gap." },
@@ -3612,7 +3612,7 @@ export const insights: Insight[] = [
     excerpt: "For the past few years, the world has been captivated by the \"Chatbot Era.\" We learned how to prompt, how to iterate, and how to use Large Language Models (LLMs) as sophisticated search engines or dra",
     date: "2026-10-27",
     readMinutes: 3,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-pilots.jpg",
     body: [
       { kind: "paragraph", text: "For the past few years, the world has been captivated by the \"Chatbot Era.\" We learned how to prompt, how to iterate, and how to use Large Language Models (LLMs) as sophisticated search engines or drafting tools. But in 2026, the conversation has shifted. We are no longer just talking to AI; we are deploying AI that acts." },
@@ -3648,7 +3648,7 @@ export const insights: Insight[] = [
     excerpt: "By mid-2026, the narrative around enterprise AI agents has split. On one side, adoption is fast and near-universal. On the other, actual business value remains elusive for the majority of deployments.",
     date: "2026-10-29",
     readMinutes: 3,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-retail.jpg",
     body: [
       { kind: "paragraph", text: "By mid-2026, the narrative around enterprise AI agents has split. On one side, adoption is fast and near-universal. On the other, actual business value remains elusive for the majority of deployments." },
@@ -3677,7 +3677,7 @@ export const insights: Insight[] = [
     excerpt: "An examination of the narrowing lead among top-tier LLMs, highlighting the transition from exponential leaps to incremental gains.",
     date: "2026-10-30",
     readMinutes: 3,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-ai-os.jpg",
     body: [
       { kind: "paragraph", text: "In the early days of the LLM explosion, each new generation brought a quantum leap in capability. A new model release often meant an entire class of previously \"impossible\" tasks suddenly became trivial. However, as we enter the final quarter of 2026, we are witnessing a different phenomenon: Convergence." },
@@ -3700,7 +3700,7 @@ export const insights: Insight[] = [
     excerpt: "The gap between AI model capability and real-world production deployment is closing, but not through better models alone. The real surge is happening in the Agent Layer—the frameworks and protocols th",
     date: "2026-10-31",
     readMinutes: 3,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-agents.jpg",
     body: [
       { kind: "paragraph", text: "The gap between AI model capability and real-world production deployment is closing, but not through better models alone. The real surge is happening in the Agent Layer—the frameworks and protocols that allow models to actually use tools, manage memory, and execute multi-step workflows." },
@@ -3720,7 +3720,7 @@ export const insights: Insight[] = [
     excerpt: "The transition from the NVIDIA Hopper architecture (H100) to the Blackwell architecture (B200) represents more than just an iterative update. It is a fundamental shift in the economics of AI inference",
     date: "2026-11-01",
     readMinutes: 3,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-data.jpg",
     body: [
       { kind: "paragraph", text: "The transition from the NVIDIA Hopper architecture (H100) to the Blackwell architecture (B200) represents more than just an iterative update. It is a fundamental shift in the economics of AI inference." },
@@ -3747,7 +3747,7 @@ export const insights: Insight[] = [
     excerpt: "Global AI spending will hit $301 billion in 2026. But what does that mean for a mid-market company with 50 to 1,000 employees? Here's the real cost breakdown — from a $50,000 chatbot to a $1.5 million enterprise transformation.",
     date: "2026-07-14",
     readMinutes: 4,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-energy.jpg",
     body: [
       { kind: "paragraph", text: "!AI Cost Analysis Hero" },
@@ -3829,7 +3829,7 @@ export const insights: Insight[] = [
     excerpt: "Fine-tuning and RAG serve different purposes, but the cost difference is staggering. Here's a framework to decide which approach — or combination — makes sense for your business.",
     date: "2026-07-10",
     readMinutes: 3,
-    authors: ["McAi Research"],
+    authors: ["Wego Research"],
     img: "/img/insight-finserv.jpg",
     body: [
       { kind: "paragraph", text: "Most AI consultants will tell you that you need both fine-tuning and RAG. They're not wrong, but they're not telling you the full story either. The cost gap between these two approaches is widening as models get bigger and context windows grow." },
