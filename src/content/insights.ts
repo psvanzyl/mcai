@@ -57,7 +57,6 @@ export const insights: Insight[] = [
       "---",
       "Sources: Gartner Forecast 2026 (May 2026), Goldman Sachs Research AI Capex Report (2026), Menlo Ventures State of Generative AI in the Enterprise (December 2025), Stanford HAI AI Index 2026 Report, a16z Enterprise AI Survey (2025).",
     ],
-    pullQuote: "Worldwide AI Spending: The Numbers That Will Shock You",
     stats: [
       { value: "12%", label: "Anthropic" },
       { value: "50%", label: "OpenAI" },
@@ -95,7 +94,7 @@ export const insights: Insight[] = [
       "---",
       "Sources: World Inequality Report 2026, Inequality.org Global Inequality Facts, UBS Global Wealth Report 2026, Oxfam Inequality Report 2026. All research conducted via SearXNG with structured query methodology.",
     ],
-    pullQuote: "Global wealth inequality is not just persistent — it's accelerating. The 2026 World Inequality Report, drawing from over",
+    pullQuote: "Global wealth inequality is not just persistent — it's accelerating.",
     stats: [
       { value: "~75%", label: "Top 10% global wealth share" },
       { value: "~2%", label: "Bottom 50% global wealth share" },
@@ -168,7 +167,7 @@ export const insights: Insight[] = [
       "---",
       "Sources: EU AI Act official text, Digital Omnibus on AI — Global Policy Watch, NIST AI RMF, International AI Safety Report 2026, AI Governance Landscape 2026 — Prof. Hung-Yi Chen, Mind Foundry — AI Regulations Around the World 2026, OECD AI Policy Observatory. All research conducted via SearXNG with structured query methodology.",
     ],
-    pullQuote: "On August 2, 2026 — just over two weeks from today — the European Union's AI Act becomes fully enforceable. It marks the",
+    pullQuote: "On August 2, 2026 — just over two weeks from today — the European Union's AI Act becomes fully enforceable.",
     stats: [
       { value: "Unacceptable risk (prohibited)", label: "1" },
       { value: "High risk", label: "2" },
@@ -227,7 +226,7 @@ export const insights: Insight[] = [
       "---",
       "Sources: IPBES Global Assessment Report (2019), WWF Living Planet Report 2024, Kunming-Montreal Global Biodiversity Framework, IUCN Red List, CBD COP16 Outcomes, IPCC Special Report on 1.5°C, WEF Global Risks Report. All research conducted via structured web extraction methodology.",
     ],
-    pullQuote: "Biodiversity — the variety of life on Earth — is declining faster than at any time in human history. The 2019 IPBES Glob",
+    pullQuote: "Biodiversity — the variety of life on Earth — is declining faster than at any time in human history.",
     stats: [
       { value: "~1 million", label: "Species threatened with extinction" },
       { value: "73% average", label: "Wildlife population decline (since 1970)" },
@@ -306,7 +305,7 @@ export const insights: Insight[] = [
       "---",
       "Sources: IEA Electricity 2024 report; ACM FAccT 2024 benchmark; Google 2025 Gemini environmental study; University of Michigan Llama 3.1 measurements; Communications of the ACM (2025) — Li et al.; Nature Computational Science (2024); Nature Sustainability (2025); Global E-waste Monitor 2024; Reuters/Verisk Maplecroft (2025); EU Energy Efficiency Directive; S. 3732 (US Congress).",
     ],
-    pullQuote: "Every time you ask an AI assistant a question, generate an image, or run a code completion, you're consuming electricity",
+    pullQuote: "Every time you ask an AI assistant a question, generate an image, or run a code completion, you're consuming electricity.",
     stats: [
       { value: "0.002–0.007 Wh", label: "Simple classification" },
       { value: "~0.05 Wh", label: "Text generation" },
@@ -372,7 +371,7 @@ export const insights: Insight[] = [
       "---",
       "Sources: National Center for the Middle Market — AI Adoption in the Middle Market Isn't About Experimentation, It's About Performance (April 2026); RSM US — Analyzing AI Trends in the Middle Market (2026); Intellectyx — AI Integration for Mid-Sized Companies: 2026 Guide; Stanford HAI — 2026 AI Index Report.",
     ],
-    pullQuote: "For much of the conversation around artificial intelligence over the past two years, the focus has been on possibility —",
+    pullQuote: "For much of the conversation around artificial intelligence over the past two years, the focus has been on possibility — what AI could mean for companies in the years ahead.",
     stats: [
       { value: "55%", label: "Launched new products or services" },
       { value: "42%", label: "Expanded into new domestic markets" },
@@ -429,7 +428,6 @@ export const insights: Insight[] = [
       "---",
       "Data sources: Statistics Netherlands (CBS), European Commission Ageing Report 2021, CPB Netherlands Bureau for Economic Policy Analysis, OECD Economic Survey Netherlands 2025.",
     ],
-    pullQuote: "In December 2025, Statistics Netherlands (CBS) published a number that should have made front-page news: for the first t",
   },
   {
     slug: "20260727-ai-coding-assistant-market-2026",
@@ -485,7 +483,7 @@ export const insights: Insight[] = [
       "---",
       "Sources: JetBrains AI Pulse Survey (January 2026, n=10,000+), Stack Overflow Developer Survey 2025 (n=49,000+, 177 countries), IdeaPlan 2026 Market Share Report, GitClear (211M lines analyzed), GitHub/Microsoft earnings, Bloomberg (March 2026), Grand View Research, Sacra, METR (2025), Google DORA 2025.",
     ],
-    pullQuote: "The AI coding assistant market has done something no developer tools category has ever done: gone from zero to $12.8 bil",
+    pullQuote: "The AI coding assistant market has done something no developer tools category has ever done: gone from zero to $12.8 billion in under four years.",
     stats: [
       { value: "4.7M", label: "Paid users" },
       { value: "~$1.1B", label: "Revenue run-rate" },
@@ -567,7 +565,7 @@ export const insights: Insight[] = [
       "---",
       "Sources: Salesforce/Vanson Bourne/Deloitte Digital — 2026 Connectivity Benchmark; Forrester/Boomi — AI Agent Trust Study (July 2026); P3 Adaptive — 10 Key AI Governance Frameworks in 2026; Digital Applied — EU AI Act 2026 Compliance: What US Businesses Must Do; Wipfli — AI Governance Checklist for Mid-Market Companies (May 2026); Kiteworks — Top 10 AI Governance Solutions for Regulated Industries (2026); Gartner — 2026 Hype Cycle for Agentic AI; Your AI Department — The AI ROI Gap: 2026 CEO Benchmark; Aptean — 2026 State of AI in Business Report.",
     ],
-    pullQuote: "On August 2, 2026 — less than a week from today — the EU AI Act's high-risk AI system requirements become enforceable. T",
+    pullQuote: "On August 2, 2026 — less than a week from today — the EU AI Act's high-risk AI system requirements become enforceable.",
     stats: [
       { value: "Culture, accountability, processes for AI risk management", label: "Govern" },
       { value: "Context, risks, impacts of AI systems in their use context", label: "Map" },
@@ -628,7 +626,7 @@ export const insights: Insight[] = [
       "---",
       "Data sources: The Business Research Company Circular Economy Market Report 2026, European Environment Agency Waste Recycling Indicators, Eurostat, Plastics Europe Circular Economy for Plastics 2026, DataM Intelligence, OECD Environment at a Glance, European Commission ESPR regulation.",
     ],
-    pullQuote: "The circular economy — the shift from \"take-make-dispose\" to \"reduce-reuse-recycle\" — has moved beyond aspirational poli",
+    pullQuote: "The circular economy — the shift from \"take-make-dispose\" to \"reduce-reuse-recycle\" — has moved beyond aspirational policy documents into hard market numbers.",
   },
   {
     slug: "20260729-ai-vc-record-h1-2026",
@@ -672,7 +670,7 @@ export const insights: Insight[] = [
       "---",
       "Data sources: Crunchbase Q1 2026 Global Venture Report, Crunchbase H1 2026 Global Venture Report, OECD.AI Venture Capital in AI (Preqin data), Forbes AI 50 2026, AI Funding Tracker, PitchBook, company filings and announcements.",
     ],
-    pullQuote: "The first half of 2026 was not just another strong period for venture capital — it was the largest six months in the his",
+    pullQuote: "The first half of 2026 was not just another strong period for venture capital — it was the largest six months in the history of the asset class.",
   },
   {
     slug: "20260730-open-source-ai-enterprise-adoption-2026",
@@ -715,7 +713,7 @@ export const insights: Insight[] = [
       "---",
       "Data sources: Menlo Ventures 2026 Enterprise AI Survey (n=1,200 IT decision-makers), a16z State of AI 2026, CBInsights Enterprise AI Adoption Report, LMSYS Chatbot Arena (July 2026), Open LLM Leaderboard v3, HuggingFace model hub statistics, company API pricing pages and model cards. Open-weight models are defined as models released with a permissive commercial license allowing self-hosting and customisation.",
     ],
-    pullQuote: "For years, the conventional wisdom was simple: if you wanted frontier-level AI performance, you paid for a proprietary A",
+    pullQuote: "For years, the conventional wisdom was simple: if you wanted frontier-level AI performance, you paid for a proprietary API.",
     stats: [
       { value: "Open-weight (Llama 4 / Qwen 4)", label: "Structured data extraction" },
       { value: "Proprietary (Claude 4 / GPT-5)", label: "Customer-facing chat" },
@@ -762,7 +760,7 @@ export const insights: Insight[] = [
       "---",
       "This article was researched and written by wegoze's automated research pipeline. Chart data from SEC filings (NVIDIA 8-K, AMD 10-Q, Intel DCAI), Q2 2026 earnings calls, and Financial Times/Tom's Hardware capex compilations. Published 31 July 2026.",
     ],
-    pullQuote: "On July 29, two of the world's biggest AI investors reported earnings minutes apart. Microsoft's stock jumped 9.8% — its",
+    pullQuote: "On July 29, two of the world's biggest AI investors reported earnings minutes apart.",
   },
   {
     slug: "20260801-llmflation-inference-costs",
@@ -800,7 +798,7 @@ export const insights: Insight[] = [
       "Sources",
       "• Stanford HAI, AI Index 2025 — GPT-3.5-equivalent inference price: $20/M (Nov 2022) → $0.07/M (Oct 2024), 280x drop • a16z, Welcome to LLMflation (2024) — GPT-3-equivalent quality $60/M → $0.06/M, ~1,000x • Epoch AI, LLM Inference Price Trends (2025) — median ~50x/year decline, ~200x/year since Jan 2024 • KickLLM, LLM Pricing History (updated Apr 2026) — provider API price timeline 2023–2025 • NVIDIA, Blackwell InferenceMAX Benchmark Results (Oct 2025) — GB300 NVL72 at $0.12/M tokens, 35x lower than Hopper • Google I/O 2026 keynote — 3.2 quadrillion tokens/month, ~7x YoY; Tomasz Tunguz, The Trillion Token Race (2025) • Menlo Ventures, 2025: The State of Generative AI in the Enterprise — 74% inference-majority workloads, $3.5B→$8.4B enterprise LLM API spend • The Information (2025) — OpenAI 2025 inference cost ~$8.4B, 2026 projection ~$14.1B; Anthropic ~$2.7B • Gartner — agentic queries 5–30x tokens; 2030 inference cost >90% lower vs 2025 • Bloomberg Intelligence via Cerebras S-1 (2026) — combined train+inference infra $251B (2025) → $672B (2029) • MarketsandMarkets (2025) — AI inference market $106B → $255B by 2030",
     ],
-    pullQuote: "In March 2023, OpenAI charged $30 per million input tokens for GPT-4. A typical enterprise RAG query with 8,000 tokens o",
+    pullQuote: "In March 2023, OpenAI charged $30 per million input tokens for GPT-4.",
   },
   {
     slug: "20260803-ai-power-race-datacenter-electricity",
@@ -840,7 +838,7 @@ export const insights: Insight[] = [
       "---",
       "This article was researched and written by wegoze's automated research pipeline. Data sourced from publicly available reports, journalism, and analyst publications. Published 3 August 2026.",
     ],
-    pullQuote: "For two years the AI industry told one story: getting enough GPUs. That was the whole plot of the $725B capex supercycle",
+    pullQuote: "For two years the AI industry told one story: getting enough GPUs.",
   },
   {
     slug: "20260804-ai-stock-screener-dispersion",
@@ -876,7 +874,7 @@ export const insights: Insight[] = [
       "Sources",
       "• ChartRow — \"AI Stocks List (2026): 33 Companies — Performance Table,\" returns as of market close Aug 3, 2026 (chartrow.com/lists/ai-stocks) • ChartRow — \"S&P 500 YTD Return 2026: +11.4%,\" through Aug 3, 2026 (chartrow.com/sp500/ytd) • SlickCharts — \"S&P 500 YTD Return,\" price and total return through 2026-08-03 (slickcharts.com/sp500/returns/ytd) • StatMuse — \"S&P 500 YTD return for 2026\" (statmuse.com)",
     ],
-    pullQuote: "If you bought \"AI\" as a single idea in January 2026, the first eight months have been very good to you — on average. The",
+    pullQuote: "If you bought \"AI\" as a single idea in January 2026, the first eight months have been very good to you — on average.",
   },
   {
     slug: "20260805-economic-inequality-measurement",
@@ -917,7 +915,7 @@ export const insights: Insight[] = [
       "Sources",
       "• World Inequality Report 2026 — Executive Summary, World Inequality Lab (wir2026.wid.world/insight/executive-summary/) • LSE Inequalities blog — \"56,000 people own three times more wealth than half of humanity,\" Gómez-Carrera, May 12 2026 (blogs.lse.ac.uk/inequalities) • World Bank — Gini index (SI.POV.GINI), latest country observations 2023–2025, via TheGlobalEconomy.com rankings and World Population Review (updated July 30, 2026) • Forbes/Statista — \"Wealth of the 1% reaches decade high in the U.S.,\" Jan 30 2026 (top-1% wealth share 31.7%, Q3 2025) • inequality.org — Global Inequality facts (top-1% global income share 20.3% in 2025)",
     ],
-    pullQuote: "Ask \"how unequal is the world?\" and you will get a different answer depending on which number you look at. The Gini coef",
+    pullQuote: "Ask \"how unequal is the world?\" and you will get a different answer depending on which number you look at.",
     stats: [
       { value: "53%", label: "Top 10%" },
       { value: "39%", label: "Middle 40%" },
@@ -957,7 +955,7 @@ export const insights: Insight[] = [
       "Sources",
       "• BloombergNEF, Energy Transition Investment Trends 2026 — annual report, published January 26, 2026. Global investment $2.3T (2025), sector and regional breakdowns, supply chain investment, equity and debt figures. • BloombergNEF, \"Energy Storage Enters the 100-Gigawatt Era\" — insight by Isshu Kikuma, May 7, 2026. 112 GW/307 GWh additions (2025), 158 GW (2026) and 308 GW (2036) forecasts, chemistry and regional shares, sodium-ion deals. • BloombergNEF, 1H 2023 Energy Storage Market Outlook — 2021/2022 additions baseline (10 GW → 16 GW), used for the historical series in Chart 3. • BloombergNEF, Global Energy Storage Growth Upheld by New Markets — June 18, 2025. 2024 baseline (76 GW) and 2025 expectation context. • J.P. Morgan, 2026 Climate Tech Industry Trends — March 2026. Venture stage shifts toward grid reliability, storage, and critical minerals. • Cleantech Group, \"From 2025 Funds to 2026 Futures\" — 2025 fund launches in maritime decarbonization and clean mobility (Motion Ventures Fund II, Polestar Capital e-Mobility Fund, Calderion Fund, ADB Sustainable and Resilient Maritime Fund).",
     ],
-    pullQuote: "In a year defined by trade disruptions, geopolitical tension, and a US administration actively trying to slow the transi",
+    pullQuote: "In a year defined by trade disruptions, geopolitical tension, and a US administration actively trying to slow the transition, sustainable technology did something remarkable: it set an all-time investment record.",
   },
   {
     slug: "20260807-global-food-security",
@@ -996,7 +994,7 @@ export const insights: Insight[] = [
       "• FAO Food Price Index (FFPI), June 2026 release — monthly nominal indices, 1990–June 2026, retrieved from FAO's official data file (food_price_indices_data.csv). FFPI 130.3 in June 2026; sub-indices for cereals, vegetable oils, meat, dairy, sugar. • JIRCAS, \"1533. Global Food Price Trends – June 2026\" (7 July 2026) — detailed FAO FPI analysis: wheat -4.4%, maize -6.2%, rice +3.2%, palm oil rebound, dairy -1.5%, sugar -5.7%, meat record. • JIRCAS, \"1513. Global Food Price Trends – May 2026\" (9 June 2026) — May 2026 baseline (FFPI 130.8, cereals 114.3, oils 185.0). • FAO Director-General QU Dongyu, SOFI 2026 launch statement (21 July 2026) — 645M hungry in 2025 (7.8%), 43M fewer than 2022 peak, 2.1B food insecure, Africa 20.0% (309M), 2030 projection up to 520M. • State of Food Security and Nutrition in the World (SOFI) 2026 — annual UN report (FAO, IFAD, UNICEF, WFP, WHO), launched July 2026.",
       "This article was researched and written by wegoze's automated research pipeline. Data sourced from publicly available reports and journalism. Published 07 August 2026.",
     ],
-    pullQuote: "Six months into 2026, the global food system looks, at first glance, like a patient recovering: prices down, hunger down",
+    pullQuote: "Six months into 2026, the global food system looks, at first glance, like a patient recovering: prices down, hunger down, supply chains unblocked.",
   },
   {
     slug: "20260809-ai-trade-rebound-rotation",
@@ -1029,7 +1027,7 @@ export const insights: Insight[] = [
       "The AI trade didn't just come back last week. It changed which names are leading it. The data says the next leg belongs to whoever can hold the rotation.",
       "Data: ChartRow AI Stocks List (36 names), close Aug 7, 2026. News context: CNBC Investing Club weekly recap, Aug 8, 2026. S&P 500 YTD total return per ChartRow S&P 500 YTD page, Aug 7, 2026. Not investment advice.",
     ],
-    pullQuote: "Five days changed the picture. The same 36-name AI infrastructure basket we screened on August 3 — when the median name ",
+    pullQuote: "Five days changed the picture.",
   },
   {
     slug: "20260810-ai-in-healthcare-access",
@@ -1070,7 +1068,7 @@ export const insights: Insight[] = [
       "But the ledger is the honest summary: adoption is running at venture speed, evidence at trial speed, and governance at regulatory speed. Those three gears have never been more misaligned — and the 2026 numbers say the gap is widening, not closing.",
       "Data: FDA AI/ML-enabled medical devices list (Dec 2025 update) via The Imaging Wire; Doximity 2026 State of AI in Medicine (n=3,151); Rock Health 2025 Year-End Digital Health Funding Report; Axis Intelligence Research (July 2026); Presenc AI (May 2026); MarketsandMarkets/Grand View Research/Mordor Intelligence 2026 reports; PRAIM & AI-STREAM trials, Nature Medicine/Communications; ECRI Top 10 Health Technology Hazards 2026. Not medical advice.",
     ],
-    pullQuote: "Healthcare AI stopped being a pilot program in 2025, and the 2026 data makes the shift impossible to miss. The FDA has n",
+    pullQuote: "Healthcare AI stopped being a pilot program in 2025, and the 2026 data makes the shift impossible to miss.",
   },
   {
     slug: "20260811-ai-agent-economics-2026",
@@ -1112,7 +1110,7 @@ export const insights: Insight[] = [
       "Data: Gartner press releases (May 2026, June 2025); Keyhole Software analysis of Grand View Research / MarketsandMarkets / Mordor Intelligence / Fortune Business Insights / Precedence Research (Aug 2026); Menlo Ventures enterprise study (Dec 2025); Salesforce fiscal 2026 earnings; Forrester TEI studies; CloudZero (Aug 2026); Ramp enterprise token spend data; Digital Applied benchmark synthesis (Apr 2026); Deloitte State of Generative AI in the Enterprise Q1 2026; Bain Agentic AI Benchmark 2026; Gartner Agentic AI Pulse 2026; McKinsey Global AI Survey 2026; Slack Workforce Index Q1 2026; SaaStr (Jason Lemkin). Includes vendor-reported figures; not investment advice.",
       "Sources: 1. Gartner, \"Gartner Says Autonomous Business and AI Layoffs May Create Budget Room but Do Not Deliver Returns\" (May 5, 2026) — $86.4B/$206.5B/$376.3B spend forecast 2. Gartner, \"Over 40% of Agentic AI Projects Will Be Canceled by End of 2027\" (June 2025; resurfaced Forbes July 2026) 3. Keyhole Software, \"The Enterprise Agentic AI Market Size: 2026 Statistics, Growth, and Adoption Data\" (Aug 6, 2026) 4. Menlo Ventures enterprise generative AI spending study (Dec 2025) 5. Salesforce fiscal 2026 earnings disclosures on Agentforce ARR (~$800M, +169%) 6. CloudZero, \"AI Agent Cost: What Agents Really Cost to Run\" (Aug 10, 2026) — autonomy tiers, pricing models, Lemkin $607.70 case 7. Digital Applied, \"AI Agent Productivity Statistics 2026: 100+ ROI Data Points\" (Apr 2026) — cost-per-task benchmarks, TTFV, payback 8. Deloitte, \"Agentic AI is scaling faster than guardrails\" and State of Generative AI in the Enterprise Q1 2026 9. Bain & Company Agentic AI Benchmark 2026; Gartner Agentic AI Pulse 2026 (41% year-one ROI) 10. Spheron / Ramp enterprise data on token price decline and 5–30x agent token burn",
     ],
-    pullQuote: "Here is the strangest thing about AI agents in 2026: both extreme readings of the market are correct. If you price the w",
+    pullQuote: "Here is the strangest thing about AI agents in 2026: both extreme readings of the market are correct.",
     stats: [
       { value: "$4.18", label: "Tier-1 customer ticket" },
       { value: "$48.00", label: "Routine PR code review" },
@@ -1167,7 +1165,7 @@ export const insights: Insight[] = [
       "Sources",
       "• World Bank Group, State and Trends of Carbon Pricing 2026 (press release, 19 May 2026): revenue >$107B in 2025, up from <$30B in 2016; 87 instruments (+7 YoY); average price ~$21/tCO₂e; coverage just over 29% of global GHG emissions; credit issuances +8% 2024→2025; ~1 billion tonnes unretired credits in 2024. • I4CE, Global Carbon Accounts 2020: carbon pricing revenue $45B (2018) → $48B (2019). • Ecologic Institute, State and Trends of Carbon Pricing 2023 summary: coverage grew 7% → ~23% over the first decade of reporting; ~USD 100B revenue in 2022. • Climate Action Network (11 Feb 2025): only 13 of 195 parties submitted NDC 3.0 by the February deadline. • Fastmarkets, \"COP30 sparks new climate commitments\" (25 Nov 2025): 29 NDC 3.0 submissions in the pre-COP30 wave covering 45%+ of global emissions; China, Indonesia, Türkiye ≈ 33% combined. • UNEP, Emissions Gap Report 2025 (4 Nov 2025): full NDC implementation 2.3–2.5°C; current policies 2.8°C; pre-Paris projections 3–3.5°C; 35%/55% emissions cuts vs 2019 needed by 2035 for 2°C/1.5°C.",
     ],
-    pullQuote: "Climate policy has a reputation problem: endless summits, unreadable pledges, and a persistent gap between what governme",
+    pullQuote: "Climate policy has a reputation problem: endless summits, unreadable pledges, and a persistent gap between what governments promise and what they do.",
   },
   {
     slug: "20260814-ai-workforce-displacement-creation",
@@ -1214,7 +1212,6 @@ export const insights: Insight[] = [
       "Sources",
       "• World Economic Forum — Future of Jobs Report 2025, survey of 1,000+ employers across 22 industry clusters and 55 economies (170M created / 92M displaced / net +78M by 2030; 63% cite skills gap) • Challenger, Gray & Christmas — Job Cut Announcement Report, tracking employer-stated layoff reasons since 1993 (101,743 AI-cited cuts through June 2026; 23% of all cuts; 173,568 since 2023) • Goldman Sachs Research — monthly net payroll estimate (~25,000 eliminated / ~9,000 added / ~16,000 net per month; 6–7% workforce over 10 years) • Stanford HAI — 2026 AI Index Report, ninth annual edition, April 2026 (entry-level dev employment −20% since 2024; AI-skill postings 7.8%→13.2%) • PwC — 2026 Global AI Jobs Barometer, analysis of 1B+ job ads across 27 countries (62% wage premium; 52% vs 36% headcount growth; 69% vs 9% job growth) • International Monetary Fund — New Jobs Creation in the AI Age, Staff Discussion Note, January 2026 (nearly 40% of jobs worldwide exposed to AI-driven change)",
     ],
-    pullQuote: "For two years the debate about AI and jobs has been stuck between two slogans: \"AI will take your job\" and \"AI will crea",
   },
   {
     slug: "20260815-frontier-model-benchmarks-2026",
@@ -1253,7 +1250,7 @@ export const insights: Insight[] = [
       "Sources",
       "• Vellum LLM Leaderboard (August 2026) — GPQA Diamond, SWE-Bench Verified, BrowseComp, Terminal-Bench 2.1 scores: https://www.vellum.ai/llm-leaderboard • thinkml.ai — LLM API Pricing 2026: GPT-5.6 vs Claude vs Gemini vs Grok: https://thinkml.ai/llm-api-pricing-2026-gpt-5-6-vs-claude-vs-gemini-vs-grok/ • Codesota — LLM Benchmark Leaderboard 2026: https://www.codesota.com/llm • iternal.ai — LLM Comparison 2026: 30+ Models Benchmarked & Ranked: https://iternal.ai/llm-selection-guide",
     ],
-    pullQuote: "For most of 2024 and 2025, the frontier model race was easy to follow: each new release from OpenAI, Anthropic, or Googl",
+    pullQuote: "For most of 2024 and 2025, the frontier model race was easy to follow: each new release from OpenAI, Anthropic, or Google posted a headline number that clearly beat the last one.",
   },
   {
     slug: "20260816-renewable-energy-transition",
@@ -1295,7 +1292,7 @@ export const insights: Insight[] = [
       "Sources",
       "• IRENA, Renewable Capacity Statistics 2026 (published March 31, 2026) — global renewable capacity data through end-2025: 5,149 GW total; 692 GW added in 2025 (+15.5%); solar 2,392 GW / +510.3 GW; wind 1,291 GW / +158.7 GW; hydropower 1,296 GW / +18.4 GW; RES share of installed capacity 46.3% → 49.4%; Asia 74.2% of new additions; China +440.1 GW. • IEA, Global Energy Review 2026 — solar generation +600 TWh in 2025 (largest annual increase on record for any source outside post-crisis recovery); solar met >25% of additional energy demand; coal 34% of global electricity generation; global energy-related CO₂ emissions record 38.4 Gt (+0.4%); energy demand +1.3%. • IRENA press release (April 2026), \"Near-700 GW Surge in 2025 Proves Renewable Energy Resilience\" — summary of capacity statistics release.",
     ],
-    pullQuote: "The numbers coming out of the renewable energy world right now are genuinely staggering — and genuinely complicated. In ",
+    pullQuote: "The numbers coming out of the renewable energy world right now are genuinely staggering — and genuinely complicated.",
   },
   {
     slug: "20260817-ai-memory-stocks-rotation",
@@ -1329,7 +1326,7 @@ export const insights: Insight[] = [
       "Sources",
       "• ChartRow AI-stocks list — 36 AI names (chips, memory, foundry, networking, hyperscalers, neoclouds, energy, hardware infra, AI software, ETFs), close 2026-08-14. Total returns, YTD from last close of 2025. • ChartRow S&P 500 YTD — benchmark comparison, ~+14.2% through mid-August 2026. • Timothy Sykes, \"SNDK Stock Jumps As AI Flash Memory Deal Fuels Rally\" (2026-08-13) — 9th-gen flash memory platform with Kioxia; SNDK +15.77% intraday; $14B buyback expansion; Raymond James PT raised from $1,470 to $2,000.",
     ],
-    pullQuote: "A week ago, memory & storage was the only red category in the AI basket — Sandisk and Western Digital had just guided do",
+    pullQuote: "A week ago, memory & storage was the only red category in the AI basket — Sandisk and Western Digital had just guided down, and the group's median one-week return was -2.6%.",
   },
   {
     slug: "20260818-biodiversity-loss-conservation",
@@ -1360,7 +1357,7 @@ export const insights: Insight[] = [
       "• IUCN Red List of Threatened Species, version 2026-1 (updated 9 July 2026) — 175,909 species assessed, 49,505 threatened. Summary Statistics Table 1a. • IUCN press release, 9 July 2026 — \"From desert frog to deep-sea molluscs, remarkable species at risk\" (numbat recovery; 62% of hydrothermal vent molluscs threatened by deep-sea mining). • WWF Living Planet Report 2024 — 73% average decline in monitored vertebrate populations 1970-2020; regional declines: Latin America & Caribbean 95%, Africa 76%, Asia-Pacific 60%, North America 39%, Europe & Central Asia 35%. • Our World in Data — \"How does the Living Planet Index vary by region?\" (regional breakdown).",
       "Data visualizations generated via wegoze's internal Plotly chart service. Figures are for informational purposes; species assessments are estimates and change with each Red List update.",
     ],
-    pullQuote: "In July 2026, the IUCN Red List crossed a milestone that would have been unthinkable two decades ago: 175,909 species ar",
+    pullQuote: "In July 2026, the IUCN Red List crossed a milestone that would have been unthinkable two decades ago: 175,909 species are now formally assessed, and 49,505 of them — 28% — are threatened with extinction.",
   },
   {
     slug: "20260818-pandasai-conversational-data-analysis",
@@ -1411,7 +1408,7 @@ export const insights: Insight[] = [
       "Sources",
       "• PandasAI GitHub repository (sinaptik-ai/pandas-ai) — README, features, usage examples. MIT license; 23,751 stars / 2,343 forks as of Aug 18, 2026. • PyPI download statistics via pypistats.org API — daily and monthly download counts, Aug 2026. • GitHub API — repository metadata (created April 2023, topic tags including text-to-sql and data-visualization).",
     ],
-    pullQuote: "Ask most analysts what percentage of their day goes to \"writing the query\" versus \"understanding the answer\" and they'll",
+    pullQuote: "Ask most analysts what percentage of their day goes to \"writing the query\" versus \"understanding the answer\" and they'll tell you the honest number is upside down.",
   },
   {
     slug: "20260819-ocean-plastic-solutions-scaling",
@@ -1449,7 +1446,7 @@ export const insights: Insight[] = [
       "Sources",
       "• OECD Global Plastics Outlook — plastic production and waste-fate projections (1950-2060); 353 Mt waste in 2019, 9% recycled, 50% landfilled. • UN Environment Programme — 19-23 Mt of plastic entering aquatic ecosystems annually. • Our World in Data — 80% of ocean plastic is land-based; 1,000 rivers responsible for ~80% of river plastic. • The Ocean Cleanup Research — up to 100,000 t of floating plastic in the GPGP; 1,000-river source identification (2026 publications). • 5 Gyres Institute — 82-358 trillion particles / up to 4.9 Mt on ocean surface; post-2005 density acceleration. • Plastic Bank — 162 million kg collected by April 2025, 57,000+ collectors. • Ocean Conservancy — International Coastal Cleanup: 19M volunteers, 400M lbs removed since 1986; bag bans cut beach litter 25-47%; 60% of fish studied contain microplastics. • Climate Change News / UNEP — INC treaty roadmap (March 2026), Nairobi informal talks (June 30-July 3 2026), next round late 2026/early 2027. • Break Free From Plastic — public denunciation of chair text, August 18 2026.",
     ],
-    pullQuote: "Plastic is the material the modern world was built on — and the one it is now drowning in. Roughly 460 million tonnes we",
+    pullQuote: "Plastic is the material the modern world was built on — and the one it is now drowning in.",
   },
   {
     slug: "20260820-democratic-tech-governance-enforcement",
@@ -1487,7 +1484,7 @@ export const insights: Insight[] = [
       "Sources",
       "• Freedom House, Freedom on the Net 2025: An Uncertain Future for the Global Internet (published Nov 2025) — 72 countries assessed; 15th consecutive year of decline; 28 deteriorated / 17 improved / 27 stable; 57 of 72 countries saw arrests or imprisonment for online expression (record high); 70% of world population under online content manipulation; 9 of 18 \"Free\" countries declined; Kenya largest decline, Bangladesh strongest improvement; Iceland freest, China and Myanmar most repressive. • Freedom House, Freedom in the World 2026 (Mar 2026) — global freedom declined for the 20th consecutive year; 54 countries saw declines, 35 improvements. • European Parliament Digital Omnibus amendments (final vote Jun 16, 2026: 423–57, 174 abstentions) — high-risk AI obligations delayed to Dec 2, 2027 / Aug 2028; Article 50 transparency + GPAI enforcement effective Aug 2, 2026; max fine €15M or 3% of global turnover. • Institute of Development Studies / African Digital Rights Network (Mar 2026) — eleven African countries spent over $2 billion on AI-powered surveillance systems; Chinese loans conditional on purchasing Chinese tech; most lack legal oversight. • Rest of World (Mar 20, 2026) — reporting on the IDS/African Digital Rights Network surveillance study. • State of Surveillance / Modern Diplomacy (2026) — China exports surveillance tech to 80+ countries; Huawei/ZTE presence in 63+ countries. • Carnegie Endowment, \"China's AI-Empowered Censorship\" (Mar 10, 2026) — how AI systems now underpin Chinese public and private censorship. • Wikipedia, Mass surveillance in China — 700+ million surveillance cameras (2023 estimate).",
     ],
-    pullQuote: "For years, the debate over democratic technology governance ran on two separate tracks. One track was regulatory: would ",
+    pullQuote: "For years, the debate over democratic technology governance ran on two separate tracks.",
   },
   {
     slug: "20260821-privacy-enforcement-7-billion",
@@ -1531,7 +1528,7 @@ export const insights: Insight[] = [
       "Sources",
       "• CMS GDPR Enforcement Tracker — live database of GDPR fines, data refreshed 2026-08-21 (3,206 cases, €6.31B tracked; year-by-year totals 2018-2026) • DLA Piper GDPR Fines and Data Breach Survey (January 2026) — €1.2B in 2025 fines; 443 breach notifications/day (+22% YoY) • Kiteworks / The International Lawyer's Guide to Data Privacy Laws in 2026 (Mar 2026) — cumulative fines exceed €7.1B; 2,800+ fines through mid-2025; 60%+ since Jan 2023 • IAPP US State Privacy Legislation Tracker — 19 states with comprehensive laws as of mid-2025; 20 in effect 2026 • MultiState (Feb 2026) — 20 state privacy laws in effect in 2026; Indiana, Kentucky, Rhode Island joined Jan 1 • Future of Privacy Forum (Jan 2026) — GDPR Omnibus proposals; end of technology-neutral data protection law • UniConsent GDPR Enforcement and Fines 2026 (May 2026) — €7.1B total, €1.2B in 2025; Ireland €4.04B (57%); Spain ~1,000 fines • 2026 Thales Data Threat Report — only 33% of organisations know where their data is stored",
     ],
-    pullQuote: "For most of the past decade, data privacy enforcement was a spectator sport. A regulator would occasionally land a headl",
+    pullQuote: "For most of the past decade, data privacy enforcement was a spectator sport.",
   },
   {
     slug: "20260822-circularity-gap-widening",
@@ -1571,7 +1568,7 @@ export const insights: Insight[] = [
       "Sources",
       "• Circle Economy, Circularity Gap Reports (2020, 2023, 2026) — global circularity rate (8.6%→7.2%→6.9%); \"race to 17%\" target; country circularity rates (Poland 10.2%, Austria 9.7%, N.Ireland 7.9%, UK 7.5%, Switzerland 6.9%, Denmark 4.0%, Sweden 3.4%, Ireland 2.7%, Norway 2.0%, Scotland 1.3%, Brazil 1.3%) • Circle Economy / PACE (2020) — 8.6% circular baseline • UN Global E-Waste Monitor — e-waste: 34 Mt (2010), 53.6 Mt (2019), 62 Mt (2022, +82% from 2010), projected 82 Mt (2030); 22.3% formal collection/recycling; $62B lost raw materials annually • European Commission — EU circular material use rate 11.5% (2022) • Wikipedia: Circular economy / Electronic waste — consolidated references to the above reports",
     ],
-    pullQuote: "Here's a number that should stop you cold: the global economy is now only 6.9% circular. That means more than nine out o",
+    pullQuote: "Here's a number that should stop you cold: the global economy is now only 6.9% circular.",
   },
   {
     slug: "20260823-tax-inversion-companies-ultra-rich",
@@ -1611,7 +1608,7 @@ export const insights: Insight[] = [
       "Sources",
       "• Balkir, Saez, Yagan & Zucman, \"How Much Tax Do US Billionaires Pay? Evidence from Administrative Data,\" NBER Working Paper 34170 (2025) — effective tax rates by wealth group, 2018-2020: top 400 = 23.8%, full population = 30%, top labor earners = 45%. • Deloitte / IRS US Tax Highlights 2026 — corporate rate 21%, individual brackets 10-37%, capital gains 20%, NIIT 3.8%. • Tax Foundation, \"Business Taxes — Options Guide 2026\" — corporate statutory rate history (35% → 21%, TCJA), combined state+local ~25.6%. • LegalClarity, \"Do Corporations Pay Less Taxes Than Individuals?\" — double taxation of C-corps, combined ~40%, CAMT 15%. • Tax Foundation, \"US Effective Tax Rates Remain Highly Progressive, Despite Claims\" — the counterargument and CBO 2021 figures (top 1% ETR 29.8%). • CBS News / UC Berkeley News, Sept 2025 — coverage of the NBER billionaires study. • PandasAI analysis performed live against research/tax-effective-rates.csv via the wegoze pandas-ai integration (Nous backend).",
     ],
-    pullQuote: "We tend to assume the tax code is progressive — the more you earn, the higher the percentage you pay. For most of a cent",
+    pullQuote: "We tend to assume the tax code is progressive — the more you earn, the higher the percentage you pay.",
   },
   {
     slug: "20260828-climate-change-policy-developments",
@@ -1650,7 +1647,7 @@ export const insights: Insight[] = [
       "Sources",
       "• UNEP Emissions Gap Report 2025 (\"Off Target\"), November 2025 — warming projections (2.8°C current policies, 2.3–2.5°C full NDC), 2035 cuts needed (35%/55%), implementation gap (5–7 GtCO₂e), US withdrawal effect (+2 GtCO₂e). • UNFCCC NDC Synthesis Report 2025, 28 October 2025 + update 10 November 2025 — 64 NDCs covering ~30% of global emissions; aggregate 2035 level ~13.0 GtCO₂e (6% below prior 2030 projection, 17% below 2019); peaking before 2030; 89% economy-wide targets. • Global Carbon Budget 2025 (Friedlingstein et al., Earth Syst. Sci. Data, 18, 3211–3288, 2026) — 38.1 GtCO₂ fossil (record, +1.1%), flat total at 42.2 GtCO₂; remaining budgets 170 GtCO₂ (1.5°C, ~4 yrs), 525 GtCO₂ (1.7°C, 12 yrs), 1,055 GtCO₂ (2°C, 25 yrs); atmospheric CO₂ 425.7 ppm. • UNFCCC COP30 outcomes (Belém, 10–25 November 2025) — 56 decisions, Global Mutirão decision, Global Implementation Accelerator, Baku-to-Belém Roadmap to US$1.3T, tripling adaptation finance by 2035. • COP30 Presidency Executive Report, 19 March 2026 — implementation roadmap for the inter-sessional period. • Carbon Brief (Nov 2025) — analysis of UNEP EGR 2025 and Global Carbon Budget 2025. • World Resources Institute — progress toward the $1.3 trillion climate finance goal.",
     ],
-    pullQuote: "There is a strange tension running through climate policy in 2026. The head of the UN Environment Programme looked at th",
+    pullQuote: "There is a strange tension running through climate policy in 2026.",
   },
   {
     slug: "20260830-ai-regulation-and-governance",
@@ -1693,7 +1690,7 @@ export const insights: Insight[] = [
       "Sources",
       "• European Commission, AI Act enforcement framework (Aug 2026) • Regulation AI, \"EU AI Act Enforcement Has Started: What Changed on 2 August 2026\" (updated 24 Aug 2026) • Captain Compliance, \"EU AI Act Enforcement Begins\" (Aug 2026) • IA Governance, \"The AI Act in 2026: Timeline, Obligations and When Enforcement Really Begins\" • Regulation (EU) 2024/1689 (AI Act) and Regulation (EU) 2026/1744 (Digital Omnibus on AI), EUR-Lex • Axis Intelligence Research, \"AI Laws by Country 2026: Binding Rules, Risk Scores, and the Emerging Global Standard\" (22 Jul 2026) and \"AI Regulation by Country 2026\" — citing Stanford HAI, OECD AI Policy Navigator, IAPP Global AI Law and Policy Tracker (Feb 2026), Pew Research (2025, 25-country survey) • Stanford HAI, AI Index Report 2025 & 2026 — Policy and Governance chapters (U.S. federal/state law counts; 47-country / 12-enforcement-mechanism figures; legislative-mention data) • OECD.AI Policy Navigator (80+ jurisdictions) • VerifyWise, Global AI Regulations Tracker 2026 (60+ countries, 130+ regulations in force, Jun 2026) • AIRiskAware, \"AI Regulation by Country 2026\"",
     ],
-    pullQuote: "For the first two years of its existence, the European Union's AI Act was mostly a document: ambitious, carefully phased",
+    pullQuote: "For the first two years of its existence, the European Union's AI Act was mostly a document: ambitious, carefully phased, and full of dates that kept getting pushed.",
     stats: [
       { value: "€35 million or 7% of global annual turnover, whichever is higher", label: "Serious breach of prohibited practices (Art. 5)" },
       { value: "€15 million or 3% of global annual turnover", label: "Breach of provider / deployer obligations" },
@@ -1736,7 +1733,7 @@ export const insights: Insight[] = [
       "Sources",
       "• ChartRow AI-stocks list (36 companies, 10 categories), end-of-day 2026-09-02 — category, price, 1W, YTD, 1Y, 5Y returns and market caps • SlickCharts S&P 500 YTD returns, close 2026-09-02 (total return +12.86%, price return +11.99%) • Nvidia fiscal Q2 FY2027 results and guidance (reported August 26–27, 2026): revenue $96.2B (+106% YoY), data-center $89B (+117%), Q3 guide ~$108B, ~70% FY2028 growth expectation, gross margin ~74% guide • Hyperscaler capex context: top-five cloud vendors ~$800B capex in 2026, ~$1.3T projected 2027, >$2T cloud backlog • Market-macro context: Fed Chair Wash Jackson Hole hawkish tone; rate-hike odds >66% as of September 1, 2026; August nonfarm payrolls due September 4; FOMC decision September 15–16",
     ],
-    pullQuote: "On Thursday, August 27, Nvidia reported a fiscal Q2 that broke the mold even by its own absurd standards: $96.2 billion ",
+    pullQuote: "On Thursday, August 27, Nvidia reported a fiscal Q2 that broke the mold even by its own absurd standards: $96.2 billion in revenue, up 106% year over year, with data-center revenue up 117% to $89 billion.",
   },
   {
     slug: "20260904-ai-valuation-yield-standoff",
@@ -1775,7 +1772,7 @@ export const insights: Insight[] = [
       "Sources",
       "• ChartRow AI-stocks list (36 companies, 10 categories), end-of-day 2026-09-03 — price, 1D/1W/YTD/1Y/5Y returns, market cap, P/E, P/S and 10-year valuation percentiles • SlickCharts S&P 500 YTD returns, close 2026-09-03 (total return +14.06%, price +13.18%) • InvestorPlace, \"AI Stocks Are Stuck — and Not Because of Earnings,\" September 3, 2026 — excess-liquidity thesis (Bloomberg G10 calculation; excess liquidity negative since June) • Fintech.tv / Freedom Capital Markets, \"September Stock Market Risks: Fed, Rates and AI Stocks\" — 10-yr yield >4.75% toward 5%, oil near $90, September seasonality, software/SaaS rebound • TradingKey market note — 10-yr yield highest since January 2025 (>4.79%), ~70% September rate-hike odds, JPMorgan tactical caution, August NFP consensus +55k after July -23k • Federal Reserve Governor Christopher Waller, speech on the economic outlook, September 3, 2026 — disinflation signs, rate-hold/hike conditions ahead of the September 15–16 FOMC",
     ],
-    pullQuote: "Here is the strangest thing about the AI trade right now: nearly everything that is supposed to move these stocks has mo",
+    pullQuote: "Here is the strangest thing about the AI trade right now: nearly everything that is supposed to move these stocks has moved the right way for months — and the stocks have gone sideways anyway.",
   },
   {
     slug: "20260905-jobs-report-ai-chips-decouple",
@@ -1812,7 +1809,7 @@ export const insights: Insight[] = [
       "Friday's blowout jobs report set up the cleanest test of the AI trade's pricing logic in months, and the result was unambiguous: the broad market sold off on rate fears while the semiconductor complex — including the very names with the most stretched decade-high multiples — rallied 3-7%. The AI hardware trade is no longer primarily a discount-rate story; it is a story about contracted capital expenditure, a memory supply squeeze, and an earnings delivery phase that has detached from the macro oscillator. That decoupling is bullish for the build-out but carries its own risk: a trade that stops listening to rates can be blindsided by them. August CPI on September 10-11 is the next swing factor, and the September 15-16 FOMC meeting will test whether Friday's chip rally was conviction or denial.",
       "Data: U.S. Bureau of Labor Statistics and CNBC (payrolls); CME FedWatch (rate odds); Reuters/NVIDIA (Hugging Face deal); ChartRow AI-stocks list, close Sept 4 2026 (36 names, total-return basis, sorted by YTD). Not investment advice.",
     ],
-    pullQuote: "Friday was the closest thing the AI trade has had to a controlled experiment all year. The U.S. economy added 162,000 jo",
+    pullQuote: "Friday was the closest thing the AI trade has had to a controlled experiment all year.",
   },
   {
     slug: "20260908-sp500-semiconductor-concentration",
@@ -1856,7 +1853,7 @@ export const insights: Insight[] = [
       "---",
       "Sources: Citadel Securities / FactSet (July 2026), Investing.com (June 30, 2026), Motley Fool (July 2026), ETFdb.com (Sept 2026), CNN Business (Aug 27, 2026), State Street (July 20, 2026), EBC Financial Group (Q2 2026), Seeking Alpha (June 30, 2026), BofA Bubble Risk Indicator (June 2026), LSEG / Tajinder Dhillon (July 2026).",
     ],
-    pullQuote: "Here's a number that should make anyone with a retirement portfolio pause: semiconductor stocks now represent 19.7% of t",
+    pullQuote: "Here's a number that should make anyone with a retirement portfolio pause: semiconductor stocks now represent 19.7% of the S&P 500.",
   },
   {
     slug: "20260911-cpi-day-concentration-extreme",
@@ -1893,7 +1890,6 @@ export const insights: Insight[] = [
       "---",
       "Data: ChartRow 500-stock US large-cap universe (close 2026-09-10); CME FedWatch; Cleveland Fed inflation nowcast; GW&K Investment Management, RBC Wealth Management, Capital Group and Morgan Stanley concentration studies. Charts generated from live screener data via Plotly. This post is for information only and is not investment advice.",
     ],
-    pullQuote: "The Odds Have Tripled in Five Weeks",
   },
   {
     slug: "20260912-fed-hike-priced-capex-won",
@@ -1936,7 +1932,7 @@ export const insights: Insight[] = [
       "Sources",
       "• U.S. Bureau of Labor Statistics, Consumer Price Index — August 2026 (USDL-26-1497), released Sep 11, 2026. CPI-U +0.4% m/m SA, +3.4% y/y; core +0.3% m/m, +2.4% y/y; energy index +16.3% y/y, gasoline +3.9% m/m. Airline fares +2.7% m/m, lodging away from home +2.4% m/m. • Reuters / KFGO, \"US consumer inflation picks up in August,\" Sep 11, 2026 — hike odds 91% post-CPI vs 72% Thursday (CME FedWatch); core PCE estimates 3.2-3.3% y/y. • CNBC, \"CPI inflation report August 2026,\" Sep 11, 2026 — headline/core vs consensus; Fed funds 3.50-3.75%. • Morningstar, \"August CPI Report Highlights Stubbornly High Inflation,\" Sep 11, 2026 — BofA \"all but lock in a rate hike\"; Oxford Economics on shelter; hike odds 87% (from 72%). • RBC Economics, \"US August CPI: Inflation Is Moving in the Wrong Direction,\" Sep 11, 2026 — core goods pass-through analysis. • The Hill, \"August inflation holds at 3.4 percent amid Iran war squeeze,\" Sep 11, 2026 — Brent ~$107. • TradingKey, \"10-Year US Treasury Yield Retreats After Hitting 4.979%,\" Sep 11, 2026 — 10-yr intraday 4.9915% (highest since Oct 2023), closed ~4.92-4.95%; 93.7% odds of 25bp cumulative by October, 39.3% of 50bp. • Reuters/CNA, \"Bond yields near multi-year peaks,\" Sep 11, 2026; TMGM, \"US Treasury yields ease after CPI\" — 5-yr breakeven 2.46%, 10-yr breakeven 2.40%, 30-yr ~5.3%. • 24/7 Wall St., \"Hewlett Packard Enterprise and Dell Surge 11% as Oracle's Capex Guidance Lifts AI Server Demand,\" Sep 11, 2026. • The Motley Fool, \"Stock Market Today, Sept. 11: HPE Surges on AI Infrastructure Demand,\" Sep 11, 2026 — S&P 500 +0.84% at 7,656; Nasdaq +0.96% at 26,333; HPE close $62.09 +12.4%; DELL $567.30 +12.0%; ANET +5.6%. • AInvest, \"Oracle Raised AI Capex to $90-95B and HPE, Dell Jumped 11%,\" Sep 11, 2026 — FY27 capex plan, $236B debt, $20B ATM equity sale, $664B RPO, HPE warrant structure, Dell $64.1B AI orders / $43B backlog. • ChartRow heat/stocks dataset, 500 US large-cap names, close of 2026-09-11 — 1-day/1-week/YTD returns, market caps, GICS sector classification. Combined cap $83.7T; top-10 concentration 35.6%.",
     ],
-    pullQuote: "Friday, September 11 gave the market two narratives at once. The macro story: August consumer inflation accelerated to 0",
+    pullQuote: "Friday, September 11 gave the market two narratives at once.",
     stats: [
       { value: "+12.4%", label: "HPE" },
       { value: "+12.0%", label: "Dell" },
@@ -1988,7 +1984,7 @@ export const insights: Insight[] = [
       "Sources",
       "• CME FedWatch market-implied probabilities, as reported by Reuters (Sep 9), Gate.com event-market data (Sep 9), Kitco (Sep 11), Techgaged (Sep 12), Wall Street Times (Sep 8) • US Bureau of Labor Statistics - August 2026 CPI (Sep 11: +0.4 percent m/m, 3.4 y/y; core +0.3 m/m, 2.4 y/y); August PPI (Sep 10: +0.4 m/m, +5.4 y/y) • Reuters - \"Fed to hold rates steady in rest of 2026; rising number of analysts see at least one hike\" (Sep 9); \"Wall Street jumps, oil lower ahead of Fed vote\" (Sep 11) • ING THINK - \"FOMC preview: Fed set to hike 25bp in recalibration move\" (Sep 2026) • SEB Research - Fed September meeting preview (Sep 2026) • University of Michigan Consumer Sentiment, September flash (Sep 11: 47.8; 1-yr inflation expectations 4.6 percent) • Kitco News / BullionVault - gold and Treasury reactions to CPI (Sep 11); MKS Pamp correlation commentary • KenMacro - \"US CPI Reprices Fed: Gold, Dollar and FOMC Outlook\" (Sep 2026) • Interactive Brokers Campus - \"Stocks Post Relief Rally as Core CPI Plunges to 64-Month Low\" (Sep 11) • ChartRow heat-map dataset - 500 US large caps, GICS sector fields, close 2026-09-11 (total cap $83.7T; sector medians computed from raw rows) • Kalkine - US sector momentum updates (Sep 8-10, 2026) • Western & Southern - Monthly Market Pulse, September 2026",
     ],
-    pullQuote: "On Friday, September 11, the market settled its argument about next week's Federal Reserve meeting. After August's consu",
+    pullQuote: "On Friday, September 11, the market settled its argument about next week's Federal Reserve meeting.",
   },
   {
     slug: "20260914-ai-slowdown-call-vs-buildout-tape",
@@ -2030,7 +2026,7 @@ export const insights: Insight[] = [
       "---",
       "Data: ChartRow US 500 screener (close 2026-09-11), Bloomberg, Reuters, Business Times Singapore, AJP, Investor's Business Daily, CME FedWatch as reported. Charts rendered via the wegoze Plotly service. Analysis is for information only, not investment advice.",
     ],
-    pullQuote: "Saturday morning, Anthropic CEO Dario Amodei published a 3,800-word essay with one core demand: \"We must slow the pace a",
+    pullQuote: "Saturday morning, Anthropic CEO Dario Amodei published a 3,800-word essay with one core demand: \"We must slow the pace at which we improve the capabilities of A.I.",
   },
   {
     slug: "20260915-ai-trade-split-three-layers",
@@ -2073,7 +2069,7 @@ export const insights: Insight[] = [
       "Sources",
       "• ChartRow S&P 500 constituent screener, close 14 September 2026 (500 names; medians computed on returns: 1-day, YTD; segment groupings as labelled) • Reuters: \"Fed rate hike on Wednesday now likely... at least one more to follow\" (14 Sept 2026, poll n=101, 86 of 101 expecting a hike) and \"Fed to hold rates steady in rest of 2026\" (9 Sept 2026, poll 4-9 Sept, n=93, 65 of 93 holding) • Reuters via Rallies: \"US Stocks — Wall Street ends down, calls for AI slowdown pummel chipmakers\" (14 Sept 2026; S&P 7,619.94, Nasdaq 26,186.41, SOX −5.9%) • CNBC (Jim Cramer): \"Why the stock market avoided major sell-off on AI concerns\" (14 Sept 2026) • Forbes: \"Crowdstrike Skyrockets 14% As AI Fears Send Cybersecurity Stocks Surging\" (14 Sept 2026) • 24/7 Wall St: \"Cybersecurity Stocks Surge as AI Safety Warnings Spark Security Bid\" (14 Sept 2026; CIBR +4% vs pure-plays, CrowdStrike FY27 guidance) • MarketScreener/Dow Jones: \"Cybersecurity Stocks Rally on AI Risk Debate\" (14 Sept 2026) • IBTimes: \"Palantir Stock Rises as Investors Rotate Into 'Sovereign AI' Software\" (14 Sept 2026) • FinancialContent/StockStory: enterprise software rally roundup (14 Sept 2026) • Investopedia markets coverage, 14 September 2026; FinancialJuice FOMC prep (14 Sept 2026; futures 91.5% hike probability) • Federal Reserve June 2026 SEP (median PCE 3.6%, median funds rate 3.8%); July 2026 FOMC 9-3 hold, minutes (Hammack, Kashkari, Logan dissents) • TradingKey: BofA Subramanian S&P target raise to 7,400 with correction warning (14 Sept 2026)",
     ],
-    pullQuote: "On the scoreboard, Monday, September 14 looked almost polite: the S&P 500 slipped 0.48% to 7,619.98, the Nasdaq gave up ",
+    pullQuote: "On the scoreboard, Monday, September 14 looked almost polite: the S&P 500 slipped 0.48% to 7,619.98, the Nasdaq gave up 0.56%, the Dow shed 0.29%.",
   },
   {
     slug: "20260916-fed-hike-eve-tape-voted-first",
@@ -2117,7 +2113,7 @@ export const insights: Insight[] = [
       "Sources",
       "• CME FedWatch Tool — fed funds futures probabilities, Sep 4–15, 2026 (44% → 58% → 89% → 93% sequence) • Reuters poll of economists, Sep 4–9 (n=93) and re-poll Sep 14 (n=101) — hold/hike flip • Newsquawk FOMC preview, Sep 16, 2026 — SEP consensus, dot-history (Clarida/1997), Warsh abstention • Kiplinger & FinancialJuice FOMC prep, Sep 14–15, 2026 — Wells Fargo, Deutsche Bank dot expectations • TradingKey FOMC preview, Sep 16, 2026 — 2026/2027 dot scenarios, yield/gold/dollar reaction map • CNBC market wrap, Sep 15, 2026 — 10-yr yield 5.012% intraday, BofA/Bowler notes • hdfcsky market wrap, Sep 15, 2026 — Nasdaq/SOX closes, sector movers, Brent $106.18 • Reuters, \"Investors nervous about AI spending slowdown,\" Sep 15, 2026 — Mindset Wealth quote, capex vulnerability • cryptobriefing, Sep 15, 2026 — Micron $22B commitments, Broadcom-Meta 2029, Amazon $220B capex, Piper Sandler initiations • BofA Global Research via insideai.news — big-5 hyperscaler capex $795B 2026 / $1.08T 2027; Arya $3T 2030 AI capex • ChartRow market board, close of Sep 15, 2026 — 500 US large caps, sector and 1-day/1-week returns (research/chartrow_20260916.json)",
     ],
-    pullQuote: "Tuesday's trading gave us a dress rehearsal of both scenarios. And the numbers are unusually clean, because the Fed blac",
+    pullQuote: "Tuesday's trading gave us a dress rehearsal of both scenarios.",
   },
   {
     slug: "20260917-fed-hike-dotplot-did-the-damage",
@@ -2161,7 +2157,6 @@ export const insights: Insight[] = [
       "Sources",
       "• CNBC, \"Fed rate decision September 2026: Fed hikes rates\" and \"Investors react to Fed hike,\" Sep 16, 2026 (vote details, dot distribution, UBS 16-cycle study) • Wolf Street, \"Fed Finally Hikes, Dot Plot Sees More Rate Hikes,\" Sep 16, 2026 (dot counts, press conference) • InvestingLive, \"Fed dot plot backs hawks as Warsh tone rattles markets,\" Sep 16, 2026 (median dot vs Wall Street forecasts, Goldman/AS&L divergence) • Chatham Financial, \"Fed hikes rates, keeps focus on price stability,\" Sep 16, 2026 (92% pre-meeting odds, curve impact, HY issuance) • ECM Source, \"Fed Hikes Rates to 4.00%: Bond Yields and Dot Plot Reaction,\" Sep 16, 2026 (IORB/discount window, SEP revisions, 10-year intraday range) • Scotiabank Economics, \"FOMC Hikes, Guides At Least One More To Come,\" Sep 16, 2026 (OIS pricing ~100bp total, longer-run rate 3.2%) • Continuum Economics, \"FOMC — Further tightening likely if data holds up,\" Sep 16, 2026 (2027/2028/2029 dot skews, Waller note) • Reuters / Bloomberg / DTN, oil coverage Sep 16, 2026 (Saudi East-West pipeline restoration timeline, Brent $105.71, WTI $102.43 settlements) • Asia Business Daily, \"Fed Raises Interest Rates for First Time in Over Three Years,\" Sep 17, 2026 (closing equity index levels, 2Y/10Y/30Y closes) • ING Think, \"Rates Spark: US 10yr likely gets above and stays above 5%,\" Sep 16, 2026 (2s10s below 30bp, 5.25% target) • Wealthguard LLC, \"Historical S&P 500 Returns After Fed Hikes,\" Sep 9, 2026 (six-cycle post-first-hike path, 1997 outlier) • ChartRow 500-name US large-cap board, close of Sep 16, 2026 (sector medians, single-name returns, market caps; total board cap $82.6T)",
     ],
-    pullQuote: "The Decision: Unanimous, Priced, and Beside the Point",
   },
   {
     slug: "20260918-fed-hike-one-day-heal-chip-stack",
@@ -2199,7 +2194,7 @@ export const insights: Insight[] = [
       "Sources",
       "• ChartRow 500-stock heat board, closes 2026-09-16 and 2026-09-17 (500 US large caps; sector medians, per-stock daily returns, market caps; combined cap ~$83.6T) • WSJ market close, Sept 17, 2026 (Dow 51,778.04 +0.61%; S&P 7,637.76 +1.14%; Nasdaq 26,418.30 +1.69%) • Reuters, \"US labor market on solid footing,\" Sept 17, 2026 (initial claims 196k vs 208k expected; 4-week avg 203,250; continuing claims 1.730M) • Bloomberg, \"Nvidia's Huang Expects to Sell Twice as Many Chips Next Year,\" Sept 17, 2026 • Kiplinger/MarketScreener Sept 17 close reports (10-yr 4.936% -6.8bp; 2-yr 4.673%; breadth 2.21:1 Advancers on Nasdaq) • AP, \"How major US stock indexes fared Thursday 9/17/2026\" (Russell 2000 2,874.63; S&P second gain in nine sessions) • UBS hiking-cycle study (16 cycles: +10.8% avg 12-month gain after first hike; no bear market in year one) via Wealthguard • FOMC September 2026 decision and SEP (target 3.75%–4.00%; median dot YE2026 4.125%; 16/18 members favor more)",
     ],
-    pullQuote: "And then Thursday happened. The S&P 500 rose 1.14% to 7,637.76. The Nasdaq jumped 1.69% to 26,418. Breadth flipped from ",
+    pullQuote: "And then Thursday happened.",
   },
   {
     slug: "20260919-amodei-essay-moved-more-money-than-the-fed",
@@ -2238,7 +2233,7 @@ export const insights: Insight[] = [
       "---",
       "Data: ChartRow 500-stock screener (close 2026-09-18), Reuters, Bloomberg, TechCrunch, company press releases. Figures stated as reported; contracted values are company-stated and unaudited. This is analysis, not investment advice.",
     ],
-    pullQuote: "It wasn't. The event of the week was an essay.",
+    pullQuote: "It wasn't.",
   },
   {
     slug: "20260920-ai-safety-panic-moved-three-markets",
@@ -2282,7 +2277,7 @@ export const insights: Insight[] = [
       "Sources",
       "• ChartRow AI-stocks dataset — 500 largest US stocks, close 2026-09-18 (returns, market cap, sector classification; returns verified as decimal fractions, ×100 applied) • Reuters, \"Ten days that changed the course of AI,\" Sept 19, 2026 (safety-event timeline; Astra release; researcher departures; CEO coordination; OpenAI valuation reports) • CNBC, \"Higher interest rates and AI safety fears put the stock market to the test last week,\" Sept 19, 2026 (weekly index moves: Dow -1.7%, S&P -0.08%, Nasdaq +0.7%; GS -8.5%; CRWD +15%, PANW +10%; GEV/ETN Monday drops; Fed hike to 3.75-4.00%; Warsh commentary; Dreamforce/$63B Salesforce FY2030 guide) • CNBC, \"Anthropic and OpenAI hunt for smaller data center deals,\" Sept 18, 2026 (20-30 MW deal talks; Nscale $45B contract; Stargate 10 GW surpassed + 3 GW Georgia + 8 GW Ohio; Crusoe $3.9B Series F at $30.9B; Spark modular units; WSJ Crusoe report) • OpenAI disclosure to IEEE Spectrum, Sept 2026 via TemperatureZero, Sept 19 (Jalapeño: 13.4 PF FP4, 232 GB HBM4, 15.4 TB/s, 3.6x vs GB300, 0.31%→88.94% in ~40h, 20-month tape-out) • Komey Tetteh / Zentra Asset Management, \"Week in Markets, Sep 18\" (VIX 14.81; 2Y 4.76%, 10Y 5.01%; implied 2.20% vs realized 0.08% weekly move; index YTD table) • Fortune, \"Lawsuit claims Anthropic, OpenAI, SpaceXAI and Google illegally agreed to coordinate AI slowdown,\" Sept 19, 2026 (antitrust filing, N.D. Cal.) • CryptoSlate / WSJ, Sept 19, 2026 (Hacktron AI breach of OpenAI using Claude Opus 5; $6,500 bounty; Codex→GitHub path) • AInvest/CNBC, Sept 19, 2026 (Nscale IPO filing financials: $140.6M H1 revenue, $1.02B net loss, $14.6B valuation; OpenAI $278B cash usage / $856B compute spend 2026-30; JLL inference-share projection)",
     ],
-    pullQuote: "Ten days ago, Anthropic CEO Dario Amodei published an essay calling for the industry to pace frontier AI development. Sa",
+    pullQuote: "Ten days ago, Anthropic CEO Dario Amodei published an essay calling for the industry to pace frontier AI development.",
   },
   {
     slug: "20260921-ai-pause-fine-print-moat",
@@ -2349,7 +2344,7 @@ export const insights: Insight[] = [
       "Sources",
       "• BNR Nieuwsradio, \"AI-analisten: 'Angst voor AI-apocalyps is een rookgordijn voor de echte problemen'\", Sanne Dolsma, 20 September 2026 — analyst quotes via El País and Wired; Melanie Mitchell (Santa Fe Institute), Yann LeCun, Timnit Gebru (DAIR), Dan Selsam (OpenAI), Maria Ressa; explicit regulatory-capture warning on incumbent licensing pushes. • \"Why is China giving away its best AI models for free?\" — TechButMakeItReal, 5 August 2026 (11 chapters, 18 minutes) — closed vs open-weight vs open-source; mixture-of-experts vs dense architecture; DeepSeek V3 training reported at $5.6M against GPT-4's $100M+; $80 / $450 / $900 monthly work-load comparison; distillation and weight-leakage argument. • Dario Amodei, \"We Must Pace the Frontier\", 12 September 2026 (darioamodei.com) — embedded evaluators, democratic coordination, global coordination, chip export controls. • New York Times (12 Sep), CNBC (13 Sep), Decoding Discontinuity, AI Socratic, Winzheng (19 Sep) — endorsements by Altman, Musk, Hassabis; Coxon resignation; Chamath Palihapitiya and Jason Calacanis regulatory-capture objections; Sholto Douglas rebuttal; Nasdaq selection and reported ~$2T valuation expectations; Cruz/Klobuchar Senate bill. • The Guardian (20 Sep), NBC News, Forbes (14 Sep), AP/The Hill — China's foreign ministry response (\"fearmongering, confrontation and vicious competition\"); Global Times \"Cold War playbook\"; Xi's open-source pitch to the Global South; FBI/NSA/CISA joint advisory on distillation. • EU AI Act Service Desk, European Commission GPAI Guidelines, Slaughter and May, Quinn Emanuel, reg-intel.com and euaiactchecklist.com analyses — Article 53(2) open-source exemption scope, monetisation and licence conditions, the 10²⁵ FLOP systemic-risk threshold, surviving Article 53(1)(c)/(d) duties, Article 55 obligations. • Anthropic and OpenAI pricing pages, CloudZero and felloai Sept-2026 trackers — Fable 5.1 $10/$50, Opus 5 $5/$25, Sonnet 5 $2/$10, Haiku 4.5 $1/$5; GPT-5.6 Sol $4/$20; Claude Pro/Max and ChatGPT Go/Plus/Pro ladders. • OrcaRouter, Tech Insider (21 Aug), Artificial Analysis-referenced figures — DeepSeek V4 Pro $0.435/$0.87, DeepSeek V4.1 Flash $0.15/$0.60, Qwen3.8 Flash $0.15/$0.47, Kimi K3 $3/$15, GPQA Diamond scores (Kimi K3 93.5%, Qwen3.8-Max 92.6%, GLM-5.2 91.2%). • Hugging Face API download counts via MRKT3.0's Chinese LLM map (25 August 2026, last 30 days); SCMP / Interconnects AI (10 April 2026) — Qwen above 50% of global open-source downloads, ~1 billion cumulative.",
     ],
-    pullQuote: "On September 12, Anthropic chief executive Dario Amodei published a 3,800-word essay called We Must Pace the Frontier. H",
+    pullQuote: "On September 12, Anthropic chief executive Dario Amodei published a 3,800-word essay called We Must Pace the Frontier.",
   },
   {
     slug: "20260921-pjm-auction-ai-electricity-bill",
@@ -2400,7 +2395,7 @@ export const insights: Insight[] = [
       "Sources",
       "• PJM Interconnection Base Residual Auction results, delivery years 2024/25-2028/29 (auctions Dec 2022 - Jul 2026); clearing prices per MW-day • Monitoring Analytics (PJM Independent Market Monitor), 2025 State of the Market Report and 2026 data-centre impact report — 63% attribution, $9.3B, 75.5% wholesale cost rise, \"not reversible\" • IEEFA, \"Projected Data Center Growth Spurs PJM Capacity Prices by a Factor of Ten\" (2025); bill impacts ($21 Pepco, $18 w. MD, $16 Ohio), $1.4B from June 2026 • Reuters, \"Power costs soar in PJM region as data center demand spikes\" (7 Aug 2025) — ICF 30-60% bill projection by 2030 • Citizens Utility Board, \"Sustained High PJM Capacity Prices\" (15 Jul 2026) — 2028/29 auction $325, ComEd +50%, cap extension • MGrid, \"PJM 2026/2027 Capacity Prices Reach $329/MW-Day\" (Feb 2026) — 6,623 MW shortfall, Virginia 12.1 GW data centre load, 7-year queues • IEA, Energy and AI (April 2025): 415 TWh 2024, 945 TWh 2030 base case, 700-1,700 TWh 2035 range, 570B→1,200B litres water • IEA, Key Questions on Energy and AI (2026): 485 TWh (2025) → ~950 TWh (2030); per-task energy dropping ≥10×/year • IEA, Electricity 2026: US +420 TWh by 2030 with data centres ~50% of growth; 2,500 GW in grid queues • US Data Center Energy Usage Report (Univ. of Delaware/ARPA-E, 2024) via AWWA JAWWA \"Utility Planning for Data Centers\" (2026): 5.6B→17B gallons direct, 40-73B by 2028, 211B indirect • CRS Report R49057, \"Data Centers and Water: Frequently Asked Questions\": 97% municipal supply, 2% of US consumption, no federal metering • \"Small Bottle, Big Pipe\" (arXiv, 2026): 697-1,451 MGD new capacity demand by 2030 vs NYC ~1,000 MGD • Virginia SCC order approving GS-5 large-user rate class (Nov 2025, effective 1 Jan 2027); American Action Forum analysis of White House emergency auction proposal (Jan-Mar 2026); \"FERC Chose the Regions\" on RM26-4-000 six-operator orders (18 Jun 2026)",
     ],
-    pullQuote: "Everyone tracks what AI costs the companies building it: the $278 billion OpenAI expects to spend on compute, the $45 bi",
+    pullQuote: "Everyone tracks what AI costs the companies building it: the $278 billion OpenAI expects to spend on compute, the $45 billion Anthropic-Nscale deal, the neocloud balance sheets we picked apart earlier this week.",
     stats: [
       { value: "~$21", label: "Pepco customers, Washington DC" },
       { value: "~$18", label: "Western Maryland" },
@@ -2449,7 +2444,7 @@ export const insights: Insight[] = [
       "Sources",
       "• ChartRow AI-stocks board, close 2026-09-21 (36 names; medians and per-name returns computed from the board's daily payload; total returns, dividends reinvested — not investment advice) • Reuters, \"Wall St futures rise as AI stocks gain, oil prices slide,\" Sep 21, 2026; \"Xi rolls into Trump summit with China's trade engine roaring,\" Sep 21, 2026 • MarketWatch, \"AMD hits a major milestone as AI stocks blaze higher,\" Sep 21, 2026 (trillion-dollar threshold: record close above $612.56; 14th US company over $1T) • Semafor, \"AMD reaches a $1 trillion market cap as chip stocks drive rally,\" Sep 21, 2026 • 24/7 Wall St, \"Arm Surges 13% as Meta's Muse Agent Reignites CPU Demand Bet,\" Sep 21, 2026 (no chipmaker announcements; Arm $120B server-CPU-by-2030 estimate; Lip-Bu Tan 50%-of-demand comment) • Sensor Tower via Economy World/CNBC, Sep 21, 2026 (730k downloads in 5 days; 2.5M by day 13; ChatGPT 3.1M same window; Claude 400k; Grok 200k) • Apptopia via TechCrunch/HTX Insights (US/Canada iOS first-12-days: Muse 1.8M vs ChatGPT 1.3M; DAU 642k vs 231k; 95% of Muse users also on Facebook) • Wccftech, Sep 21, 2026 (Muse VM spec: 2 vCPU / 8GB / 100GB per user; 4:1–40:1 CPU:GPU serving estimates; Goldman short-dated capex CPU share; Amazon block, Shopify agent-checkout partnership) • CNN Business, Sep 20, 2026 (Bessent AI notification mechanism proposal); PIIE Realtime Economics, \"Will the Trump-Xi summit make limited progress on AI?\"; Al Jazeera, Sep 21, 2026 • Motley Fool, \"Stock Market Today, Sept. 21\" (Nasdaq record close 27,122; +2.26%; AMD intraday $1T; Morgan Stanley -7% S&P risk case at ~5% 10Y yields)",
     ],
-    pullQuote: "On Monday, September 21, 2026, a consumer app nobody asked for repriced three semiconductor companies in a single sessio",
+    pullQuote: "On Monday, September 21, 2026, a consumer app nobody asked for repriced three semiconductor companies in a single session.",
     stats: [
       { value: "+242%", label: "Memory & storage" },
       { value: "+187%", label: "Chips" },
@@ -2509,7 +2504,7 @@ export const insights: Insight[] = [
       "Sources",
       "• ABC News / The Guardian / The Diplomat / WIRED / Nikkei Asia, \"Trump-Xi summit preview coverage,\" September 21–23, 2026 (summit agenda, Busan truce expiry Nov 10, AI hotline proposal of Sep 20, Glaser/CSIS quotes) • Center for Strategic and International Studies, Trump-Xi 2026 Summits program analysis, May–September 2026 • Penn Wharton Budget Model, \"Effective Tariff Rates and Revenues,\" updates of May 12 and August 10, 2026 (USITC DataWeb; 7.1% overall / 23.2% China / 40.9% steel-alu / 2.3% Jan-2025 baseline / $239.5bn collected; SCOTUS IEEPA ruling Feb 20, 2026; Section 122 replacement) • PIIE (Bown), US-China tariff tracker; PIIE RealTime Economics on tariff incidence (Kiel/NY Fed ~95% passed-through; $525bn→$420bn export shift) • Columbia Center on Global Energy Policy (CGEP), \"Chinese Customs Data Reveal Deeper US Dependence on Chinese Rare Earths,\" 2026 (91% refining, 94% sintered NdFeB, 22% US magnet decline, lanthanum $1/kg, 64% share) • Silverado Policy Accelerator, \"China's Global Exports of Rare Earths: August 2026 Update\" (Jan–Jul 2026 US magnets 3,521 t vs 4,212 t in 2024) • Mainrich International, \"China Rare Earth Export Controls in 2026\" (NdPr $53→$108→$126/kg, MOFCOM licensing timelines, Nov 10 suspension expiry, MP Materials/Lynas volumes) • Inside AI News, \"US Treasury's Bessent, China's He to Launch Talks on AI, Trade, Critical Minerals,\" September 20, 2026 • CNAS Insights, \"America Must Expand, Not Weaken, AI Export Controls\" (Goldman 8% domestic chip production, SMIC 26% yield, 1M H100e remote access, Anthropic distillation report 3,500 accounts/151M exchanges) • AI Policy Desk, \"Trump-Xi AI Sept 24: Chip Loophole, Distillation, Vendor Checks\" (Inspur subsidiary $5.6bn / $3bn+ Blackwell routing) • Nvidia SEC filings, quarter ended July 26, 2026 (H200 <1% of DC revenue, $400m inventory charge) via YFarmX policy timeline; Reuters, January 30, 2026 (DeepSeek/ByteDance/Alibaba/Tencent H200 approvals); CRS Report R48642 • ChartRow AI-stocks screener, snapshot as of September 21, 2026 (36 names, category medians)",
     ],
-    pullQuote: "And yet something is being governed here. The US–China AI order is not being written in a treaty — it is being written i",
+    pullQuote: "And yet something is being governed here.",
     stats: [
       { value: "H20 made licensable; Nvidia books a $4.5bn charge", label: "Apr 2025" },
       { value: "H20 sales resume under licences — as part of the rare-earths deal (\"We put that in the trade deal with the magnets\" — Commerce Secretary Lutnick)", label: "Jul 2025" },
@@ -2554,7 +2549,7 @@ export const insights: Insight[] = [
       "The summit will produce a hotline, a truce extension, and photographs. The market produced its verdict before the appetizers: it bought the atoms of AI — memory, chips, servers — up 190% to 260% median, sold the utilities that were supposed to feed them, and left Nvidia, the actual subject of the negotiations, cheaper than it has been against its own history in a decade. Diplomacy moves in communiqués. Capital moves first, and tells you what it believes while the diplomats are still agreeing on the wording.",
       "Data: ChartRow AI-stocks basket (36 names), closes through 2026-09-23; category medians computed from the same snapshot. S&P 500 total return ~+12.3% YTD through Sep 18, 2026 (ChartRow SPY series). Summit facts: AFP/Japan Times/RTE reporting Sep 23-24, 2026; Bessent truce extension to Jan 10; AI hotline proposal per Bessent-He preliminary talks (Sep 20-23). Not investment advice.",
     ],
-    pullQuote: "The official agenda is the \"three Ts\": trade, technology, Taiwan. Treasury Secretary Scott Bessent already delivered the",
+    pullQuote: "The official agenda is the \"three Ts\": trade, technology, Taiwan.",
     stats: [
       { value: "+255%", label: "Memory & storage" },
       { value: "+187%", label: "Chips" },
@@ -2604,7 +2599,6 @@ export const insights: Insight[] = [
       "---",
       "Sources: ATOM Report (arXiv 2604.07190) open-model adoption data through March 2026; Hugging Face \"State of Open Source: Spring 2026\"; Epoch AI model-release database (downloaded Sept 11, 2026); Stanford HAI AI Index 2026; ChartRow AI-stocks list (close 2026-09-24); Foreign Policy, Reuters, AP, Asia Times, Yonhap coverage of the September 24 White House summit. Returns are total returns; category figures are medians. Chart data generated via the wegoze chart API.",
     ],
-    pullQuote: "The tangible outcomes, as of Friday morning: the tariff truce stretched from November 10 to January 10, two pandas (Ping",
   },
   {
     slug: "20260928-ai-price-war-two-economies",
@@ -2652,7 +2646,7 @@ export const insights: Insight[] = [
       "Sources",
       "• Model Price Watch, State of LLM Pricing — September 2026 (index series, Feb 23–Sep 4 readings; basket methodology; DeepSeek/GPT-5.6 Sol repricings) • AIDog / apidog.com, The September 2026 AI model price war (Sep 21–22 launch table; AutomationBench cost-per-task multiples; SemiAnalysis 96k-token agentic task; Ramp 53%→45% frontier token share; OpenAI $600/day internal figure) • spectrumailab.com, AI API Price Index (blended July 14 → Sept 25 comparison; full Sept 25 rate card; Gemini intro-rate expiry; launch timeline) • aitoolsreview.co.uk, AI API Pricing Compared: Every Frontier Model (Sept 2026) (workload cost model; cache-read rates; batch rates; checked Sep 23, 2026) • BenchLM, LLM Pricing Statistics (173 models tracked; median $0.95/$3.75; frontier +101.1% YoY vs mid-tier -40.8%; updated Sep 25, 2026) • arXiv 2603.28576, Token pricing in the LLM inference market (\"Tiered Super-Moore\"; 600-fold decline; half-lives 1.10/1.55 yr; flagship R²=0.031; 31.5x reasoning premium; 318 + 3,237 model dataset, 2020–2026) • ravoid.com, Reasoning Models Think Themselves Into Your Budget (Sep 21, 2026; thinking-token multipliers; billed-output ratio) • aienablement.io, AI Token Price Increases (Menlo Ventures 88% concentration; open-weight share 19%→11%; frontier list-price history)",
     ],
-    pullQuote: "On September 22, two labs repriced the AI market inside ninety minutes. OpenAI shipped GPT-6 Sol at $2/$10 per million t",
+    pullQuote: "On September 22, two labs repriced the AI market inside ninety minutes.",
     stats: [
       { value: "Index begins (10-lab flagship basket)", label: "Feb 23" },
       { value: "Qwen3.8-Max succession (cheaper than Qwen3.7-Max)", label: "Aug 4" },
@@ -2700,7 +2694,7 @@ export const insights: Insight[] = [
       "---",
       "This article was researched and written by wegoze's automated research pipeline. Data sourced from IDC, company earnings reports, and analyst publications. Published 29 September 2026.",
     ],
-    pullQuote: "The numbers are staggering and almost nobody is talking about them at the scale they deserve. Global spending on AI infr",
+    pullQuote: "The numbers are staggering and almost nobody is talking about them at the scale they deserve.",
   },
   {
     slug: "20260930-ai-application-spending-breakdown",
@@ -2736,7 +2730,7 @@ export const insights: Insight[] = [
       "---",
       "This article was researched and written by wegoze's automated research pipeline. Data sourced from Menlo Ventures AI Spending Report 2025, International Data Corporation (IDC) Global AI Survey 2025, and Gartner IT Spending Forecast 2025.",
     ],
-    pullQuote: "Enterprise AI spending has exploded from $1.7 billion in 2023 to $37 billion in 2025 -- a 22x increase in just two years",
+    pullQuote: "Enterprise AI spending has exploded from $1.7 billion in 2023 to $37 billion in 2025 -- a 22x increase in just two years.",
   },
   {
     slug: "20261001-nvidia-5-trillion-ai-divergence",
@@ -2772,7 +2766,7 @@ export const insights: Insight[] = [
       "For investors, the takeaway is clear: diversification matters more than ever when 8% of the S&P 500 is one company.",
       "--- wegoze is an automated research and analysis system. All data cited is from public sources. This is not financial advice.",
     ],
-    pullQuote: "On Wednesday, October 29, 2025, Nvidia became the first company in history to reach $5 trillion in market capitalization",
+    pullQuote: "On Wednesday, October 29, 2025, Nvidia became the first company in history to reach $5 trillion in market capitalization.",
   },
   {
     slug: "20261002-ai-capital-concentration-two-company-era",
@@ -2815,7 +2809,7 @@ export const insights: Insight[] = [
       "Sources",
       "• Bloomberg / TechCrunch — OpenAI reportedly in talks to raise $30B at ~$1.4T valuation (Sep 29, 2026) • SoftBank Group press release — Third tranche ($10B) closing $30B follow-on; cumulative $64.6B, ~13% stake (Oct 1, 2026) • Crunchbase News — H1 2026 Global Funding Report ($510B; $217B to OpenAI+Anthropic; data as of Jul 1, 2026); August monthly report ($42B, data as of Sep 2, 2026); July monthly ($55-56B) • Federal Reserve — FOMC statement and Chairman Warsh press conference transcript (Sep 16, 2026); Reuters coverage of the hike • Agenccy AI Funding Tracker — September 2026: $34.1B across 368 rounds (largest: Crusoe $3.9B, Mistral $3.49B) • TechCrunch — Instinct $1B Series C at $10B (Sep 28); Armadin $255.5M Series B at $2.5B+ (Oct 1); Reuters, same • The Business Perspective / Second Talent — September 2026 funding trackers (Nvidia–Hugging Face $12.9B at 86x revenue; Cognition $2B at $48B; Harvey, Wonderful, Snorkel, Temporal rounds) • Euronews / Reuters — Mistral €3B Series D at €21B+ post-money, largest-ever European private tech equity round (Sep 8, 2026) • Cloud Security Alliance — \"GPAI Enforcement Is Live\" research note (Aug 29, 2026); European Commission AI Act implementation pages",
     ],
-    pullQuote: "On September 29, Bloomberg reported that OpenAI is in talks to raise at least $30 billion at a roughly $1.4 trillion val",
+    pullQuote: "On September 29, Bloomberg reported that OpenAI is in talks to raise at least $30 billion at a roughly $1.4 trillion valuation — a bridge round before an IPO that has slipped to 2027.",
   },
   {
     slug: "20261003-china-emissions-peak-investment-cooling",
@@ -2853,7 +2847,6 @@ export const insights: Insight[] = [
       "For everyone else: the two headlines reconcile like this — the technology race is largely won; the integration race is just beginning. Emissions peaked-ish in the biggest emitter not because of pledges, but because physics and economics finally compounded. Money dipped because the easy, visible phase of the build-out is repricing. The next phase — grids, storage, firm power, and the finance flows to developing economies where the NDCs are conditional on support that hasn't arrived — is less photogenic and more decisive.",
       "Every fraction of a degree still matters. The data says we're closer to bending the curve than at any point in history — and still, on current policies, 2.8°C closer to where we need to be.",
     ],
-    pullQuote: "In the space of three weeks this summer, three datasets told three different stories about the energy transition:",
   },
   {
     slug: "20261004-ai-storage-supply-shock-rotation",
@@ -2898,7 +2891,7 @@ export const insights: Insight[] = [
       "Sources",
       "• ChartRow AI-stocks list (36 names, total returns, YTD from last 2025 close), payload as of 2026-10-02 close — category medians, single-name returns, market caps, P/S 10-year percentiles • Reuters / AP index closes, October 2, 2026 (S&P 7,722.72 +0.73%; Nasdaq 27,190.86 +1.19%; Dow 51,176.96 +0.49%; Russell 2000 +0.94%) • BLS September employment report via Reuters: payrolls +29,000 vs ~90,000 expected; unemployment 4.2%; prior-month revisions −60,000; wages +0.1% m/m, +3.0% y/y • CME FedWatch via CNBC: October hike odds ~17–25% Friday vs ~64% a week earlier • Nikkei (Oct 2): Toshiba to roughly double HDD capacity by FY2027 (~¥60B); TradingView analyst roundup on the STX/WDC drop • 22V Trading Desk end-of-day recap Oct 2: NVDA intraday record $237.88, breadth counts (10 vs 18 S&P new highs/lows; 75% below 50-day), 10Y at 5.34% weekly high • PortfolioAI Market News, Oct 2, 2026: \"A Weak Jobs Report Lifts Stocks—but Splits the AI Trade\" • Tesla Q3 deliveries 486,532 vs ~462,000 consensus (FactSet/Bloomberg); Broadcom–Anthropic financing reports (Reuters/Bloomberg); Nvidia $150B buyback authorization (company filing)",
     ],
-    pullQuote: "On Friday, October 2, Seagate and Western Digital each fell about 10% in a single session. Not because of earnings. Not ",
+    pullQuote: "On Friday, October 2, Seagate and Western Digital each fell about 10% in a single session.",
   },
   {
     slug: "20261005-ai-job-ladder-seniority-shift",
@@ -2939,7 +2932,7 @@ export const insights: Insight[] = [
       "---",
       "Sources: University of Chicago Booth / Center for Applied AI LinkedIn corpus study (51.9M postings, Feb–Jul 2026); Indeed Hiring Lab, \"AI Exposure Isn't Squeezing Advertised Pay\" (Oct 2026) and \"AI and Job Postings: From Destruction to Creation?\" (Jul 2026); IMF Special Discussion Note SDN/2026/001, \"New Jobs Creation in the AI Age\"; Handshake 2026 Graduate Report via CNBC. Figures describe advertised postings, not hires.",
     ],
-    pullQuote: "Headline one: AI is destroying white-collar jobs. Headline two: AI hiring is booming and AI-exposed pay is at record hig",
+    pullQuote: "Headline one: AI is destroying white-collar jobs.",
   },
   {
     slug: "20261006-ai-trade-supply-chain-rotation",
@@ -2972,7 +2965,7 @@ export const insights: Insight[] = [
       "If you only watch the index-level \"AI is up / AI is down\" argument, you are watching last quarter's fight. The screener says the live argument is where inside the stack the next dollar of AI capex gets priced: storage is exhaling, equipment is inhaling, platforms are flat, and the two most famous names in the trade — Nvidia and Meta — are the least stretched on their own history. Earnings week just started; Micron's print says the digestion thesis has friends. Watch the equipment names' order books and the hyperscaler capex guides in late October — those two numbers decide whether this rotation is a blip or the new regime.",
       "Data: ChartRow AI-stocks list (36 names, as of 2026-10-05 close); S&P 500 YTD total return +12.7% (SlickCharts, as of 2026-09-18 — the benchmark lags the screener by ~2.5 weeks). News: Seoul Economic Daily, CNBC, Startup Fortune, Yonhap Infomax, 1–6 October 2026. Figures are total returns, dividends reinvested. This is analysis, not investment advice.",
     ],
-    pullQuote: "The median stock in our 36-name AI screener is up +57.2% year-to-date. That number sounds like one trade, one tide lifti",
+    pullQuote: "The median stock in our 36-name AI screener is up +57.2% year-to-date.",
   },
   {
     slug: "20261008-ai-power-demand-950twh-range",
@@ -3010,7 +3003,6 @@ export const insights: Insight[] = [
       "Sources",
       "• IEA, Key Questions on Energy and AI (updated analysis, published October 2026): 485 TWh 2025 actual, 950 TWh 2030 projection, scenario table (833/868/945/1,008 TWh for 2030; 942/1,013/1,193/1,637 for 2035), 17% growth 2025, AI-focused +50%, $400B+ capex of five tech companies in 2025 with +75% expected in 2026, SMR offtake pipeline 25→45 GW, 30–70% gas overbuild, 15–27 GW onsite gas by 2030, 40% share of corporate renewables PPAs, 175 GW transmission unlock. • IEA, Energy and AI (April 2025): 2024 regional split (US 45%, China 25%, Europe 15%), 415 TWh 2024 baseline, US half-of-demand-growth framing. • IEA, Electricity 2026, demand chapter: 3% global demand growth 2025, 3.6% average 2026–2030, US +420 TWh over five years with data centres ~50% of growth. • Goldman Sachs Research (Wei, Struyven, Dart), based on Aterio facility data: US data centre demand 31 GW (2025) → 41 GW (2026) → 66 GW (2027); capacity additions 6.4/8.5/13.6/36.3 GW. • Industrial Info Resources via IIR Energy: ~4,130 operating data centres worldwide, ~4,500 projects starting 2026–2028 valued at ~$2.63 trillion.",
     ],
-    pullQuote: "The Number Everyone Will Quote",
     stats: [
       { value: "833", label: "Headwinds" },
       { value: "868", label: "High Efficiency" },
@@ -3047,7 +3039,6 @@ export const insights: Insight[] = [
       "The chip industry crossed its first trillion-dollar year in eight months. The venture industry is funding the next one at the same pace. Whether that's a golden age or a capital bubble depends entirely on a variable neither dataset measures: how much value the AI services running on all that silicon actually deliver.",
       "Data sources: SIA Global Sales Report (Aug 2026, published Oct 5, 2026); WSTS 2026 forecast; SIA-Deloitte AI server rack study (June 2026); Crunchbase Q3 2026 Global VC Funding Report (Oct 5, 2026); TechCrunch / Nikkei Asia deal reporting (Oct 2026).",
     ],
-    pullQuote: "A Milestone Nobody Predicted This Early",
     stats: [
       { value: "+180.9%", label: "Americas" },
       { value: "+143.0%", label: "Asia Pacific / All Other" },
@@ -3102,7 +3093,6 @@ export const insights: Insight[] = [
       "---",
       "Sources: Supercycle buildout tracker (Sept 13, 2026); BofA Global Research, US Semiconductors: Q3 Cloud Capex Preview; TrendForce memory research releases (Feb 2, Mar 31, Aug 25 and Sept 30, 2026); J.P. Morgan Global Research, \"The AI-Driven Memory Shortage\"; Currence, Q3 2026 Data Center Outlook; Dell'Oro Group via AI Prow Q3 2026 analysis; company earnings releases and calls. Not investment advice.",
     ],
-    pullQuote: "The Number, and the Number Under It",
     stats: [
       { value: "Q2 2026", label: "Amazon" },
       { value: "FY26 Q4 (June)", label: "Microsoft" },
@@ -3168,7 +3158,6 @@ export const insights: Insight[] = [
       "Sources",
       "• Reuters, \"AI credit worries send default insurance to record high\", 15 October 2026 (S&P Global Market Intelligence, LSEG data) • CNBC, \"CoreWeave credit default swaps hit distress levels as investors sour on AI debt\", 15 October 2026 • IFR, \"Hyperscaler and chipmaker CDS widen to record levels\" (S&P Global Market Intelligence, ICE Data Services) • Bloomberg / Yahoo Finance, \"AI Debt Spree Hammers Tech Debt as Traders Rush to Reprice Risk\" • Bank for International Settlements, Bulletin 120, \"Financing the AI boom: from cash flows to debt\" • Capital Group, \"The AI debt boom: balancing risk and opportunity\" (data to 31 August 2026) • IESE Insight, \"An AI debt wave meets uneven balance-sheet risk\" (Capital IQ capex consensus, CDS data) • Union Bancaire Privee, \"Financing the AI build-out\", 16 September 2026 (CreditSights, Morgan Stanley estimates) • Reuters, \"Corporate bond buyers get picky with flood of AI debt\", 22 September 2026 (Goldman Sachs issuance forecast)",
     ],
-    pullQuote: "Thursday, in the Credit Market",
     stats: [
       { value: "~$32B per year", label: "2015-2024" },
       { value: "~$20B", label: "2024" },
@@ -3230,7 +3219,6 @@ export const insights: Insight[] = [
       "Both sides are making a bet about when supply arrives. The difference is that one of them is signing contracts, and the other one is watching a chart.",
       "Sources: Reuters, Yahoo Finance, CNBC, TrendForce (14 October CSP capex release; 12 October Weekly Radar; August memory release), Bernstein (7 October), KeyBanc Capital Markets field survey via TradingKey (16 October), Goldman Sachs via TradingKey, Kyobo Securities, Samsung preliminary 3Q26 guidance, Micron, SK Hynix, Korea Exchange. All figures as of 16 October 2026. Not investment advice.",
     ],
-    pullQuote: "Two Prices, One Industry",
     stats: [
       { value: "~+20% QoQ (DRAM and NAND)", label: "Q3 2026 memory contract prices" },
       { value: "+10-15% QoQ", label: "Q4 2026 conventional DRAM contract prices" },
@@ -3277,7 +3265,6 @@ export const insights: Insight[] = [
       "• Whether hyperscaler capex guidance gets cut, rather than just re-phased. Slower capex is bearish for developers and the chip supply chain, but the cash-rich buyers are the least exposed, and some of their shareholders would welcome it. • Whether the interconnection wait shortens anywhere. Texas is projected to pass 40 GW of capacity by 2028 — nearly 30% of total US demand and a 142% increase in market share — while California, Iowa, Oregon and Nebraska are each expected to lose more than half of their relative share. That reallocation is the grid answering the question. • Whether behind-the-meter power actually arrives on schedule. If it does not, the 2029-2030 gap stops being a forecast and starts being idle silicon in a building that cannot run it.",
       "The buildout is not collapsing. It is being filtered — and the filter is now permits, transformers, skilled labour and interest rates, none of which can be bought with a better GPU allocation.",
     ],
-    pullQuote: "The Constraint Moved",
     stats: [
       { value: "64 months (over 5 years)", label: "Average wait for new power in data-centre regions" },
       { value: "11 MW (2016) → 130 MW (June 2026)", label: "Median energy capacity of newly built US data centres" },
@@ -3333,7 +3320,6 @@ export const insights: Insight[] = [
       "---",
       "Sources: Bargo Token Demand Index (OpenRouter trailing-7-day token counts and blended median list prices, snapshot of 19 October 2026); American Compute Open-Weight LLM Price Index (daily list prices through a large public router, 12 July – 9 October 2026); InferIndex weekly market index, published 19 October 2026. Routers are one channel among many; direct and enterprise pricing is excluded. Not investment advice.",
     ],
-    pullQuote: "Volume and Value Have Come Apart",
   },
   {
     slug: "20261021-agent-production-gap-trust-divergence",
@@ -3376,7 +3362,6 @@ export const insights: Insight[] = [
       "---",
       "Sources: Gartner press releases of 2025-06-25 and 2025-08-26 (agentic AI forecasts, cancellation outlook); McKinsey, The State of AI, 2025 survey (published November 2025); Halkwinds Research, AI Agent Adoption Report 2026, published 6 June 2026, n=634 organizations with at least 500 employees or $250M revenue, fielded Q4 2025-Q2 2026, ±3.8pp at 95% CI; LangChain, State of Agent Engineering, n=1,340 practitioners fielded 18 November - 2 December 2025, published 12 June 2026; Stack Overflow 2025 Developer Survey, n=33,662. Survey figures are self-reported and subject to optimism bias, and \"production\" is respondent-defined rather than independently audited. Not investment advice.",
     ],
-    pullQuote: "Four Answers to One Question",
   },
   {
     slug: "20261022-ai-mega-rounds-q3-2026",
@@ -3460,7 +3445,6 @@ export const insights: Insight[] = [
       "---",
       "The number on every invoice gets the budget meeting. The numbers on the invoices that arrive twelve months later get the exit interview. In 2026, the second set of numbers is the AI bill.",
     ],
-    pullQuote: "One Day, Five Bills",
     stats: [
       { value: "Back-end data left behind per 8-second AI video (500MB) vs what the user receives (3.97MB)", label: "130x" },
       { value: "CAGR to 2030 for inference demand vs training demand (McKinsey)", label: "35% / 22%" },
@@ -3530,7 +3514,6 @@ export const insights: Insight[] = [
       "---",
       "AI now finds the bug, writes the exploit, and costs less than the ticket to ask for a patch. The bottleneck moved from discovery to response, and response is still human. The window between the two is the number that matters.",
     ],
-    pullQuote: "Four Days That Mattered",
     stats: [
       { value: "From bug found (1 Aug 2026) to patch published (21 Oct 2026)", label: "81 days" },
       { value: "What Wiz says one AI-assisted researcher needed to do work that would take a team months", label: "7 days" },
@@ -3577,7 +3560,7 @@ export const insights: Insight[] = [
       "The winners of 2026 won't be the ones with the biggest models, but the ones with the cleanest data and the most robust governance.",
       "To move past the gap, stop focusing on \"capability\" and start focusing on control. Define your high-risk cases, build your human-in-the-loop escalation paths, and only then hit \"deploy\".",
     ],
-    pullQuote: "But there is a massive discrepancy between the marketing slides and the production logs. We call this the Agentic Gap.",
+    pullQuote: "But there is a massive discrepancy between the marketing slides and the production logs.",
   },
   {
     slug: "20261026-ai-value-gap",
@@ -3603,7 +3586,6 @@ export const insights: Insight[] = [
       "The \"deploy and pray\" era of AI is ending. As we move deeper into 2026, the winners will not be those who adopted AI first, but those who solved the integration challenge.",
       "Closing the Value Gap requires a shift in focus: from how many AI tools we use, to how much EBIT each tool actually generates.",
     ],
-    pullQuote: "The Decoupling of Adoption and Impact",
   },
   {
     slug: "20261027-agentic-ai-adoption-2026",
@@ -3668,7 +3650,6 @@ export const insights: Insight[] = [
       "Strategic Verdict",
       "AI agents in 2026 have moved from strategy decks to budget lines. They are now ordinary enterprise software. As such, the same rules apply: if a project lacks a named owner, a defined escalation threshold, and a clear rollback plan, it is a pilot—regardless of what the roadmap says.",
     ],
-    pullQuote: "The Adoption Surge",
   },
   {
     slug: "20261030-frontier-ai-convergence",
@@ -3691,7 +3672,7 @@ export const insights: Insight[] = [
       "Key focus areas for the \"Convergence Era\": 1. Orchestration: Building robust agentic loops that can swap models based on latency or cost. 2. Domain-Specific Tuning: Moving beyond general capability to deep, proprietary knowledge integration. 3. Reliability Engineering: Focusing on deterministic outputs and rigorous evaluation frameworks.",
       "The frontier is no longer a race to the top; it is a race to the most useful implementation.",
     ],
-    pullQuote: "The gap between the absolute frontier and the immediate followers has shrunk to a razor-thin margin. We are no longer se",
+    pullQuote: "The gap between the absolute frontier and the immediate followers has shrunk to a razor-thin margin.",
   },
   {
     slug: "20261031-ai-agent-layer-explosion",
@@ -3711,7 +3692,7 @@ export const insights: Insight[] = [
       "Reliability remains the final frontier. Data from METR suggests that while agents can handle complex tasks, their \"80%-reliability horizon\" is significantly shorter than their \"50%-reliability horizon.\" In other words, agents can almost do a lot, but they can only consistently do a fraction of that.",
       "The shift is clear: the value is moving from the model to the orchestrator.",
     ],
-    pullQuote: "Recent data from Axis Intelligence Research reveals a striking trend on npm: the agent-layer build stack grew 9.2x year-",
+    pullQuote: "Recent data from Axis Intelligence Research reveals a striking trend on npm: the agent-layer build stack grew 9.2x year-over-year, outpacing the growth of the core model SDKs themselves.",
   },
   {
     slug: "20261101-blackwell-b200-performance-leap",
@@ -3738,7 +3719,6 @@ export const insights: Insight[] = [
       "Conclusion",
       "The Blackwell architecture is a testament to the relentless pace of AI hardware. By solving the memory bandwidth bottleneck and optimizing for lower-precision compute, NVIDIA is ensuring that the limiting factor for AI isn't the hardware, but the data and the imagination of those building the agents.",
     ],
-    pullQuote: "The Performance Gap",
   },
   {
     slug: "ai-costs-mid-market-2026",
@@ -3804,7 +3784,7 @@ export const insights: Insight[] = [
       "---",
       "Data sources: IDC Worldwide AI Spending Guide, McKinsey Global AI Survey 2025/2026, Gartner AI in Production Survey, Forrester AI ROI Report, Pertama Partners AI Cost Analysis, First Page Sage Agentic AI Adoption Report. All research conducted via SearXNG with structured query methodology.",
     ],
-    pullQuote: "The most persistent misconception in enterprise technology is that AI remains the exclusive domain of companies with bil",
+    pullQuote: "The most persistent misconception in enterprise technology is that AI remains the exclusive domain of companies with billion-dollar IT budgets.",
     stats: [
       { value: "$157 billion", label: "AI Software" },
       { value: "$98 billion", label: "AI Hardware & Chips" },
@@ -3854,7 +3834,6 @@ export const insights: Insight[] = [
       "Fine-tuning is for behaviour. RAG is for knowledge. Most business problems are knowledge problems dressed up as behaviour problems. Start with RAG, add fine-tuning only when you hit the ceiling.",
       "The best AI systems in 2026 aren't the ones with the biggest models — they're the ones with the smartest architecture decisions.",
     ],
-    pullQuote: "The Core Difference",
     stats: [
       { value: "€2,000–€5,000", label: "Setup cost" },
       { value: "€100–€500 (vector DB + API)", label: "Infra cost/month" },
