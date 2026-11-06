@@ -181,13 +181,13 @@ export default function Header() {
             >
               <SearchIcon />
             </button>
-            <ThemeToggle className="hidden sm:inline-flex" />
             <Link href="/contact" className="hidden text-[14px] text-heading hover:text-accent sm:inline-flex">
               Sign in
             </Link>
             <Link href="/contact" className="btn btn-outline hidden !py-2.5 !text-[14px] sm:inline-flex">
               Get in touch
             </Link>
+            <ThemeToggle className="hidden sm:inline-flex" />
             <button
               onClick={() => setMobileOpen((v) => !v)}
               aria-label="Toggle menu"
