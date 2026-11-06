@@ -4,7 +4,7 @@ export const SITE = {
   tagline: "Global AI consulting",
   description:
     "McAi is a global AI consulting firm. We help leaders turn artificial intelligence into operating reality — strategy, data foundations, agentic operations, and the governance that makes speed defensible.",
-  url: "https://mcflimsey.wegoai.duckdns.org",
+  url: "https://wego.laserraptor.eu",
   email: "hello@mcai.example",
   phone: "+31 70 000 0000",
   founded: 2019,
