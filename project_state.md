@@ -6,7 +6,7 @@ brand ("fake it till you make it" mock, stock imagery). Next.js 16 (App Router) 
 Tailwind 4, dark-first theme, deployed via Coolify.
 
 ## Live
-- URL: https://mcflimsey.wegoai.duckdns.org (HTTP 200, Let's Encrypt cert, valid to 2027-01-18)
+- CURRENT URL: https://wego.laserraptor.eu (Coolify app svl5usqz8lujrtj7v86qhyaf; old mcflimsey.wegoai.duckdns.org is dead 503)
 - DNS: DuckDNS wildcard `*.wegoai.duckdns.org` -> 83.85.185.61
 - Coolify app uuid: `rwuixjdw41j1zgiwkngkkig3` (project `Wego` h9grge7o7j123xsdp4tsv5qs,
   destination rmtbopdo7cnqg5pwnbgrpji9 on server `localhost` hff16ilrvechplni0w97qy2t)
