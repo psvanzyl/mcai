@@ -66,16 +66,35 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
         <div className="container-x grid grid-cols-1 gap-14 py-14 md:py-20 lg:grid-cols-12">
           <div className="lg:col-span-7 lg:col-start-2">
             <div className="article-body">
-              {insight.body.map((para, i) => (
-                <div key={i}>
-                  <p>{para}</p>
-                  {insight.pullQuote && i === 1 ? (
-                    <blockquote className="my-10 border-l-4 border-accent pl-6 font-serif text-[24px] leading-snug text-heading">
-                      “{insight.pullQuote}”
-                    </blockquote>
-                  ) : null}
-                </div>
-              ))}
+              {(() => {
+                let paraCount = 0;
+                return insight.body.map((block, i) => {
+                  const isPara = block.kind === "paragraph";
+                  const showQuote = isPara && ++paraCount === 1 && insight.pullQuote;
+                  return (
+                    <div key={i}>
+                      {block.kind === "heading" ? (
+                        <h2 className="mt-8 font-serif text-[22px] leading-snug text-heading">
+                          {block.text}
+                        </h2>
+                      ) : block.kind === "list" ? (
+                        <ul className="mt-4 list-disc space-y-2 pl-6 text-body">
+                          {block.items?.map((it, j) => (
+                            <li key={j}>{it}</li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <p>{block.text}</p>
+                      )}
+                      {showQuote ? (
+                        <blockquote className="my-10 border-l-4 border-accent pl-6 font-serif text-[24px] leading-snug text-heading">
+                          “{insight.pullQuote}”
+                        </blockquote>
+                      ) : null}
+                    </div>
+                  );
+                });
+              })()}
             </div>
 
             {insight.stats?.length ? (
