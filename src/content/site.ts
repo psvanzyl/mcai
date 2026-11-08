@@ -23,6 +23,12 @@ export type NavItem = {
   href: string;
   columns?: NavColumn[];
   feature?: { label: string; href: string; text: string; img: string };
+  /**
+   * The href is a real path on this host but belongs to ANOTHER app (Traefik
+   * routes /projects/depotcharge to DepotChargeDex). It must be a full page
+   * load: a Next <Link> would ask this router for a route that does not exist.
+   */
+  hard?: boolean;
 };
 
 export const NAV: NavItem[] = [
@@ -143,6 +149,11 @@ export const NAV: NavItem[] = [
   },
   { label: "Careers", href: "/careers" },
   { label: "About us", href: "/about" },
+  {
+    label: "Projects",
+    href: "/projects/depotcharge",
+    hard: true,
+  },
 ];
 
 export type Office = { city: string; country: string; region: string; address: string; phone: string };

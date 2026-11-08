@@ -4,12 +4,42 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 import ThemeToggle from "@/components/ThemeToggle";
-import { NAV, SITE } from "@/content/site";
+import { NAV, SITE, type NavItem } from "@/content/site";
+import type { ReactNode } from "react";
 import { insights } from "@/content/insights";
 import { industries } from "@/content/industries";
 import { capabilities } from "@/content/capabilities";
 import { people } from "@/content/people";
 import { jobs } from "@/content/people";
+
+/**
+ * Nav link that falls back to a real anchor for cross-app paths.
+ * See NavItem.hard in content/site.ts for why.
+ */
+function NavAnchor({
+  item,
+  className,
+  ariaExpanded,
+  children,
+}: {
+  item: NavItem;
+  className: string;
+  ariaExpanded?: boolean;
+  children: ReactNode;
+}) {
+  if (item.hard) {
+    return (
+      <a href={item.href} className={className} aria-expanded={ariaExpanded}>
+        {children}
+      </a>
+    );
+  }
+  return (
+    <Link href={item.href} className={className} aria-expanded={ariaExpanded}>
+      {children}
+    </Link>
+  );
+}
 
 type Hit = { title: string; href: string; kind: string; sub?: string };
 
@@ -159,16 +189,16 @@ export default function Header() {
               const hasMenu = !!item.columns?.length;
               return (
                 <div key={item.label} className="relative" onMouseEnter={() => setOpen(hasMenu ? item.label : null)}>
-                  <Link
-                    href={item.href}
-                    aria-expanded={hasMenu ? isOpen : undefined}
+                  <NavAnchor
+                    item={item}
+                    ariaExpanded={hasMenu ? isOpen : undefined}
                     className={`flex items-center gap-1.5 px-3 py-2 text-[15px] font-medium transition ${
                       isOpen ? "text-accent" : "text-heading hover:text-accent"
                     }`}
                   >
                     {item.label}
                     {hasMenu ? <Chevron open={isOpen} /> : null}
-                  </Link>
+                  </NavAnchor>
                 </div>
               );
             })}
@@ -257,9 +287,9 @@ export default function Header() {
                 return (
                   <div key={item.label} className="border-b border-line-soft last:border-0">
                     <div className="flex items-center justify-between">
-                      <Link href={item.href} className="py-4 text-[17px] font-medium text-heading">
+                      <NavAnchor item={item} className="py-4 text-[17px] font-medium text-heading">
                         {item.label}
-                      </Link>
+                      </NavAnchor>
                       {item.columns?.length ? (
                         <button
                           aria-label={`Toggle ${item.label} submenu`}
