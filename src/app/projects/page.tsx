@@ -6,7 +6,7 @@ import { PageHero } from "@/components/Cards";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Projects built by Wego and the wegowow family: data dashboards, monitoring tools, and presentations.",
+    "Projects built by Wego: data dashboards, monitoring tools, and presentations.",
 };
 
 export default function ProjectsPage() {
@@ -15,7 +15,7 @@ export default function ProjectsPage() {
       <PageHero
         eyebrow="Projects"
         title="Things we have built"
-        intro="A selection of dashboards, monitoring tools, and presentations built by Wego and the wegowow family. Each one answers a real question with real data."
+        intro="A selection of dashboards, monitoring tools, and presentations built by Wego. Each one answers a real question with real data."
         img="/img/projects-hero.jpg"
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Projects" }]}
       />
