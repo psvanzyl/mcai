@@ -309,7 +309,7 @@ export const PROJECTS: Project[] = [
       "Five focus themes with strategic position telemetry",
       "CityViewer Assistent design style",
     ],
-    href: "/projects/batterystrategy",
+    href: "/projects/batterystrategy/index.html",
     hrefLabel: "Open presentation",
     img: "/img/project-battery.jpg",
     imageAlt: "Battery Strategy presentation showing the Dutch battery ecosystem",
