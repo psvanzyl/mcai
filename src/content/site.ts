@@ -149,6 +149,7 @@ export const NAV: NavItem[] = [
   },
   { label: "Careers", href: "/careers" },
   { label: "About us", href: "/about" },
+  { label: "Blog", href: "/blog/", hard: true },
   {
     label: "Projects",
     href: "/projects/depotcharge",
