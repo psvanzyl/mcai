@@ -1,6 +1,6 @@
 export const SITE = {
   name: "Wego",
-  legalName: "Wego & Company",
+  legalName: "Wego",
   tagline: "Global AI consulting",
   description:
     "Wego is a global AI consulting firm. We help leaders turn artificial intelligence into operating reality — strategy, data foundations, agentic operations, and the governance that makes speed defensible.",
@@ -132,10 +132,8 @@ export const NAV: NavItem[] = [
         title: "About Wego",
         links: [
           { label: "Our people", href: "/our-people" },
-          { label: "About us", href: "/about" },
-          { label: "Offices", href: "/about#offices" },
-          { label: "Careers", href: "/careers" },
-        ],
+                  { label: "Offices", href: "/about#offices" },
+                ],
       },
       {
         title: "Work with us",
@@ -147,12 +145,10 @@ export const NAV: NavItem[] = [
       },
     ],
   },
-  { label: "Careers", href: "/careers" },
-  { label: "About us", href: "/about" },
   { label: "Blog", href: "/blog/", hard: true },
   {
     label: "Projects",
-    href: "/projects/depotcharge",
+    href: "/projects",
     hard: true,
   },
 ];
@@ -201,8 +197,7 @@ export const FOOTER_COLUMNS: NavColumn[] = [
     title: "Work with us",
     links: [
       { label: "Contact us", href: "/contact" },
-      { label: "Careers", href: "/careers" },
-      { label: "Open roles", href: "/careers#roles" },
+          { label: "Open roles", href: "/careers#roles" },
       { label: "Client service", href: "/contact#clients" },
       { label: "Vendor enquiries", href: "/contact" },
     ],
@@ -250,4 +245,90 @@ export const HOME_STATS = [
   { value: "3,400", label: "colleagues" },
   { value: "600+", label: "AI use cases in production" },
   { value: "9", label: "sectors served" },
+];
+
+
+export type Project = {
+  slug: string;
+  name: string;
+  kicker: string;
+  status: "LIVE" | "IN THE WORKSHOP";
+  summary: string;
+  points: string[];
+  href?: string;
+  hrefLabel?: string;
+  img: string;
+  imageAlt: string;
+};
+
+export const PROJECTS: Project[] = [
+  {
+    slug: "depotcharge",
+    name: "DepotCharge",
+    kicker: "Depot charging monitor",
+    status: "LIVE",
+    summary:
+      "Monitor for private depot and company charging locations in the Netherlands. Inferred from indirect evidence with per-row provenance. Public charge points are counter-evidence only.",
+    points: [
+      "8 publisher RSS feeds (ttm, nieuwsbladtransport, automotive-online, tankpro, wattisduurzaam, change.inc, schuttevaer, binnenvaartkrant)",
+      "KOOP SRU 2.0 permit ingestion with metadata pre-screening",
+      "Per-row provenance for every inferred depot",
+    ],
+    href: "/projects/depotcharge",
+    hrefLabel: "Open DepotCharge",
+    img: "/img/project-depotcharge.jpg",
+    imageAlt: "DepotCharge dashboard showing inferred depot charging locations across the Netherlands",
+  },
+  {
+    slug: "faillissementen-wegvervoer",
+    name: "Faillissementen Wegvervoer",
+    kicker: "Bankruptcy dashboard",
+    status: "LIVE",
+    summary:
+      "Dashboard of 866+ bankruptcy declarations in Dutch road transport (SBI 49), sourced from faillissementen.com and CBS statistics. Covers 2005 to present with sub-sector and regional breakdowns.",
+    points: [
+      "866+ bankruptcy declarations with detail fields (legal form, postcode, SBI, court, city)",
+      "CBS 82244NED statistics by sub-sector (491-494)",
+      "CBS 82522NED regional breakdown by province",
+      "Diesel price overlay from CBS 81567NED",
+    ],
+    href: "https://faillissementen.laserraptorai.duckdns.org",
+    hrefLabel: "Open dashboard",
+    img: "/img/project-faillimpsesten.jpg",
+    imageAlt: "Faillimpsesten Wegvervoer dashboard showing bankruptcy trends in Dutch road transport",
+  },
+  {
+    slug: "battery-strategy",
+    name: "Battery Strategy",
+    kicker: "Value proposition presentation",
+    status: "LIVE",
+    summary:
+      "Interactive scrollytelling presentation of the Dutch battery ecosystem, based on the National Action Agenda on Battery Systems. Covers five focus themes: heavy-duty, stationary, next-gen components, production equipment, and circular value chain.",
+    points: [
+      "Six-section scrollytelling with intersection-observer animations",
+      "Five focus themes with strategic position telemetry",
+      "CityViewer Assistent design style",
+    ],
+    href: "/projects/batterystrategy",
+    hrefLabel: "Open presentation",
+    img: "/img/project-battery.jpg",
+    imageAlt: "Battery Strategy presentation showing the Dutch battery ecosystem",
+  },
+  {
+    slug: "wegowow",
+    name: "wegowow family",
+    kicker: "Family landing",
+    status: "LIVE",
+    summary:
+      "The family landing page connecting WeGoAI (EU-certified AI on self-owned GPUs), wegoze (open data and consultancy for the zero-emission transition), and the Own the Iron concept.",
+    points: [
+      "Single-file static HTML with animated gradient orbs",
+      "Shared soft-beach palette across all family sites",
+      "IntersectionObserver reveal animations",
+    ],
+    href: "https://wegowow.duckdns.org",
+    hrefLabel: "Visit wegowow",
+    img: "/img/project-wegowow.jpg",
+    imageAlt: "wegowow family landing page",
+  },
 ];

@@ -103,3 +103,6 @@ Tailwind 4, dark-first theme, deployed via Coolify.
 - Existing insights layout preserved (article-body, pullQuote, stats, authors, img).
 - Images cycle through the 10 existing insight-*.jpg assets.
 - Deployed: commit 026bc0c, Coolify app svl5usqz8lujrtj7v86qhyaf.
+
+## 2026-11-11 — Blog nav
+- NAV gained { label: "Blog", href: "/blog/", hard: true } (between About us and Projects). /blog/ is served by the separate Wego Blog Hugo Coolify app (PathPrefix router wins over this app's root). Do not add a Next /blog route.
