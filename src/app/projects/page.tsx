@@ -49,7 +49,7 @@ export default function ProjectsPage() {
                 </ul>
                 {project.href ? (
                   <div className="mt-6">
-                    {project.href.startsWith("http") ? (
+                    {project.href.startsWith("http") || project.href.endsWith(".html") ? (
                       <a
                         href={project.href}
                         className="arrow-link"

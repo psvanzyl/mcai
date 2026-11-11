@@ -292,7 +292,7 @@ export const PROJECTS: Project[] = [
       "CBS 82522NED regional breakdown by province",
       "Diesel price overlay from CBS 81567NED",
     ],
-    href: "https://faillissementen.laserraptorai.duckdns.org",
+    href: "/projects/faillimpsesten/index.html",
     hrefLabel: "Open dashboard",
     img: "/img/project-faillimpsesten.jpg",
     imageAlt: "Faillimpsesten Wegvervoer dashboard showing bankruptcy trends in Dutch road transport",
@@ -313,22 +313,5 @@ export const PROJECTS: Project[] = [
     hrefLabel: "Open presentation",
     img: "/img/project-battery.jpg",
     imageAlt: "Battery Strategy presentation showing the Dutch battery ecosystem",
-  },
-  {
-    slug: "wegowow",
-    name: "wegowow family",
-    kicker: "Family landing",
-    status: "LIVE",
-    summary:
-      "The family landing page connecting WeGoAI (EU-certified AI on self-owned GPUs), wegoze (open data and consultancy for the zero-emission transition), and the Own the Iron concept.",
-    points: [
-      "Single-file static HTML with animated gradient orbs",
-      "Shared soft-beach palette across all family sites",
-      "IntersectionObserver reveal animations",
-    ],
-    href: "https://wegowow.duckdns.org",
-    hrefLabel: "Visit wegowow",
-    img: "/img/project-wegowow.jpg",
-    imageAlt: "wegowow family landing page",
   },
 ];
