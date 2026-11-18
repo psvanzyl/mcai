@@ -3,385 +3,281 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Netherlands: Europe's Hotspot for Next Generation Battery Technology</title>
+<title>Nationale Actieagenda Batterijsystemen — The Netherlands: Prospect for Battery Companies</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg: #0a0e14;
-  --bg-card: #111820;
-  --bg-card-hover: #16202a;
-  --text: #ffffff;
-  --text-dim: #8b95a5;
-  --text-muted: #7a8a9e;
-  --accent: #4aa3e0;
-  --accent-dim: #1a3a5c;
-  --accent-glow: rgba(74,163,224,0.15);
-  --red: #e05a4a;
-  --green: #4ae0a3;
-  --border: #1e2a38;
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-mono: 'JetBrains Mono', 'SF Mono', monospace;
+  --teal: #16A08B;
+  --teal-deep: #0E7A68;
+  --teal-ink: #17322E;
+  --lime: #C6D93B;
+  --lime-soft: #E3EE9C;
+  --ink: #1F2D33;
+  --slate: #45575F;
+  --paper: #FFFFFF;
+  --mist: #F3F7F5;
+  --hairline: #D8E2DE;
+  --font: 'Inter', system-ui, -apple-system, sans-serif;
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html {
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-  background: var(--bg);
-  color: var(--text);
-  font-family: var(--font-sans);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font);
   -webkit-font-smoothing: antialiased;
 }
 body { overflow-x: hidden; }
+
+/* ---------- shared chrome ---------- */
 .nav-dots {
-  position: fixed;
-  right: 24px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 100;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  position: fixed; right: 22px; top: 50%; transform: translateY(-50%);
+  z-index: 100; display: flex; flex-direction: column; gap: 12px;
 }
 .nav-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--text-muted);
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  padding: 0;
+  width: 8px; height: 8px; border-radius: 2px;
+  background: var(--hairline); border: none; cursor: pointer;
+  transition: all .3s ease; padding: 0;
 }
-.nav-dot.active {
-  background: var(--accent);
-  box-shadow: 0 0 8px var(--accent-glow);
-  transform: scale(1.4);
-}
-.nav-dot:hover { background: var(--text-dim); }
+.nav-dot.active { background: var(--teal); transform: scale(1.5); }
+.nav-dot:hover { background: var(--teal-deep); }
 section {
-  min-height: 100vh;
-  scroll-snap-align: start;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 60px 80px;
-  overflow: hidden;
+  min-height: 100vh; scroll-snap-align: start; position: relative;
+  display: flex; overflow: hidden; background: var(--paper);
 }
-section::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse at 20% 50%, rgba(74,163,224,0.03) 0%, transparent 60%);
-  pointer-events: none;
+/* dot-matrix motif, echoing the BCC logo */
+.dotfield {
+  position: absolute; inset: 0; pointer-events: none; opacity: .5;
+  background-image: radial-gradient(circle, rgba(22,160,139,.13) 1.6px, transparent 1.6px);
+  background-size: 26px 26px;
 }
-.chapter-tag {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 16px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+.page-badge {
+  position: absolute; right: 0; bottom: 0; width: 46px; height: 46px;
+  background: var(--teal); color: #fff; display: flex; align-items: center;
+  justify-content: center; font-size: 15px; font-weight: 600; z-index: 5;
 }
-.chapter-tag::before {
-  content: '';
-  width: 24px;
-  height: 1px;
-  background: var(--accent);
+.chev { color: var(--lime); font-weight: 800; }
+.sec-head { display: flex; align-items: baseline; gap: 12px; }
+.sec-head .chev { font-size: clamp(22px, 2.4vw, 34px); line-height: 1; }
+.sec-head h3 {
+  font-size: clamp(19px, 2vw, 27px); font-weight: 700; color: var(--teal-ink);
+  letter-spacing: -.2px;
 }
-.chapter-tag.visible { opacity: 1; transform: translateY(0); }
-.headline {
-  font-size: clamp(32px, 4vw, 56px);
-  font-weight: 800;
-  line-height: 1.1;
-  letter-spacing: -1px;
-  margin-bottom: 8px;
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.7s ease 0.1s, transform 0.7s ease 0.1s;
+.sec-rule { height: 1px; background: var(--hairline); margin: 14px 0 26px; }
+
+/* ---------- reveal animation ---------- */
+.rv { opacity: 0; transform: translateY(22px); transition: opacity .65s ease, transform .65s ease; }
+.rv.visible { opacity: 1; transform: translateY(0); }
+.rv-d1 { transition-delay: .1s; } .rv-d2 { transition-delay: .2s; }
+.rv-d3 { transition-delay: .3s; } .rv-d4 { transition-delay: .45s; }
+.rv-d5 { transition-delay: .6s; }
+
+/* ---------- cover ---------- */
+.cover {
+  background:
+    radial-gradient(90% 70% at 85% 110%, rgba(158,199,58,.85) 0%, rgba(158,199,58,0) 55%),
+    linear-gradient(160deg, #14231F 0%, #0F4A40 42%, #128B72 78%, #9CC63A 118%);
+  color: #fff; flex-direction: column; justify-content: flex-end;
+  padding: clamp(40px, 6vw, 90px);
 }
-.headline.visible { opacity: 1; transform: translateY(0); }
-.headline .accent { color: var(--accent); }
-.headline-rule {
-  width: 60px;
-  height: 2px;
-  background: var(--accent);
-  margin: 20px 0 32px;
-  opacity: 0;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: opacity 0.5s ease 0.3s, transform 0.5s ease 0.3s;
+.cover .dotfield { opacity: .35; background-image: radial-gradient(circle, rgba(255,255,255,.16) 1.6px, transparent 1.6px); }
+.cover-logo {
+  position: absolute; top: clamp(28px, 4vw, 56px); right: clamp(40px, 6vw, 90px);
+  display: flex; align-items: center; gap: 16px;
 }
-.headline-rule.visible { opacity: 1; transform: scaleX(1); }
-.body-text {
-  font-size: 16px;
-  line-height: 1.7;
-  color: var(--text-dim);
-  max-width: 640px;
-  margin-bottom: 32px;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease 0.3s, transform 0.6s ease 0.3s;
+.cover-logo .wordmark { font-size: 15px; font-weight: 700; line-height: 1.25; letter-spacing: .2px; }
+.cover-logo .wordmark span { font-weight: 400; }
+.cover-rule {
+  position: absolute; left: clamp(40px, 6vw, 90px); top: 22%; bottom: 34%;
+  width: 1px; background: rgba(255,255,255,.45);
 }
-.body-text.visible { opacity: 1; transform: translateY(0); }
-.cards-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 16px;
-  max-width: 720px;
-  margin-top: 24px;
-  margin-right: 360px;
+.cover-kicker {
+  font-size: clamp(11px, 1vw, 13px); letter-spacing: 3.5px; text-transform: uppercase;
+  color: rgba(255,255,255,.85); margin-bottom: 26px; padding-left: 34px;
 }
+.cover h1 {
+  font-size: clamp(38px, 6.2vw, 92px); font-weight: 300; line-height: 1.04;
+  letter-spacing: -1px; max-width: 15em; margin-bottom: 30px; padding-left: 34px;
+}
+.cover-tag {
+  font-size: clamp(13px, 1.3vw, 17px); letter-spacing: 3px; text-transform: uppercase;
+  font-weight: 500; padding-left: 34px; margin-bottom: 18px;
+}
+.cover-date {
+  position: absolute; right: clamp(40px, 6vw, 90px); bottom: clamp(34px, 5vw, 64px);
+  font-size: 13px; letter-spacing: 2.5px; text-transform: uppercase;
+}
+.cover-sub {
+  font-size: clamp(14px, 1.4vw, 19px); font-weight: 300; line-height: 1.6;
+  color: rgba(255,255,255,.92); max-width: 40em; padding-left: 34px; margin-bottom: 34px;
+}
+.cover-stats { display: flex; gap: clamp(28px, 4vw, 64px); padding-left: 34px; }
+.cover-stat b { display: block; font-size: clamp(26px, 3vw, 44px); font-weight: 700; }
+.cover-stat i {
+  font-style: normal; font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
+  color: rgba(255,255,255,.8);
+}
+.cover-scroll {
+  position: absolute; left: 50%; bottom: 22px; transform: translateX(-50%);
+  font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,.75);
+  animation: pulse 2.2s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+
+/* ---------- position slide ---------- */
+.position { flex-direction: column; justify-content: center; padding: clamp(48px, 7vw, 110px); }
+.position-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(32px, 5vw, 72px); align-items: start; }
+.position p { font-size: 16px; line-height: 1.75; color: var(--slate); margin-bottom: 18px; max-width: 38em; }
+.position p strong { color: var(--ink); font-weight: 600; }
+.pullquote {
+  background: var(--mist); border-left: 4px solid var(--lime);
+  padding: 24px 28px; font-size: 17px; line-height: 1.65; color: var(--teal-ink);
+  font-weight: 500; margin: 10px 0 22px;
+}
+.eyebrow {
+  font-size: clamp(26px, 3vw, 42px); font-weight: 300; letter-spacing: -.5px;
+  color: var(--teal-ink); line-height: 1.15; margin-bottom: 8px;
+}
+.eyebrow .chev { font-size: clamp(24px, 2.6vw, 38px); margin-right: 10px; }
+.actionlines { display: grid; grid-template-columns: 1fr; gap: 10px; }
+.actionline {
+  display: flex; gap: 14px; align-items: flex-start; background: var(--mist);
+  border: 1px solid var(--hairline); border-radius: 6px; padding: 13px 16px;
+}
+.actionline .n { color: var(--teal); font-weight: 700; font-size: 14px; min-width: 20px; }
+.actionline .t { font-size: 13.5px; line-height: 1.5; color: var(--slate); }
+.actionline .t b { color: var(--ink); font-weight: 600; }
+
+/* ---------- theme slides (chapter-opener split) ---------- */
+.theme { padding: 0; }
+.theme-rail {
+  width: 30%; min-width: 250px; background: var(--teal); color: #fff;
+  display: flex; flex-direction: column; justify-content: flex-end;
+  padding: clamp(28px, 3.4vw, 52px); position: relative; z-index: 2;
+}
+.theme-rail .rail-logo { position: absolute; top: clamp(22px, 3vw, 38px); left: clamp(28px, 3.4vw, 52px); opacity: .95; }
+.theme-num { font-size: clamp(22px, 2.4vw, 34px); font-weight: 700; display: flex; gap: 12px; align-items: baseline; }
+.theme-num .chev { color: var(--lime); font-size: clamp(26px, 3vw, 44px); }
+.theme-title {
+  font-size: clamp(30px, 3.6vw, 56px); font-weight: 300; line-height: 1.06;
+  letter-spacing: -.5px; margin-top: 12px;
+}
+.theme-body {
+  flex: 1; padding: clamp(36px, 4.6vw, 74px) clamp(32px, 4.4vw, 70px) clamp(60px, 7vw, 96px);
+  display: flex; flex-direction: column; justify-content: center; position: relative; z-index: 2;
+  background: var(--paper);
+}
+.theme-figure {
+  position: absolute; right: -60px; top: 50%; transform: translateY(-50%);
+  width: clamp(300px, 34vw, 560px); opacity: .14; pointer-events: none; z-index: 1;
+}
+.theme-cols { display: grid; grid-template-columns: 1.25fr .75fr; gap: clamp(24px, 3vw, 48px); align-items: start; }
+.theme-body p.lead { font-size: 15.5px; line-height: 1.7; color: var(--slate); margin-bottom: 22px; max-width: 42em; }
+.theme-body p.lead strong { color: var(--ink); font-weight: 600; }
+.cards-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 24px;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease, border-color 0.3s ease;
+  background: var(--mist); border: 1px solid var(--hairline); border-radius: 6px;
+  padding: 18px 20px;
 }
-.card.visible { opacity: 1; transform: translateY(0); }
-.card:hover { border-color: var(--accent-dim); }
 .card-title {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--accent);
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  margin-bottom: 12px;
+  font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--teal-deep); margin-bottom: 12px;
 }
-.card-text {
-  font-size: 14px;
-  line-height: 1.6;
-  color: var(--text-dim);
-}
-.card-list {
-  list-style: none;
-  margin-top: 8px;
-}
+.card-list { list-style: none; }
 .card-list li {
-  font-size: 14px;
-  line-height: 1.6;
-  color: var(--text-dim);
-  padding-left: 16px;
-  position: relative;
-  margin-bottom: 4px;
-  opacity: 0;
-  transform: translateX(-10px);
-  transition: opacity 0.4s ease, transform 0.4s ease;
+  font-size: 13.5px; line-height: 1.5; color: var(--slate);
+  padding-left: 20px; position: relative; margin-bottom: 7px;
 }
-.card-list li.visible { opacity: 1; transform: translateX(0); }
 .card-list li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 9px;
-  width: 6px;
-  height: 6px;
-  border-radius: 1px;
-  background: var(--accent);
-  opacity: 0.6;
+  content: '>'; position: absolute; left: 0; top: 0;
+  color: var(--lime); font-weight: 800;
 }
-.telemetry {
-  position: absolute;
-  right: 80px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 280px;
-  padding-right: 16px;
-  font-family: var(--font-mono);
-  font-size: 12px;
-  color: var(--text-muted);
-  opacity: 0;
-  transition: opacity 0.8s ease 0.5s;
+.statcard {
+  background: var(--teal-ink); color: #fff; border-radius: 6px; padding: 22px;
+  display: flex; flex-direction: column; gap: 6px; margin-bottom: 14px;
 }
-.telemetry.visible { opacity: 1; }
-.telemetry-row {
-  display: flex;
-  justify-content: space-between;
-  padding: 8px 0;
-  border-bottom: 1px solid var(--border);
+.statcard .v { font-size: clamp(28px, 3vw, 42px); font-weight: 700; color: var(--lime); }
+.statcard .l { font-size: 12px; line-height: 1.5; color: rgba(255,255,255,.85); }
+.figbox {
+  background: var(--mist); border: 1px solid var(--hairline); border-radius: 6px;
+  padding: 14px; display: flex; flex-direction: column; gap: 8px;
 }
-.telemetry-label { color: var(--text-muted); }
-.telemetry-value { color: var(--accent); font-weight: 500; }
-.telemetry-header {
-  font-size: 10px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  margin-bottom: 12px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid var(--accent-dim);
+.figbox svg { width: 100%; height: auto; display: block; }
+.figcap {
+  font-size: 10.5px; letter-spacing: 1.5px; text-transform: uppercase;
+  color: var(--teal-deep); font-weight: 600;
 }
-.narration {
-  position: absolute;
-  bottom: 40px;
-  left: 80px;
-  font-family: var(--font-mono);
-  font-size: 12px;
-  color: var(--text-muted);
-  max-width: 600px;
-  opacity: 0;
-  transition: opacity 0.6s ease 0.6s;
+.moonshots {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 22px;
 }
-.narration.visible { opacity: 1; }
-.narration::before {
-  content: '> ';
-  color: var(--accent);
+.moonshot {
+  border: 1px solid var(--hairline); border-radius: 6px; padding: 14px 16px; background: #fff;
 }
-.hero-section { background: var(--bg); text-align: left; }
-.hero-tag {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 24px;
+.moonshot .yr {
+  font-size: 10.5px; font-weight: 700; letter-spacing: 2px; color: var(--teal);
+  text-transform: uppercase; margin-bottom: 6px;
 }
-.hero-headline {
-  font-size: clamp(36px, 5vw, 72px);
-  font-weight: 900;
-  line-height: 1.05;
-  letter-spacing: -2px;
-  margin-bottom: 24px;
-  max-width: 800px;
+.moonshot .d { font-size: 12.5px; line-height: 1.5; color: var(--slate); }
+.moonshot .d b { color: var(--ink); font-weight: 600; }
+
+/* ---------- overkoepelende themes ---------- */
+.overarch { flex-direction: column; justify-content: center; padding: clamp(48px, 7vw, 110px); }
+.ochev-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 8px; }
+.ochev {
+  border: 1px solid var(--hairline); border-radius: 6px; padding: 20px;
+  background: #fff; display: flex; flex-direction: column; gap: 8px;
 }
-.hero-subtitle {
-  font-size: 18px;
-  font-weight: 300;
-  color: var(--text-dim);
-  max-width: 600px;
-  line-height: 1.6;
-  margin-bottom: 48px;
+.ochev .chev { font-size: 20px; }
+.ochev b { font-size: 15px; font-weight: 700; color: var(--teal-ink); line-height: 1.3; }
+.ochev span { font-size: 12.5px; line-height: 1.5; color: var(--slate); }
+
+/* ---------- closing ---------- */
+.closing {
+  flex-direction: column; justify-content: center; align-items: center; text-align: center;
+  background:
+    radial-gradient(80% 60% at 15% -10%, rgba(198,217,59,.28) 0%, rgba(198,217,59,0) 60%),
+    linear-gradient(160deg, #14231F 0%, #0F4A40 55%, #128B72 130%);
+  color: #fff;
 }
-.hero-stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
-  margin-top: 24px;
-  max-width: 500px;
+.closing .dotfield { opacity: .3; background-image: radial-gradient(circle, rgba(255,255,255,.15) 1.6px, transparent 1.6px); }
+.closing h2 {
+  font-size: clamp(30px, 4.2vw, 58px); font-weight: 300; line-height: 1.12;
+  max-width: 21em; margin-bottom: 20px; letter-spacing: -.5px;
 }
-.hero-stat-value {
-  font-family: var(--font-mono);
-  font-size: 28px;
-  font-weight: 600;
-  color: var(--accent);
+.closing h2 .chev { font-size: clamp(28px, 4vw, 54px); margin-right: 8px; }
+.closing p {
+  font-size: 16px; line-height: 1.7; color: rgba(255,255,255,.9); max-width: 44em;
+  margin-bottom: 36px; font-weight: 300;
 }
-.hero-stat-label {
-  font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  margin-top: 4px;
+.closing .quote {
+  border-left: 3px solid var(--lime); padding: 8px 0 8px 24px; text-align: left;
+  font-size: 17px; line-height: 1.6; font-weight: 400; color: #fff; max-width: 38em;
+  margin-bottom: 42px;
 }
-.hero-cta {
-  margin-top: 48px;
-  font-family: var(--font-mono);
-  font-size: 12px;
-  color: var(--accent);
-  letter-spacing: 1px;
-  opacity: 0.7;
-  animation: pulse 2s ease-in-out infinite;
-}
-@keyframes pulse {
-  0%, 100% { opacity: 0.7; }
-  50% { opacity: 1; }
-}
-.closing-section {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-.closing-headline {
-  font-size: clamp(32px, 4vw, 52px);
-  font-weight: 800;
-  line-height: 1.1;
-  margin-bottom: 24px;
-  max-width: 700px;
-}
-.closing-text {
-  font-size: 16px;
-  color: var(--text-dim);
-  max-width: 600px;
-  line-height: 1.7;
-  margin-bottom: 48px;
-}
-.closing-quote {
-  font-size: 18px;
-  font-style: italic;
-  color: var(--text);
-  max-width: 700px;
-  line-height: 1.6;
-  margin-bottom: 48px;
-  padding: 24px 32px;
-  border-left: 2px solid var(--accent);
-  text-align: left;
-}
-.closing-contact {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  color: var(--text-muted);
-  line-height: 2;
-}
-.closing-contact a {
-  color: var(--accent);
-  text-decoration: none;
-}
-.bg-texture {
-  position: absolute;
-  inset: 0;
-  opacity: 0.03;
-  background-image:
-    linear-gradient(rgba(74,163,224,0.1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(74,163,224,0.1) 1px, transparent 1px);
-  background-size: 60px 60px;
-  pointer-events: none;
-}
-@media (max-width: 1200px) {
-  section { padding: 40px 24px; }
-  .telemetry { display: none; }
-  .hero-visual { display: none !important; }
-  .narration { left: 24px; right: 24px; bottom: 24px; }
-  .nav-dots { right: 12px; }
-  .hero-stats { flex-direction: column; gap: 24px; }
-  .cards-grid { grid-template-columns: 1fr; margin-right: 0; }
-}
-.typing-cursor::after {
-  content: '|';
-  color: var(--accent);
-  animation: blink 1s step-end infinite;
-}
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-.annotation {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-family: var(--font-mono);
-  font-size: 11px;
-  color: var(--red);
-  margin-top: 12px;
-  opacity: 0;
-  transition: opacity 0.5s ease 0.8s;
-}
-.annotation.visible { opacity: 1; }
-.annotation::before {
-  content: '-> ';
-  font-size: 14px;
+.contact { display: flex; gap: clamp(24px, 4vw, 60px); align-items: center; flex-wrap: wrap; justify-content: center; }
+.contact .block { text-align: center; }
+.contact .block b { display: block; font-size: 14px; font-weight: 600; }
+.contact .block span { font-size: 12.5px; color: rgba(255,255,255,.8); line-height: 1.6; }
+.contact a { color: var(--lime); text-decoration: none; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 1100px) {
+  .theme { flex-direction: column; }
+  .theme-rail { width: 100%; min-width: 0; padding: 24px 24px 28px; }
+  .theme-rail .rail-logo { position: static; margin-bottom: 16px; }
+  .theme-body { padding: 32px 24px 72px; }
+  .theme-figure { display: none; }
+  .theme-cols { grid-template-columns: 1fr; }
+  .position-grid { grid-template-columns: 1fr; }
+  .moonshots { grid-template-columns: 1fr; }
+  .cards-grid { grid-template-columns: 1fr; }
+  .ochev-grid { grid-template-columns: 1fr 1fr; }
+  .cover-rule, .cover .dotfield { display: none; }
+  .cover-kicker, .cover h1, .cover-tag, .cover-sub, .cover-stats { padding-left: 0; }
+  .nav-dots { right: 10px; }
 }
 </style>
 </head>
@@ -389,337 +285,497 @@ section::before {
 
 <nav class="nav-dots" id="navDots"></nav>
 
-<section class="hero-section" id="s0">
-  <div class="bg-texture"></div>
-  <div class="hero-tag">National Action Agenda Battery Systems 2026</div>
-  <h1 class="hero-headline">
-    The Netherlands:<br>
-    <span class="accent">Europe's hotspot</span><br>
-    for next generation<br>
-    battery technology
-  </h1>
-  <p class="hero-subtitle">
-    A collaborative high-tech industry developing the next generation of scalable battery technology.
-    Vital link in the European battery value chain.
-  </p>
-  <div class="hero-stats">
+<!-- ============ COVER ============ -->
+<section class="cover" id="s0">
+  <div class="dotfield"></div>
+  <div class="cover-logo">
+    <svg width="52" height="58" viewBox="0 0 52 58" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Battery Competence Cluster NL logo">
+      <path d="M4 6 L16 14 L4 22 Z" fill="#C6D93B"/>
+      <g fill="#ffffff">
+        <circle cx="26" cy="6" r="3"/><circle cx="36" cy="6" r="3"/><circle cx="46" cy="6" r="3"/>
+        <circle cx="31" cy="15" r="3"/><circle cx="41" cy="15" r="3"/>
+        <circle cx="36" cy="24" r="3"/>
+      </g>
+    </svg>
+    <div class="wordmark">Battery<br>Competence<br><span>Cluster &ndash; NL</span></div>
+  </div>
+  <div class="cover-rule"></div>
+  <div class="cover-kicker rv rv-d1">Nationale Actieagenda Batterijsystemen &middot; Value Proposition</div>
+  <h1 class="rv rv-d2">The Netherlands:<br>prospect for<br>battery companies</h1>
+  <div class="cover-tag rv rv-d3">Building on strength, focused on acceleration</div>
+  <p class="cover-sub rv rv-d3">Europe's hotspot for next generation battery technology. A collaborative
+  high-tech ecosystem with a distinct right to play in the European battery value chain.</p>
+  <div class="cover-stats rv rv-d4">
+    <div class="cover-stat"><b>220+</b><i>Companies</i></div>
+    <div class="cover-stat"><b>5</b><i>Focus themes</i></div>
+    <div class="cover-stat"><b>2030</b><i>Toward industrial impact</i></div>
+  </div>
+  <div class="cover-date rv rv-d5">September 2026</div>
+  <div class="cover-scroll">Scroll &middot; five strategic focus themes</div>
+</section>
+
+<!-- ============ POSITION ============ -->
+<section class="position" id="s1">
+  <div class="dotfield"></div>
+  <div class="page-badge">4</div>
+  <div class="position-grid">
     <div>
-      <div class="hero-stat-value">220+</div>
-      <div class="hero-stat-label">Companies</div>
+      <div class="eyebrow rv"><span class="chev">&gt;</span>From a call to action to a call to <em>acceleration</em></div>
+      <div class="sec-rule rv rv-d1"></div>
+      <p class="rv rv-d1">Since the first Action Agenda on Battery Systems in 2022, the Dutch battery ecosystem
+      has clearly matured. New companies have joined, public-private investments have grown, and pilot and
+      demonstration facilities have been developed. Dutch organisations have strengthened their position in
+      European and global value chains.</p>
+      <p class="rv rv-d2">The strategic importance of batteries has broadened at the same time. Beyond their
+      role in the climate and energy transition, <strong>batteries are now essential for industrial
+      competitiveness, economic resilience, energy security and strategic autonomy.</strong> The task is no
+      longer to acquire a position in the battery market — it is to translate existing strengths faster into
+      industrial and economic impact.</p>
+      <p class="rv rv-d2">The Netherlands deliberately does not take part in every link of the global value
+      chain. It focuses on areas with a distinctive <strong>'right to play'</strong>: advanced materials,
+      production technology, system integration, circularity and application development, connected to a
+      strong industrial base in heavy transport, energy systems and high-tech manufacturing.</p>
+      <div class="pullquote rv rv-d3">"Not specific scale, but the coherence between these capabilities
+      forms the basis for internationally competitive positions."</div>
     </div>
     <div>
-      <div class="hero-stat-value">4</div>
-      <div class="hero-stat-label">Innovation clusters</div>
-    </div>
-    <div>
-      <div class="hero-stat-value">3</div>
-      <div class="hero-stat-label">Strategic pillars</div>
+      <div class="sec-head rv rv-d1"><span class="chev">&gt;</span><h3>Seven coherent lines of action</h3></div>
+      <div class="sec-rule rv rv-d1"></div>
+      <div class="actionlines">
+        <div class="actionline rv rv-d2"><span class="n">1.</span><span class="t"><b>Accelerate market access</b> through validation, demonstration, launching customers and regulation.</span></div>
+        <div class="actionline rv rv-d2"><span class="n">2.</span><span class="t"><b>Build the route from innovation to industrial production</b>, scaling materials, production technology and equipment together.</span></div>
+        <div class="actionline rv rv-d3"><span class="n">3.</span><span class="t"><b>Develop the digital system layer</b>: battery management, data infrastructure, interoperability, validation and certification.</span></div>
+        <div class="actionline rv rv-d3"><span class="n">4.</span><span class="t"><b>Develop a high-quality circular chain</b>: life extension, repair, remanufacturing, repurposing and material recovery.</span></div>
+        <div class="actionline rv rv-d4"><span class="n">5.</span><span class="t"><b>Strengthen shared infrastructure and financing</b>: national test, pilot and production facilities plus Business Intelligence.</span></div>
+        <div class="actionline rv rv-d4"><span class="n">6.</span><span class="t"><b>Strengthen talent and execution capacity</b>, anchoring battery competences structurally in education.</span></div>
+        <div class="actionline rv rv-d5"><span class="n">7.</span><span class="t"><b>Anchor the Netherlands in European value chains</b> through international partnerships and EU programmes.</span></div>
+      </div>
     </div>
   </div>
-  <div class="hero-cta">Scroll to explore the five focus themes</div>
-  <svg class="hero-visual" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="position:absolute;right:80px;top:50%;transform:translateY(-50%);width:320px;height:320px;opacity:0.9;">
-    <defs>
-      <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stop-color="#4aa3e0" stop-opacity="0.15"/>
-        <stop offset="100%" stop-color="#4aa3e0" stop-opacity="0"/>
-      </radialGradient>
-    </defs>
-    <circle cx="200" cy="200" r="180" fill="url(#glow)"/>
-    <circle cx="200" cy="200" r="120" fill="none" stroke="#4aa3e0" stroke-width="1" opacity="0.3"/>
-    <circle cx="200" cy="200" r="80" fill="none" stroke="#4aa3e0" stroke-width="1" opacity="0.5"/>
-    <circle cx="200" cy="200" r="40" fill="none" stroke="#4aa3e0" stroke-width="1.5" opacity="0.7"/>
-    <circle cx="200" cy="200" r="6" fill="#4aa3e0"/>
-    <circle cx="200" cy="80" r="4" fill="#4aa3e0" opacity="0.8"/>
-    <circle cx="300" cy="140" r="4" fill="#4aa3e0" opacity="0.8"/>
-    <circle cx="320" cy="260" r="4" fill="#4aa3e0" opacity="0.8"/>
-    <circle cx="200" cy="320" r="4" fill="#4aa3e0" opacity="0.8"/>
-    <circle cx="100" cy="260" r="4" fill="#4aa3e0" opacity="0.8"/>
-    <circle cx="80" cy="140" r="4" fill="#4aa3e0" opacity="0.8"/>
-    <line x1="200" y1="200" x2="200" y2="80" stroke="#4aa3e0" stroke-width="0.5" opacity="0.2"/>
-    <line x1="200" y1="200" x2="300" y2="140" stroke="#4aa3e0" stroke-width="0.5" opacity="0.2"/>
-    <line x1="200" y1="200" x2="320" y2="260" stroke="#4aa3e0" stroke-width="0.5" opacity="0.2"/>
-    <line x1="200" y1="200" x2="200" y2="320" stroke="#4aa3e0" stroke-width="0.5" opacity="0.2"/>
-    <line x1="200" y1="200" x2="100" y2="260" stroke="#4aa3e0" stroke-width="0.5" opacity="0.2"/>
-    <line x1="200" y1="200" x2="80" y2="140" stroke="#4aa3e0" stroke-width="0.5" opacity="0.2"/>
-    <circle cx="200" cy="40" r="3" fill="#4ae0a3" opacity="0.6"/>
-    <circle cx="340" cy="100" r="3" fill="#4ae0a3" opacity="0.6"/>
-    <circle cx="360" cy="200" r="3" fill="#4ae0a3" opacity="0.6"/>
-    <circle cx="340" cy="300" r="3" fill="#4ae0a3" opacity="0.6"/>
-    <circle cx="200" cy="360" r="3" fill="#4ae0a3" opacity="0.6"/>
-    <circle cx="60" cy="300" r="3" fill="#4ae0a3" opacity="0.6"/>
-    <circle cx="40" cy="200" r="3" fill="#4ae0a3" opacity="0.6"/>
-    <circle cx="60" cy="100" r="3" fill="#4ae0a3" opacity="0.6"/>
+</section>
+
+<!-- ============ THEME 01 HEAVY DUTY & DUAL-USE ============ -->
+<section class="theme" id="s2">
+  <div class="theme-rail">
+    <div class="rail-logo"><svg width="30" height="34" viewBox="0 0 52 58" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6 L16 14 L4 22 Z" fill="#C6D93B"/><g fill="#ffffff"><circle cx="26" cy="6" r="3"/><circle cx="36" cy="6" r="3"/><circle cx="46" cy="6" r="3"/><circle cx="31" cy="15" r="3"/><circle cx="41" cy="15" r="3"/><circle cx="36" cy="24" r="3"/></g></svg></div>
+    <div class="theme-num rv"><span class="chev">&gt;</span>01</div>
+    <div class="theme-title rv rv-d1">Heavy Duty &amp; Dual-Use</div>
+  </div>
+  <div class="dotfield"></div>
+  <svg class="theme-figure" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <g fill="none" stroke="#16A08B" stroke-width="5">
+      <rect x="30" y="120" width="220" height="90" rx="10"/>
+      <path d="M250 150 h60 l40 40 v20 h-100 z"/>
+      <circle cx="90" cy="230" r="26"/><circle cx="160" cy="230" r="26"/><circle cx="310" cy="230" r="26"/>
+    </g>
+    <path d="M118 96 l-18 34 h24 l-16 38" stroke="#C6D93B" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
-</section>
-
-<section id="s1">
-  <div class="bg-texture"></div>
-  <div class="chapter-tag">01 / Heavy-Duty and Dual-Use</div>
-  <h2 class="headline">Electrifying heavy transport and <span class="accent">dual-use</span> applications</h2>
-  <div class="headline-rule"></div>
-  <p class="body-text">
-    A strong logistics sector, leading OEMs, and specialised suppliers give the Netherlands a strong position
-    in the electrification of battery systems for heavy duty: road transport, maritime, aviation, and off-highway.
-  </p>
-  <div class="cards-grid">
-    <div class="card">
-      <div class="card-title">Where NL excels</div>
-      <ul class="card-list">
-        <li>Leading OEMs: DAF, Damen, VDL, Ebusco, Scania</li>
-        <li>Specialised suppliers and system integrators</li>
-        <li>Strong maritime and aviation expertise</li>
-        <li>Advanced charging infrastructure for heavy transport</li>
-      </ul>
+  <div class="theme-body">
+    <div class="sec-head rv"><span class="chev">&gt;</span><h3>Electrifying heavy transport and dual-use applications</h3></div>
+    <div class="sec-rule rv rv-d1"></div>
+    <p class="lead rv rv-d1"><strong>More than 30% of the trucks and buses for the European market are produced
+    in the Netherlands.</strong> The country also has a substantial manufacturing and knowledge base in inland
+    shipping, maritime, logistics and related industries — a clear right to play in battery systems for heavy
+    land, sea and air vehicles. These markets are smaller in volume than passenger cars, yet strategically
+    more important: they connect directly to Dutch logistics, ports, construction, defence and export
+    industry. Value here is set less by price per kWh than by <strong>reliability, safety, lifetime, energy
+    density, certification, maintainability and supply security.</strong> For aviation, drones and dual-use
+    applications, safe European supply chains and high-quality system integration are decisive. Because these
+    markets demand so much, the Netherlands distinguishes itself with knowledge-intensive systems and
+    flexible production rather than generic mass production.</p>
+    <div class="theme-cols">
+      <div class="cards-grid">
+        <div class="card rv rv-d2">
+          <div class="card-title">Where NL excels</div>
+          <ul class="card-list">
+            <li>Leading OEMs: DAF, Damen, VDL, Ebusco, Scania, HysterYale</li>
+            <li>Specialised suppliers and system integrators</li>
+            <li>Maritime, inland-navigation and aviation expertise</li>
+            <li>Charging infrastructure for heavy transport</li>
+          </ul>
+        </div>
+        <div class="card rv rv-d3">
+          <div class="card-title">Where NL focuses</div>
+          <ul class="card-list">
+            <li>Battery systems for heavy-duty vehicles and vessels</li>
+            <li>Dual-use design: shared civil and military specifications</li>
+            <li>Batteries as digitally managed assets (BMS, digital twins)</li>
+            <li>Value retention: serviceability, revision, second life</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="statcard rv rv-d2"><span class="v">&gt;30%</span><span class="l">of European trucks and buses is produced in the Netherlands</span></div>
+        <div class="figbox rv rv-d3">
+          <svg viewBox="0 0 260 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="6" y="18" width="248" height="54" rx="6" fill="none" stroke="#16A08B" stroke-width="3"/>
+            <rect x="252" y="32" width="8" height="26" rx="2" fill="#16A08B"/>
+            <rect x="16" y="28" width="34" height="34" rx="3" fill="#16A08B"/>
+            <rect x="56" y="28" width="34" height="34" rx="3" fill="#16A08B" opacity=".7"/>
+            <rect x="96" y="28" width="34" height="34" rx="3" fill="#16A08B" opacity=".5"/>
+            <path d="M186 24 l-12 22 h15 l-11 26" stroke="#C6D93B" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="150" y="84" font-size="9" fill="#45575F" font-family="Inter">Road &middot; sea &middot; air &middot; off-highway</text>
+          </svg>
+          <span class="figcap">Fig. 1 — Battery systems as integral part of heavy drive systems</span>
+        </div>
+      </div>
     </div>
-    <div class="card">
-      <div class="card-title">Where NL focuses</div>
-      <ul class="card-list">
-        <li>Battery systems for heavy-duty vehicles</li>
-        <li>Dual-use applications (defence, emergency services)</li>
-        <li>Charging infrastructure for heavy transport</li>
-        <li>System integration and validation</li>
-      </ul>
+    <div class="moonshots">
+      <div class="moonshot rv rv-d3"><div class="yr">Moonshot 2030</div><div class="d"><b>Accelerated electrification of heavy duty.</b> Strong European position in development, production and system integration.</div></div>
+      <div class="moonshot rv rv-d4"><div class="yr">Moonshot 2030</div><div class="d"><b>Civil and dual-use by design.</b> Shared technology, specifications and production capacity; spin-offs in both directions.</div></div>
+      <div class="moonshot rv rv-d5"><div class="yr">Moonshot 2035</div><div class="d"><b>A strong Dutch battery value chain for heavy duty</b>, with leading solutions in battery management, digital monitoring and lifecycle optimisation.</div></div>
     </div>
-  </div>
-  <div class="telemetry">
-    <div class="telemetry-header">Strategic position</div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Sector strength</span>
-      <span class="telemetry-value">Heavy transport</span>
-    </div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Key OEMs</span>
-      <span class="telemetry-value">DAF, VDL, Damen</span>
-    </div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Application</span>
-      <span class="telemetry-value">Road, sea, air</span>
-    </div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Focus</span>
-      <span class="telemetry-value">Dual-use systems</span>
-    </div>
-  </div>
-  <div class="narration">
-    Heavy-duty electrification is where Dutch industry meets European climate ambition.
-  </div>
-</section>
-
-<section id="s2">
-  <div class="bg-texture"></div>
-  <div class="chapter-tag">02 / Stationary Applications</div>
-  <h2 class="headline">Storing renewable energy, <span class="accent">stabilising the grid</span></h2>
-  <div class="headline-rule"></div>
-  <p class="body-text">
-    Renewable energy generation, experience with grid congestion solutions, and strong system integration
-    give the Netherlands a distinctive position in short- and long-duration stationary energy storage.
-  </p>
-  <div class="cards-grid">
-    <div class="card">
-      <div class="card-title">Where NL excels</div>
-      <ul class="card-list">
-        <li>Grid congestion solutions and management</li>
-        <li>System integration expertise</li>
-        <li>Renewable energy infrastructure</li>
-        <li>Energy storage innovation (Aquabattery, Battolyser, Elestor)</li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="card-title">Where NL focuses</div>
-      <ul class="card-list">
-        <li>Short- and long-duration energy storage</li>
-        <li>Grid-scale battery systems</li>
-        <li>Integration with renewable generation</li>
-        <li>Bi-directional charging technology</li>
-      </ul>
-    </div>
-  </div>
-  <div class="telemetry">
-    <div class="telemetry-header">Strategic position</div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Sector strength</span>
-      <span class="telemetry-value">Grid integration</span>
-    </div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Key innovators</span>
-      <span class="telemetry-value">Elestor, Aquabattery</span>
-    </div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Duration</span>
-      <span class="telemetry-value">Short + long-term</span>
-    </div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Focus</span>
-      <span class="telemetry-value">Grid stability</span>
-    </div>
-  </div>
-  <div class="narration">
-    From congestion management to long-duration storage: the grid of tomorrow starts here.
   </div>
 </section>
 
-<section id="s3">
-  <div class="bg-texture"></div>
-  <div class="chapter-tag">03 / Next-Gen Components and Materials</div>
-  <h2 class="headline">Pioneering the materials that power <span class="accent">tomorrow's</span> batteries</h2>
-  <div class="headline-rule"></div>
-  <p class="body-text">
-    Extensive experience with material innovation and production technology gives the Netherlands a strong
-    starting position in next-generation battery materials, cell components, and production technology.
-  </p>
-  <div class="cards-grid">
-    <div class="card">
-      <div class="card-title">Where NL excels</div>
-      <ul class="card-list">
-        <li>Silicon anode technology (LeydenJar)</li>
-        <li>Solid-state batteries (LionVolt)</li>
-        <li>Thin-film and atomic layer deposition (SALD, SparkNano)</li>
-        <li>Bulk-type batteries (Aquabattery, Battolyser)</li>
-        <li>Advanced materials research (TU Delft, TU/e, RUG)</li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="card-title">Where NL focuses</div>
-      <ul class="card-list">
-        <li>Alternative and sustainable battery materials</li>
-        <li>Scaling of manufacturing equipment for cell components</li>
-        <li>R&D and pilot facilities for pre-industrialisation</li>
-        <li>High energy density and long cycle life</li>
-      </ul>
-    </div>
+<!-- ============ THEME 02 STATIONARY ============ -->
+<section class="theme" id="s3">
+  <div class="theme-rail">
+    <div class="rail-logo"><svg width="30" height="34" viewBox="0 0 52 58" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6 L16 14 L4 22 Z" fill="#C6D93B"/><g fill="#ffffff"><circle cx="26" cy="6" r="3"/><circle cx="36" cy="6" r="3"/><circle cx="46" cy="6" r="3"/><circle cx="31" cy="15" r="3"/><circle cx="41" cy="15" r="3"/><circle cx="36" cy="24" r="3"/></g></svg></div>
+    <div class="theme-num rv"><span class="chev">&gt;</span>02</div>
+    <div class="theme-title rv rv-d1">Stationary Applications</div>
   </div>
-  <div class="telemetry">
-    <div class="telemetry-header">Strategic position</div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Sector strength</span>
-      <span class="telemetry-value">Materials science</span>
+  <div class="dotfield"></div>
+  <svg class="theme-figure" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <g fill="none" stroke="#16A08B" stroke-width="5">
+      <path d="M60 260 V90 M60 90 l-40 46 M60 90 l40 46"/>
+      <path d="M330 260 V120 M330 120 l-34 40 M330 120 l34 40"/>
+      <rect x="150" y="150" width="110" height="110" rx="10"/>
+    </g>
+    <path d="M212 162 l-24 40 h20 l-18 44" stroke="#C6D93B" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <div class="theme-body">
+    <div class="sec-head rv"><span class="chev">&gt;</span><h3>Storing renewable energy, stabilising the grid</h3></div>
+    <div class="sec-rule rv rv-d1"></div>
+    <p class="lead rv rv-d1">The market for stationary storage is growing fast. In the Netherlands that growth
+    is driven by electrification and renewable generation from sun and wind — and by <strong>grid congestion,
+    which increasingly blocks new production, storage and consumption sites.</strong> Grid reinforcement and
+    demand response are necessary but not sufficient: electricity storage has become an essential part of the
+    future energy system. Stationary battery systems span utility-scale installations at solar and wind
+    parks, industrial and commercial storage, energy hubs, neighbourhood and home batteries, and mobile
+    systems. A distinction is made between <strong>short-duration storage (SDES, 1–4 hours)</strong> and
+    <strong>long-duration storage (LDES, from roughly 8 hours to multiple days)</strong>. Data, software,
+    cybersecurity, safety engineering, testing and certification form an integral, distinguishing part of the
+    Dutch proposition.</p>
+    <div class="theme-cols">
+      <div class="cards-grid">
+        <div class="card rv rv-d2">
+          <div class="card-title">Where NL excels</div>
+          <ul class="card-list">
+            <li>Grid congestion solutions and energy management</li>
+            <li>System integration expertise</li>
+            <li>Storage innovation: Aquabattery, Battolyser, Elestor, Exergy, Alfen</li>
+            <li>Renewable energy infrastructure and VPP platforms</li>
+          </ul>
+        </div>
+        <div class="card rv rv-d3">
+          <div class="card-title">Where NL focuses</div>
+          <ul class="card-list">
+            <li>Short- and long-duration energy storage (SDES / LDES)</li>
+            <li>Launch market for LDES on non-critical, abundant materials</li>
+            <li>Integration with renewable generation and energy hubs</li>
+            <li>Bi-directional charging and grid services</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="statcard rv rv-d2"><span class="v">8h&ndash;days</span><span class="l">long-duration storage window (LDES) where Dutch concepts lead, from intra-day to multi-day discharge</span></div>
+        <div class="figbox rv rv-d3">
+          <svg viewBox="0 0 260 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="10" y="60" width="26" height="20" fill="#16A08B" opacity=".45"/>
+            <rect x="46" y="44" width="26" height="36" fill="#16A08B" opacity=".6"/>
+            <rect x="82" y="26" width="26" height="54" fill="#16A08B" opacity=".75"/>
+            <rect x="118" y="12" width="26" height="68" fill="#16A08B"/>
+            <rect x="154" y="30" width="26" height="50" fill="#C6D93B"/>
+            <rect x="190" y="48" width="26" height="32" fill="#C6D93B" opacity=".7"/>
+            <text x="10" y="86" font-size="9" fill="#45575F" font-family="Inter">SDES 1&ndash;4u &nbsp;&rarr;&nbsp; intra-day &nbsp;&rarr;&nbsp; multi-day LDES</text>
+          </svg>
+          <span class="figcap">Fig. 2 — Storage duration classes, a ladder to grid flexibility</span>
+        </div>
+      </div>
     </div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Key innovators</span>
-      <span class="telemetry-value">LeydenJar, LionVolt</span>
+    <div class="moonshots">
+      <div class="moonshot rv rv-d3"><div class="yr">Moonshot 2030</div><div class="d"><b>European test garden.</b> Large-scale demonstration and validation of integrated SDES/LDES, EMS and VPP platforms.</div></div>
+      <div class="moonshot rv rv-d4"><div class="yr">Moonshot 2030&ndash;2035</div><div class="d"><b>Leading position in LDES</b> on non-critical materials, from TRL 5-7 to commercially validatable systems.</div></div>
+      <div class="moonshot rv rv-d5"><div class="yr">Moonshot 2035</div><div class="d"><b>Strategic control points</b> in the storage value chain and international scale production.</div></div>
     </div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Research</span>
-      <span class="telemetry-value">TU Delft, TU/e, RUG</span>
-    </div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Focus</span>
-      <span class="telemetry-value">Next-gen materials</span>
-    </div>
-  </div>
-  <div class="narration">
-    From silicon anodes to solid-state: Dutch materials science powers the next generation.
-  </div>
-</section>
-
-<section id="s4">
-  <div class="bg-texture"></div>
-  <div class="chapter-tag">04 / Production Equipment and Circularity</div>
-  <h2 class="headline">Building the machines, <span class="accent">closing the loop</span></h2>
-  <div class="headline-rule"></div>
-  <p class="body-text">
-    The Netherlands' internationally competitive high-tech manufacturing industry offers a strong starting
-    position for battery production equipment. As European leader in circular material use, the Netherlands
-    combines a favourable geographic position with expertise in diagnostics, life extension, and recycling.
-  </p>
-  <div class="cards-grid">
-    <div class="card">
-      <div class="card-title">Production equipment</div>
-      <ul class="card-list">
-        <li>High-tech manufacturing and mechatronics</li>
-        <li>Systems engineering and precision equipment</li>
-        <li>Automation of assembly lines</li>
-        <li>Scaling and industrialisation support</li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="card-title">Circular value chain</div>
-      <ul class="card-list">
-        <li>Diagnostics and life extension</li>
-        <li>High-quality recycling (up to 98% recovery)</li>
-        <li>Material recovery and refining</li>
-        <li>Second-use battery systems</li>
-        <li>Digital battery passport development</li>
-      </ul>
-    </div>
-  </div>
-  <div class="telemetry">
-    <div class="telemetry-header">Strategic position</div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Sector strength</span>
-      <span class="telemetry-value">High-tech mfg</span>
-    </div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Recycling rate</span>
-      <span class="telemetry-value">Up to 98%</span>
-    </div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Key partners</span>
-      <span class="telemetry-value">ARN, Back to Battery</span>
-    </div>
-    <div class="telemetry-row">
-      <span class="telemetry-label">Focus</span>
-      <span class="telemetry-value">Circular systems</span>
-    </div>
-  </div>
-  <div class="narration">
-    From production equipment to circular recovery: the full value chain, made in the Netherlands.
   </div>
 </section>
 
-<section class="closing-section" id="s5">
-  <div class="bg-texture"></div>
-  <div class="chapter-tag" style="justify-content: center;">05 / Invest in Holland</div>
-  <h2 class="closing-headline">
-    Join the Dutch <span class="accent">battery ecosystem</span>
-  </h2>
-  <p class="closing-text">
-    The Netherlands offers a unique combination of high-tech expertise, strategic location, and collaborative
-    innovation culture. From materials to systems, from R&D to industrialisation: the Dutch battery ecosystem
-    is ready to accelerate.
-  </p>
-  <div class="closing-quote">
-    "Not specific scale, but the coherence between these capabilities forms the basis for internationally
-    competitive positions."
+<!-- ============ THEME 03 COMPONENTS & MATERIALS ============ -->
+<section class="theme" id="s4">
+  <div class="theme-rail">
+    <div class="rail-logo"><svg width="30" height="34" viewBox="0 0 52 58" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6 L16 14 L4 22 Z" fill="#C6D93B"/><g fill="#ffffff"><circle cx="26" cy="6" r="3"/><circle cx="36" cy="6" r="3"/><circle cx="46" cy="6" r="3"/><circle cx="31" cy="15" r="3"/><circle cx="41" cy="15" r="3"/><circle cx="36" cy="24" r="3"/></g></svg></div>
+    <div class="theme-num rv"><span class="chev">&gt;</span>03</div>
+    <div class="theme-title rv rv-d1">(Next Generation) Components &amp; Materials</div>
   </div>
-  <div class="closing-contact">
-    <div>Netherlands Foreign Investment Agency (NFIA)</div>
-    <div>Part of the Ministry of Economic Affairs</div>
-    <br>
-    <div>Elmar Bouma, Sector Manager Energy</div>
-    <div>elmar.bouma@rvo.nl | +31 6 29163044</div>
-    <br>
-    <div><a href="https://investinholland.com">investinholland.com</a></div>
+  <div class="dotfield"></div>
+  <svg class="theme-figure" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <circle cx="200" cy="150" r="60" fill="none" stroke="#16A08B" stroke-width="5"/>
+    <ellipse cx="200" cy="150" rx="140" ry="52" fill="none" stroke="#16A08B" stroke-width="4" opacity=".6"/>
+    <ellipse cx="200" cy="150" rx="140" ry="52" fill="none" stroke="#16A08B" stroke-width="4" opacity=".6" transform="rotate(60 200 150)"/>
+    <ellipse cx="200" cy="150" rx="140" ry="52" fill="none" stroke="#C6D93B" stroke-width="4" opacity=".8" transform="rotate(120 200 150)"/>
+    <circle cx="200" cy="150" r="16" fill="#16A08B"/>
+  </svg>
+  <div class="theme-body">
+    <div class="sec-head rv"><span class="chev">&gt;</span><h3>Pioneering the materials that power tomorrow's batteries</h3></div>
+    <div class="sec-rule rv rv-d1"></div>
+    <p class="lead rv rv-d1">Innovations in battery components and materials determine the next generation:
+    <strong>higher energy density, longer lifetime and better safety, but also lower cost, more sustainable
+    production and less dependence on critical raw materials.</strong> Several technological routes develop in
+    parallel; some materials are close to commercial application while others are still in research or pilot
+    phase. Because no single battery technology serves every application optimally, space opens for
+    diversification — matched to energy density, lifetime, charging speed, safety and material availability.
+    Active materials account for a substantial share of both the cost and the value creation of batteries, so
+    control of core technology and intellectual property is strategic.</p>
+    <div class="theme-cols">
+      <div class="cards-grid">
+        <div class="card rv rv-d2">
+          <div class="card-title">Where NL excels</div>
+          <ul class="card-list">
+            <li>Silicon-anode technology (LeydenJar)</li>
+            <li>Solid-state batteries (LionVolt)</li>
+            <li>Thin-film &amp; atomic-layer deposition (SALD, SparkNano)</li>
+            <li>Bulk-type batteries (Aquabattery, Battolyser)</li>
+            <li>Materials research: TU Delft, TU/e, University of Groningen, UTwente</li>
+          </ul>
+        </div>
+        <div class="card rv rv-d3">
+          <div class="card-title">Where NL focuses</div>
+          <ul class="card-list">
+            <li>Alternative and sustainable battery materials</li>
+            <li>Scaling production equipment for cell components</li>
+            <li>R&amp;D and pilot facilities for pre-industrialisation</li>
+            <li>Niche-to-market: consumer electronics and drones toward defence, heavy duty, aviation, automotive</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="statcard rv rv-d2"><span class="v">0,5&ndash;1 GWh</span><span class="l">per year, per component: the industrial scale targeted for at least three Dutch battery components by 2030</span></div>
+        <div class="figbox rv rv-d3">
+          <svg viewBox="0 0 260 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="14" y="14" width="232" height="12" rx="3" fill="#16A08B"/>
+            <rect x="14" y="32" width="232" height="12" rx="3" fill="#C6D93B"/>
+            <rect x="14" y="50" width="232" height="12" rx="3" fill="#16A08B" opacity=".55"/>
+            <rect x="14" y="68" width="232" height="12" rx="3" fill="#16A08B" opacity=".3"/>
+            <text x="14" y="6" font-size="8.5" fill="#45575F" font-family="Inter">CATHODE &middot; ELECTROLYTE &middot; ANODE &middot; SEPARATOR — next-gen stacks</text>
+          </svg>
+          <span class="figcap">Fig. 3 — Layers where Dutch materials compete</span>
+        </div>
+      </div>
+    </div>
+    <div class="moonshots">
+      <div class="moonshot rv rv-d3"><div class="yr">Moonshot 2030</div><div class="d"><b>Internationally competitive components.</b> At least three sustainable Dutch components at 0,5-1 GWh/yr, IP held by Dutch parties.</div></div>
+      <div class="moonshot rv rv-d4"><div class="yr">Moonshot 2030</div><div class="d"><b>Phased market adoption.</b> Niche applications first, then defence, heavy duty, aviation and automotive.</div></div>
+      <div class="moonshot rv rv-d5"><div class="yr">Moonshot 2035</div><div class="d"><b>Dutch materials for EVs.</b> At least one Dutch material or cell concept fully qualified and used in EV battery production.</div></div>
+    </div>
   </div>
-  <div class="narration" style="left: 50%; transform: translateX(-50%); text-align: center;">
-    Strategic autonomy through innovation. Competitiveness through collaboration.
+</section>
+
+<!-- ============ THEME 04 PRODUCTION EQUIPMENT ============ -->
+<section class="theme" id="s5">
+  <div class="theme-rail">
+    <div class="rail-logo"><svg width="30" height="34" viewBox="0 0 52 58" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6 L16 14 L4 22 Z" fill="#C6D93B"/><g fill="#ffffff"><circle cx="26" cy="6" r="3"/><circle cx="36" cy="6" r="3"/><circle cx="46" cy="6" r="3"/><circle cx="31" cy="15" r="3"/><circle cx="41" cy="15" r="3"/><circle cx="36" cy="24" r="3"/></g></svg></div>
+    <div class="theme-num rv"><span class="chev">&gt;</span>04</div>
+    <div class="theme-title rv rv-d1">Production Equipment</div>
+  </div>
+  <div class="dotfield"></div>
+  <svg class="theme-figure" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <g fill="none" stroke="#16A08B" stroke-width="6">
+      <path d="M40 270 h320"/>
+      <path d="M90 270 V180 l70 -60"/>
+      <circle cx="160" cy="120" r="16"/>
+      <path d="M160 120 l90 46"/>
+      <rect x="252" y="150" width="90" height="90" rx="10"/>
+    </g>
+    <circle cx="250" cy="165" r="9" fill="#C6D93B"/>
+  </svg>
+  <div class="theme-body">
+    <div class="sec-head rv"><span class="chev">&gt;</span><h3>Building the machines that build batteries</h3></div>
+    <div class="sec-rule rv rv-d1"></div>
+    <p class="lead rv rv-d1">Production equipment is needed across the entire battery value chain: from
+    materials, cells and packs to maintenance, reuse and recycling. The world market for battery production
+    equipment is expected to grow from <strong>about USD 15.6 billion in 2025 to nearly USD 37 billion by
+    2030.</strong> The Dutch high-tech manufacturing industry has strong competences in precision technology,
+    mechatronics, digitalisation and advanced production systems — yet is still only limitedly connected to
+    the battery market. Asian parties dominate large-scale, efficient equipment for conventional cells. The
+    Netherlands cannot easily catch up on price and volume. The more promising strategy: <strong>flexible,
+    reconfigurable, software-defined production lines</strong> that serve current and next-generation
+    technologies, where performance, quality and innovation power lead instead of output alone.</p>
+    <div class="theme-cols">
+      <div class="cards-grid">
+        <div class="card rv rv-d2">
+          <div class="card-title">Where NL excels</div>
+          <ul class="card-list">
+            <li>High-tech manufacturing and mechatronics</li>
+            <li>Precision technology and systems engineering</li>
+            <li>Digitalisation and AI-driven process control</li>
+            <li>Automation and scaling of assembly lines</li>
+          </ul>
+        </div>
+        <div class="card rv rv-d3">
+          <div class="card-title">Where NL focuses</div>
+          <ul class="card-list">
+            <li>Modular, reconfigurable, software-defined production systems</li>
+            <li>Retrofit of existing European lines for Li-ion, solid-state, silicon anodes</li>
+            <li>Ultra-efficient, AI-driven cell production</li>
+            <li>European and global validation and sales partnerships</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="statcard rv rv-d2"><span class="v">&minus;50% / &minus;30%</span><span class="l">Dutch equipment can enable over 50% energy saving and at least 30% TCO reduction in cell production</span></div>
+        <div class="figbox rv rv-d3">
+          <svg viewBox="0 0 260 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="10" y="20" width="112" height="44" rx="6" fill="none" stroke="#16A08B" stroke-width="3"/>
+            <rect x="138" y="20" width="112" height="44" rx="6" fill="none" stroke="#16A08B" stroke-width="3"/>
+            <path d="M126 42 h8" stroke="#45575F" stroke-width="3"/>
+            <path d="M28 32 v20 M44 32 v20 M60 32 v20" stroke="#16A08B" stroke-width="4"/>
+            <path d="M156 32 v20 M172 32 v20 M188 32 v20" stroke="#C6D93B" stroke-width="4"/>
+            <text x="14" y="80" font-size="9" fill="#45575F" font-family="Inter">Fixed legacy lines &nbsp;&rarr;&nbsp; flexible, reconfigurable lines</text>
+          </svg>
+          <span class="figcap">Fig. 4 — One line, many chemistries</span>
+        </div>
+      </div>
+    </div>
+    <div class="moonshots">
+      <div class="moonshot rv rv-d3"><div class="yr">Moonshot 2030</div><div class="d"><b>Dutch technology for flexible European battery production</b>, validated and sold internationally.</div></div>
+      <div class="moonshot rv rv-d4"><div class="yr">Moonshot 2030</div><div class="d"><b>Market alignment.</b> Systematic mapping of the most urgent production problems of European cell makers and battery buyers.</div></div>
+      <div class="moonshot rv rv-d5"><div class="yr">Moonshot 2035</div><div class="d"><b>National coalition at scale:</b> knowledge institutes, material producers, cell developers and equipment makers in joint development programmes.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THEME 05 CIRCULAR VALUE CHAIN ============ -->
+<section class="theme" id="s6">
+  <div class="theme-rail">
+    <div class="rail-logo"><svg width="30" height="34" viewBox="0 0 52 58" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6 L16 14 L4 22 Z" fill="#C6D93B"/><g fill="#ffffff"><circle cx="26" cy="6" r="3"/><circle cx="36" cy="6" r="3"/><circle cx="46" cy="6" r="3"/><circle cx="31" cy="15" r="3"/><circle cx="41" cy="15" r="3"/><circle cx="36" cy="24" r="3"/></g></svg></div>
+    <div class="theme-num rv"><span class="chev">&gt;</span>05</div>
+    <div class="theme-title rv rv-d1">Circular Value Chain</div>
+  </div>
+  <div class="dotfield"></div>
+  <svg class="theme-figure" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <g fill="none" stroke-width="10" stroke-linecap="round">
+      <path d="M120 90 a100 100 0 0 1 168 24" stroke="#16A08B"/>
+      <path d="M280 210 a100 100 0 0 1 -168 -24" stroke="#C6D93B"/>
+    </g>
+    <path d="M288 84 l16 26 -30 6 z" fill="#16A08B"/>
+    <path d="M112 216 l-16 -26 30 -6 z" fill="#C6D93B"/>
+  </svg>
+  <div class="theme-body">
+    <div class="sec-head rv"><span class="chev">&gt;</span><h3>Life extension, repurposing and high-quality recycling</h3></div>
+    <div class="sec-rule rv rv-d1"></div>
+    <p class="lead rv rv-d1">The growth of batteries in mobility, energy systems, industry and consumer
+    products drives strong demand for <strong>lithium, nickel, cobalt, copper and graphite</strong> — while the
+    number of batteries reaching end-of-life rises sharply. The Netherlands, a European leader in circular
+    material use, combines a favourable geographic position with expertise in diagnostics, life extension and
+    recycling. The chain runs from <strong>inspection, repair and remanufacturing</strong> to second-life
+    systems and material recovery from black mass. Dutch processes use less energy and fewer chemicals and
+    hold strong positions in diagnostics — integrated with European refining, material and battery production
+    chains. Enablers: reliable battery data and the digital battery passport, standardised diagnostics and
+    certification, and sufficient recyclable feedstock.</p>
+    <div class="theme-cols">
+      <div class="cards-grid">
+        <div class="card rv rv-d2">
+          <div class="card-title">Where NL excels</div>
+          <ul class="card-list">
+            <li>Diagnostics, testing and life-extension expertise</li>
+            <li>High-quality recycling organisations (ARN, Back to Battery)</li>
+            <li>European logistics position for end-of-life streams</li>
+            <li>Digital battery passport development (Stichting OPEN)</li>
+          </ul>
+        </div>
+        <div class="card rv rv-d3">
+          <div class="card-title">Where NL focuses</div>
+          <ul class="card-list">
+            <li>Repair, remanufacturing and second-life business models</li>
+            <li>Efficient recovery of Li, Ni, Co, Cu and graphite from black mass</li>
+            <li>Automated safe pre-processing: discharging, disassembly, assessment</li>
+            <li>Harmonised test, diagnosis and certification methods</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="statcard rv rv-d2"><span class="v">98%</span><span class="l">material recovery is achievable in high-quality recycling routes for lithium-ion batteries</span></div>
+        <div class="figbox rv rv-d3">
+          <svg viewBox="0 0 260 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="60" cy="42" r="24" fill="none" stroke="#16A08B" stroke-width="3"/>
+            <circle cx="130" cy="42" r="24" fill="none" stroke="#16A08B" stroke-width="3" opacity=".7"/>
+            <circle cx="200" cy="42" r="24" fill="none" stroke="#C6D93B" stroke-width="3"/>
+            <path d="M86 42 h18 M156 42 h18" stroke="#45575F" stroke-width="3"/>
+            <text x="44" y="46" font-size="8.5" fill="#45575F" font-family="Inter">USE</text>
+            <text x="108" y="46" font-size="8.5" fill="#45575F" font-family="Inter">2nd LIFE</text>
+            <text x="180" y="46" font-size="8.5" fill="#45575F" font-family="Inter">RECOVER</text>
+            <text x="18" y="84" font-size="9" fill="#45575F" font-family="Inter">Life extension = highest form of circularity</text>
+          </svg>
+          <span class="figcap">Fig. 5 — Keep, reuse, recover: the circular ladder</span>
+        </div>
+      </div>
+    </div>
+    <div class="moonshots">
+      <div class="moonshot rv rv-d3"><div class="yr">Moonshot 2030</div><div class="d"><b>High-quality circular recycling capacity:</b> a hub for end-of-life batteries with efficient recovery of Li, Ni, Co, Cu and graphite from black mass.</div></div>
+      <div class="moonshot rv rv-d4"><div class="yr">Moonshot 2030</div><div class="d"><b>Life extension as the highest form of circularity</b>: inspection, diagnostics, repair, remanufacturing and repurposing infrastructure with sound business models.</div></div>
+      <div class="moonshot rv rv-d5"><div class="yr">Moonshot 2035</div><div class="d"><b>High-quality battery recycling at scale:</b> the Netherlands is one of Europe's leading recyclers.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OVERARCHING THEMES ============ -->
+<section class="overarch" id="s7">
+  <div class="dotfield"></div>
+  <div class="page-badge">58</div>
+  <div class="eyebrow rv"><span class="chev">&gt;</span>Strategic overarching themes</div>
+  <div class="sec-rule rv rv-d1" style="max-width:100%"></div>
+  <p class="lead rv rv-d1" style="max-width:52em;color:var(--slate);font-size:15px;line-height:1.7;margin-bottom:26px">Besides the five focus themes, the Actieagenda identifies
+  seven ecosystem-wide themes. Together they form the foundation on which the Dutch battery ecosystem can
+  grow: human capital, demonstration and scale-up capacity, data, safety and testing, the battery passport,
+  European cooperation and business intelligence — accelerating innovation, industrialisation and market
+  application across the board.</p>
+  <div class="ochev-grid">
+    <div class="ochev rv rv-d2"><span class="chev">&gt;</span><b>Facilities</b><span>Demonstration, pilot, scale-up and production capacity shared across the ecosystem.</span></div>
+    <div class="ochev rv rv-d2"><span class="chev">&gt;</span><b>Data, Safety &amp; Validation</b><span>Testing, certification and safe development as a shared gateway to market.</span></div>
+    <div class="ochev rv rv-d3"><span class="chev">&gt;</span><b>Digital Battery Passport</b><span>The data-driven backbone of a transparent, circular battery chain.</span></div>
+    <div class="ochev rv rv-d3"><span class="chev">&gt;</span><b>Battery Cell Manufacturing</b><span>A route toward competitive Dutch and European cell production.</span></div>
+    <div class="ochev rv rv-d4"><span class="chev">&gt;</span><b>Human Capital</b><span>Structural anchoring of battery competences in education and the labour market.</span></div>
+    <div class="ochev rv rv-d4"><span class="chev">&gt;</span><b>Business Intelligence</b><span>Monitoring, market intelligence and evidence for policy and investment.</span></div>
+    <div class="ochev rv rv-d5"><span class="chev">&gt;</span><b>European &amp; International Cooperation</b><span>Strategic partnerships and active participation in EU programmes.</span></div>
+    <div class="ochev rv rv-d5" style="background:var(--teal-ink);border-color:var(--teal-ink)"><span class="chev">&gt;</span><b style="color:#fff">One compass</b><span style="color:rgba(255,255,255,.85)">Government, industry and knowledge institutions, moving in one direction.</span></div>
+  </div>
+</section>
+
+<!-- ============ CLOSING ============ -->
+<section class="closing" id="s8">
+  <div class="dotfield"></div>
+  <div class="cover-logo" style="position:static;margin-bottom:44px">
+    <svg width="42" height="46" viewBox="0 0 52 58" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6 L16 14 L4 22 Z" fill="#C6D93B"/><g fill="#ffffff"><circle cx="26" cy="6" r="3"/><circle cx="36" cy="6" r="3"/><circle cx="46" cy="6" r="3"/><circle cx="31" cy="15" r="3"/><circle cx="41" cy="15" r="3"/><circle cx="36" cy="24" r="3"/></g></svg>
+    <div class="wordmark">Battery<br>Competence<br><span>Cluster &ndash; NL</span></div>
+  </div>
+  <h2 class="rv"><span class="chev">&gt;</span>Join the Dutch battery ecosystem</h2>
+  <p class="rv rv-d1">The Netherlands offers a unique combination of high-tech expertise, strategic location
+  and a collaborative innovation culture. From materials to systems, from R&amp;D to industrialisation: the
+  Dutch battery ecosystem is ready to accelerate.</p>
+  <div class="quote rv rv-d2">"Strategic autonomy through innovation. Competitiveness through
+  collaboration."</div>
+  <div class="contact rv rv-d3">
+    <div class="block"><b>Battery Competence Cluster NL</b><span>Government &middot; industry &middot; knowledge institutions</span></div>
+    <div class="block"><b>Netherlands Foreign Investment Agency (NFIA)</b><span>Elmar Bouma, Sector Manager Energy<br>elmar.bouma@rvo.nl | +31 6 29163044</span></div>
+    <div class="block"><b>investinholland.com</b><span><a href="https://investinholland.com">investinholland.com</a></span></div>
   </div>
 </section>
 
 <script>
-const observerOptions = { threshold: 0.1, rootMargin: '0px' };
-const observer = new IntersectionObserver((entries) => {
+const io = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      entry.target.querySelectorAll('.chapter-tag, .headline, .headline-rule, .body-text, .narration, .telemetry, .annotation').forEach(el => {
-        el.classList.add('visible');
-      });
-      entry.target.querySelectorAll('.card').forEach((card, i) => {
-        setTimeout(() => card.classList.add('visible'), i * 120);
-      });
-      entry.target.querySelectorAll('.card-list li').forEach((li, i) => {
-        setTimeout(() => li.classList.add('visible'), 300 + i * 80);
-      });
+      entry.target.querySelectorAll('.rv').forEach(el => el.classList.add('visible'));
     }
   });
-}, observerOptions);
-document.querySelectorAll('section').forEach(section => observer.observe(section));
+}, { threshold: 0.1 });
+document.querySelectorAll('section').forEach(s => io.observe(s));
 
-// Fallback: show all content after 1.5s in case observer doesn't fire
+// Fallback: reveal everything if observer is slow or absent
 setTimeout(() => {
-  document.querySelectorAll('.chapter-tag, .headline, .headline-rule, .body-text, .narration, .telemetry, .annotation, .card, .card-list li').forEach(el => {
-    el.classList.add('visible');
-  });
+  document.querySelectorAll('.rv').forEach(el => el.classList.add('visible'));
 }, 1500);
 
 const sections = document.querySelectorAll('section');
@@ -731,35 +787,15 @@ sections.forEach((section, i) => {
   dot.addEventListener('click', () => section.scrollIntoView({ behavior: 'smooth' }));
   navDots.appendChild(dot);
 });
-
 const dotObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       const idx = Array.from(sections).indexOf(entry.target);
-      document.querySelectorAll('.nav-dot').forEach((dot, i) => {
-        dot.classList.toggle('active', i === idx);
-      });
+      document.querySelectorAll('.nav-dot').forEach((d, i) => d.classList.toggle('active', i === idx));
     }
   });
 }, { threshold: 0.5 });
-sections.forEach(section => dotObserver.observe(section));
-
-function animateCounter(el, target, duration) {
-  let start = 0;
-  const step = (timestamp) => {
-    if (!start) start = timestamp;
-    const progress = Math.min((timestamp - start) / duration, 1);
-    el.textContent = Math.floor(progress * target) + '+';
-    if (progress < 1) requestAnimationFrame(step);
-  };
-  requestAnimationFrame(step);
-}
-
-// Show final stat values immediately (no animation dependency)
-const statValues = ['220+', '4', '3'];
-document.querySelectorAll('.hero-stat-value').forEach((el, i) => {
-  el.textContent = statValues[i];
-});
+sections.forEach(s => dotObserver.observe(s));
 
 document.addEventListener('keydown', (e) => {
   const currentIdx = Array.from(sections).findIndex(s => {
@@ -768,16 +804,12 @@ document.addEventListener('keydown', (e) => {
   });
   if (e.key === 'ArrowDown' || e.key === 'PageDown') {
     e.preventDefault();
-    const next = Math.min(currentIdx + 1, sections.length - 1);
-    sections[next].scrollIntoView({ behavior: 'smooth' });
+    sections[Math.min(currentIdx + 1, sections.length - 1)].scrollIntoView({ behavior: 'smooth' });
   } else if (e.key === 'ArrowUp' || e.key === 'PageUp') {
     e.preventDefault();
-    const prev = Math.max(currentIdx - 1, 0);
-    sections[prev].scrollIntoView({ behavior: 'smooth' });
+    sections[Math.max(currentIdx - 1, 0)].scrollIntoView({ behavior: 'smooth' });
   }
 });
 </script>
 </body>
 </html>
-PY
-python3 -u /root/.hermes/cache/scratch/build_html.py
