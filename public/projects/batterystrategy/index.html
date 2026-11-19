@@ -66,7 +66,7 @@ section {
   font-size: clamp(19px, 2vw, 27px); font-weight: 700; color: var(--teal-ink);
   letter-spacing: -.2px;
 }
-.sec-rule { height: 1px; background: var(--hairline); margin: 14px 0 26px; }
+.sec-rule { height: 1px; background: var(--hairline); margin: 8px 0 10px; }
 
 /* ---------- reveal animation ---------- */
 .rv { opacity: 0; transform: translateY(22px); transition: opacity .65s ease, transform .65s ease; }
@@ -128,45 +128,45 @@ section {
 @keyframes pulse { 0%,100% { opacity: .8; } 50% { opacity: 1; } }
 
 /* ---------- position slide ---------- */
-.position { flex-direction: column; justify-content: center; padding: clamp(48px, 7vw, 110px); }
+.position { flex-direction: column; justify-content: center; padding: clamp(32px, 5vw, 72px); }
 .position-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(32px, 5vw, 72px); align-items: start; }
-.position p { font-size: 16px; line-height: 1.75; color: var(--slate); margin-bottom: 18px; max-width: 38em; }
+.position p { font-size: 15px; line-height: 1.6; color: var(--slate); margin-bottom: 12px; max-width: 38em; }
 .position p strong { color: var(--ink); font-weight: 600; }
 .pullquote {
   background: var(--mist); border-left: 4px solid var(--lime);
-  padding: 24px 28px; font-size: 17px; line-height: 1.65; color: var(--teal-ink);
-  font-weight: 500; margin: 10px 0 22px;
+  padding: 16px 20px; font-size: 16px; line-height: 1.55; color: var(--teal-ink);
+  font-weight: 500; margin: 8px 0 14px;
 }
 .eyebrow {
-  font-size: clamp(26px, 3vw, 42px); font-weight: 300; letter-spacing: -.5px;
-  color: var(--teal-ink); line-height: 1.15; margin-bottom: 8px;
+  font-size: clamp(22px, 2.6vw, 34px); font-weight: 300; letter-spacing: -.5px;
+  color: var(--teal-ink); line-height: 1.15; margin-bottom: 6px;
 }
 .eyebrow .chev { font-size: clamp(24px, 2.6vw, 38px); margin-right: 10px; }
 .actionlines { display: grid; grid-template-columns: 1fr; gap: 10px; }
 .actionline {
-  display: flex; gap: 14px; align-items: flex-start; background: var(--mist);
-  border: 1px solid var(--hairline); border-radius: 6px; padding: 13px 16px;
+  display: flex; gap: 12px; align-items: flex-start; background: var(--mist);
+  border: 1px solid var(--hairline); border-radius: 6px; padding: 9px 12px;
 }
 .actionline .n { color: var(--teal); font-weight: 700; font-size: 14px; min-width: 20px; }
-.actionline .t { font-size: 13.5px; line-height: 1.5; color: var(--slate); }
+.actionline .t { font-size: 12.5px; line-height: 1.4; color: var(--slate); }
 .actionline .t b { color: var(--ink); font-weight: 600; }
 
 /* ---------- theme slides (chapter-opener split) ---------- */
 .theme { padding: 0; }
 .theme-rail {
-  width: 30%; min-width: 250px; background: var(--teal); color: #fff;
+  width: 30%; min-width: 230px; background: var(--teal); color: #fff;
   display: flex; flex-direction: column; justify-content: flex-end;
-  padding: clamp(28px, 3.4vw, 52px); position: relative; z-index: 2;
+  padding: clamp(20px, 2.6vw, 36px); position: relative; z-index: 2;
 }
 .theme-rail .rail-logo { position: absolute; top: clamp(22px, 3vw, 38px); left: clamp(28px, 3.4vw, 52px); opacity: .95; }
-.theme-num { font-size: clamp(22px, 2.4vw, 34px); font-weight: 700; display: flex; gap: 12px; align-items: baseline; }
+.theme-num { font-size: clamp(18px, 2vw, 26px); font-weight: 700; display: flex; gap: 10px; align-items: baseline; }
 .theme-num .chev { color: var(--lime); font-size: clamp(26px, 3vw, 44px); }
 .theme-title {
-  font-size: clamp(30px, 3.6vw, 56px); font-weight: 300; line-height: 1.06;
-  letter-spacing: -.5px; margin-top: 12px;
+  font-size: clamp(24px, 3vw, 40px); font-weight: 300; line-height: 1.06;
+  letter-spacing: -.5px; margin-top: 8px;
 }
 .theme-body {
-  flex: 1; padding: clamp(36px, 4.6vw, 74px) clamp(32px, 4.4vw, 70px) clamp(60px, 7vw, 96px);
+  flex: 1; padding: clamp(20px, 2.8vw, 36px) clamp(24px, 3.2vw, 44px) clamp(14px, 2vw, 24px);
   display: flex; flex-direction: column; justify-content: center; position: relative; z-index: 2;
   background: var(--paper);
 }
@@ -174,65 +174,65 @@ section {
   position: absolute; right: -60px; top: 50%; transform: translateY(-50%);
   width: clamp(300px, 34vw, 560px); opacity: .14; pointer-events: none; z-index: 1;
 }
-.theme-cols { display: grid; grid-template-columns: 1.25fr .75fr; gap: clamp(24px, 3vw, 48px); align-items: start; }
-.theme-body p.lead { font-size: 15.5px; line-height: 1.7; color: var(--slate); margin-bottom: 22px; max-width: 42em; }
+.theme-cols { display: grid; grid-template-columns: 1.25fr .75fr; gap: clamp(16px, 2vw, 28px); align-items: start; }
+.theme-body p.lead { font-size: 13.5px; line-height: 1.5; color: var(--slate); margin-bottom: 10px; max-width: 42em; }
 .theme-body p.lead strong { color: var(--ink); font-weight: 600; }
-.cards-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.cards-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .card {
   background: var(--mist); border: 1px solid var(--hairline); border-radius: 6px;
-  padding: 18px 20px;
+  padding: 10px 12px;
 }
 .card-title {
-  font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
-  color: var(--teal-deep); margin-bottom: 12px;
+  font-size: 10px; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase;
+  color: var(--teal-deep); margin-bottom: 6px;
 }
 .card-list { list-style: none; }
 .card-list li {
-  font-size: 13.5px; line-height: 1.5; color: var(--slate);
-  padding-left: 20px; position: relative; margin-bottom: 7px;
+  font-size: 12px; line-height: 1.4; color: var(--slate);
+  padding-left: 16px; position: relative; margin-bottom: 4px;
 }
 .card-list li::before {
   content: '>'; position: absolute; left: 0; top: 0;
   color: var(--lime); font-weight: 800;
 }
 .statcard {
-  background: var(--teal-ink); color: #fff; border-radius: 6px; padding: 22px;
-  display: flex; flex-direction: column; gap: 6px; margin-bottom: 14px;
+  background: var(--teal-ink); color: #fff; border-radius: 6px; padding: 12px;
+  display: flex; flex-direction: column; gap: 4px; margin-bottom: 8px;
 }
-.statcard .v { font-size: clamp(28px, 3vw, 42px); font-weight: 700; color: var(--lime); }
-.statcard .l { font-size: 12px; line-height: 1.5; color: rgba(255,255,255,.85); }
+.statcard .v { font-size: clamp(22px, 2.4vw, 30px); font-weight: 700; color: var(--lime); }
+.statcard .l { font-size: 11px; line-height: 1.4; color: rgba(255,255,255,.85); }
 .figbox {
   background: var(--mist); border: 1px solid var(--hairline); border-radius: 6px;
-  padding: 14px; display: flex; flex-direction: column; gap: 8px;
+  padding: 8px; display: flex; flex-direction: column; gap: 4px;
 }
 .figbox svg { width: 100%; height: auto; display: block; }
 .figcap {
-  font-size: 10.5px; letter-spacing: 1.5px; text-transform: uppercase;
+  font-size: 9.5px; letter-spacing: 1.2px; text-transform: uppercase;
   color: var(--teal-deep); font-weight: 600;
 }
 .moonshots {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 22px;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 6px;
 }
 .moonshot {
-  border: 1px solid var(--hairline); border-radius: 6px; padding: 14px 16px; background: #fff;
+  border: 1px solid var(--hairline); border-radius: 6px; padding: 8px 10px; background: #fff;
 }
 .moonshot .yr {
-  font-size: 10.5px; font-weight: 700; letter-spacing: 2px; color: var(--teal);
-  text-transform: uppercase; margin-bottom: 6px;
+  font-size: 9.5px; font-weight: 700; letter-spacing: 1.6px; color: var(--teal);
+  text-transform: uppercase; margin-bottom: 4px;
 }
-.moonshot .d { font-size: 12.5px; line-height: 1.5; color: var(--slate); }
+.moonshot .d { font-size: 11.5px; line-height: 1.4; color: var(--slate); }
 .moonshot .d b { color: var(--ink); font-weight: 600; }
 
 /* ---------- overkoepelende themes ---------- */
-.overarch { flex-direction: column; justify-content: center; padding: clamp(48px, 7vw, 110px); }
-.ochev-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 8px; }
+.overarch { flex-direction: column; justify-content: center; padding: clamp(32px, 5vw, 72px); }
+.ochev-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 6px; }
 .ochev {
-  border: 1px solid var(--hairline); border-radius: 6px; padding: 20px;
-  background: #fff; display: flex; flex-direction: column; gap: 8px;
+  border: 1px solid var(--hairline); border-radius: 6px; padding: 12px;
+  background: #fff; display: flex; flex-direction: column; gap: 4px;
 }
 .ochev .chev { font-size: 20px; }
-.ochev b { font-size: 15px; font-weight: 700; color: var(--teal-ink); line-height: 1.3; }
-.ochev span { font-size: 12.5px; line-height: 1.5; color: var(--slate); }
+.ochev b { font-size: 13px; font-weight: 700; color: var(--teal-ink); line-height: 1.25; }
+.ochev span { font-size: 11.5px; line-height: 1.4; color: var(--slate); }
 
 /* ---------- closing ---------- */
 .closing {
@@ -728,7 +728,7 @@ section {
   <div class="page-badge">58</div>
   <div class="eyebrow rv"><span class="chev">&gt;</span>Strategic overarching themes</div>
   <div class="sec-rule rv rv-d1" style="max-width:100%"></div>
-  <p class="lead rv rv-d1" style="max-width:52em;color:var(--slate);font-size:15px;line-height:1.7;margin-bottom:26px">Besides the five focus themes, the Actieagenda identifies
+  <p class="lead rv rv-d1" style="max-width:52em;color:var(--slate);font-size:13px;line-height:1.5;margin-bottom:14px">Besides the five focus themes, the Actieagenda identifies
   seven ecosystem-wide themes. Together they form the foundation on which the Dutch battery ecosystem can
   grow: human capital, demonstration and scale-up capacity, data, safety and testing, the battery passport,
   European cooperation and business intelligence — accelerating innovation, industrialisation and market
